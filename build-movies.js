@@ -15,8 +15,7 @@ const ALLOWED_PG_RATINGS = new Set(["G", "PG", "TV-Y", "TV-Y7", "TV-G", "TV-PG"]
 
 // Automatic topic/theme keyword exclusions (Inspects titles, descriptions, and TMDB tags)
 const AUTOMATIC_TEEN_ADULT_KEYWORDS = [
-  "marriage", "divorce", "cheating", "body-swap", "body swap", 
-  "high school", "teenager", "coming-of-age", "coming of age",
+  "marriage", "divorce", "cheating", "body-swap", "body swap", "teenager", "coming-of-age", "coming of age",
   "erotic", "satire", "parody", "dark comedy", "dating", "infidelity"
 ];
 
