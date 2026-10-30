@@ -45,8 +45,6 @@ function isAllowed(dateStr) {
   const now = Date.now();
 
   const TWO_DAYS = 2 * 24 * 60 * 60 * 1000;
-
-  // allow past + next 2 days
   return date <= (now + TWO_DAYS);
 }
 
@@ -63,7 +61,6 @@ async function fetchMovieDetails(id) {
   
   let targetDate = null;
   if (us?.release_dates?.length) {
-    // 1. Try Digital release (type 4) first
     const digitalDates = us.release_dates
       .filter((d) => d.type === 4 && d.release_date)
       .map((d) => d.release_date.slice(0, 10))
@@ -72,7 +69,6 @@ async function fetchMovieDetails(id) {
     if (digitalDates.length) {
       targetDate = digitalDates[0];
     } else {
-      // 2. Fallback to Theatrical release (type 3) if no digital date exists yet
       const theatricalDates = us.release_dates
         .filter((d) => d.type === 3 && d.release_date)
         .map((d) => d.release_date.slice(0, 10))
@@ -84,7 +80,6 @@ async function fetchMovieDetails(id) {
     }
   }
 
-  // Fallback to TMDB main release_date if nothing else is found
   if (!targetDate && movieJson?.release_date) {
     targetDate = movieJson.release_date.slice(0, 10);
   }
@@ -121,7 +116,7 @@ async function pMap(list, fn, concurrency = TMDB_CONCURRENCY) {
 }
 
 // ===============================
-// FETCH KIDS MOVIES
+// FETCH KIDS MOVIES (STRICT FILTERING)
 // ===============================
 async function fetchMovies() {
   const all = [];
@@ -132,14 +127,16 @@ async function fetchMovies() {
       `api_key=${TMDB_KEY}` +
       `&language=en-US` +
       `&region=US` +
+      `&include_adult=false` +
+      `&certification_country=US` +
+      `&certification.lte=PG` + // Strictly allows G, PG, NR (if appropriate), excludes PG-13, R, NC-17
       `&vote_count.gte=${MIN_VOTE_COUNT}` +
       `&sort_by=primary_release_date.desc` +
       `&primary_release_date.gte=${DATE_FROM}` +
       `&primary_release_date.lte=${DATE_TO}` +
-      // with_genres: 16 (Animation) OR 10751 (Family). Using pipe "|" for logical OR
       `&with_genres=16|10751` +
-      // Exclude mature/dark genres just in case
-      `&without_genres=27,53,80,10752` +
+      // Exclude Documentaries (99), History (36), Crime (80), War (10752), Horror (27), Thriller (53)
+      `&without_genres=99,36,80,10752,27,53` +
       `&page=${page}`;
 
     const j = await fetchJSON(url);
@@ -152,15 +149,17 @@ async function fetchMovies() {
   const mapped = await pMap(all, async (m) => {
     if (!m?.id) return null;
 
+    // Additional sanity check on genre IDs:
+    const adultGenres = [99, 36, 80, 10752, 27, 53];
+    if (m.genre_ids?.some((gId) => adultGenres.includes(gId))) {
+      return null;
+    }
+
     const { usDate, imdb_id } = await fetchMovieDetails(m.id);
 
-    // must have a valid release date
     if (!usDate) return null;
-
-    // allow only past + next 2 days
     if (!isAllowed(usDate)) return null;
 
-    // Use IMDb ID if available so stream addons recognize it instantly, fallback to tmdb:id
     const itemId = imdb_id || `tmdb:${m.id}`;
 
     return {
@@ -185,7 +184,6 @@ async function fetchMovies() {
     out.push(item);
   }
 
-  // newest first
   return out.sort((a, b) => {
     return new Date(b.releaseInfo) - new Date(a.releaseInfo);
   });
@@ -203,7 +201,6 @@ async function buildMeta(id) {
       `https://api.themoviedb.org/3/movie/${tmdbId}?api_key=${TMDB_KEY}&language=en-US`
     );
   } else {
-    // If id is an IMDb ID (tt...), find TMDB ID first
     const findJson = await fetchJSON(
       `https://api.themoviedb.org/3/find/${id}?api_key=${TMDB_KEY}&external_source=imdb_id`
     );
@@ -268,7 +265,7 @@ async function build() {
     );
   }
 
-  console.log(`Done. Saved ${movies.length} kids movies.`);
+  console.log(`Done. Saved ${movies.length} strict kids movies.`);
 }
 
 build();
