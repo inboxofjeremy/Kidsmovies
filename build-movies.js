@@ -128,7 +128,7 @@ async function fetchMovies() {
       `api_key=${TMDB_KEY}` +
       `&language=en-US` +
       `&region=US` +
-      `&with_original_language=en` + // Strictly filter TMDB search to English original language
+      `&with_original_language=en` +
       `&include_adult=false` +
       `&certification_country=US` +
       `&certification.lte=PG` +
@@ -137,7 +137,8 @@ async function fetchMovies() {
       `&primary_release_date.gte=${DATE_FROM}` +
       `&primary_release_date.lte=${DATE_TO}` +
       `&with_genres=16|10751` +
-      `&without_genres=99,36,80,10752,27,53` +
+      // Exclude Documentaries (99), History (36), Crime (80), War (10752), Horror (27), Thriller (53), Romance (10749), TV Movie (10770)
+      `&without_genres=99,36,80,10752,27,53,10749,10770` +
       `&page=${page}`;
 
     const j = await fetchJSON(url);
@@ -150,13 +151,19 @@ async function fetchMovies() {
   const mapped = await pMap(all, async (m) => {
     if (!m?.id) return null;
 
+    // Explicit blacklist for known rogue entries or adult titles
+    const titleLower = (m.title || m.original_title || "").toLowerCase();
+    if (titleLower.includes("bouchra") || titleLower.includes("holiday touchdown")) {
+      return null;
+    }
+
     // Reject non-English original titles upfront from discover list
     if (m.original_language && m.original_language !== "en") {
       return null;
     }
 
-    // Double check adult/non-kids genre IDs
-    const adultGenres = [99, 36, 80, 10752, 27, 53];
+    // Double check adult/non-kids genre IDs (including Romance & TV Movie)
+    const adultGenres = [99, 36, 80, 10752, 27, 53, 10749, 10770];
     if (m.genre_ids?.some((gId) => adultGenres.includes(gId))) {
       return null;
     }
