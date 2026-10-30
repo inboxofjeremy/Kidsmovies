@@ -57,14 +57,6 @@
       "releaseInfo": "2026-09-24"
     },
     {
-      "id": "tt41007422",
-      "type": "movie",
-      "name": "Thomas & Friends: Really Helpful Engines",
-      "description": "When Gordon needs help, Thomas takes on extra work alone to prove himself. But a busy day on Sodor shows that even useful engines need their friends.",
-      "poster": "https://image.tmdb.org/t/p/w500/kuQldt0mSpQswKvQgdqB6CZ3WHH.jpg",
-      "releaseInfo": "2026-09-17"
-    },
-    {
       "id": "tt44940424",
       "type": "movie",
       "name": "Optimus Prime Awakening",
@@ -79,14 +71,6 @@
       "description": "Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.",
       "poster": "https://image.tmdb.org/t/p/w500/gaet1xQ2nxrG0V1Ep9T20ZMNEIC.jpg",
       "releaseInfo": "2026-09-08"
-    },
-    {
-      "id": "tt37752275",
-      "type": "movie",
-      "name": "Clash of the Thundermans",
-      "description": "When Chloe develops a destructive new superpower, the Hero League orders her to an elite boarding school for superheroes to learn control of her abilities. Faced with the prospect of sending Chloe away for years, the Thundermans split apart, with Phoebe, Barb and Billy taking her into hiding. Max, Hank, and Nora track their rogue family members, until the two factions face off against each other in a full-on battle for the Thundermans’ future.",
-      "poster": "https://image.tmdb.org/t/p/w500/16oqRrWVzQm6qdGfBxvziZ2UiMT.jpg",
-      "releaseInfo": "2026-09-03"
     },
     {
       "id": "tt43679852",
@@ -118,14 +102,6 @@
       "name": "LEGO Disney Princess: Magical Mayhem",
       "description": "During a heavy rainstorm, the Princess characters and their sidekick friends take in animals in need while enjoying a cozy day in their castle. But when the animals run amok, chaos erupts. Sleuthing reveals a mischievous villain behind it all, and with teamwork, quick thinking, and help from an unexpected friend, the Princess characters must restore order and save their home.",
       "poster": "https://image.tmdb.org/t/p/w500/3tCKtHBq9LC5Vd8S1UHVocZDj0l.jpg",
-      "releaseInfo": "2026-08-21"
-    },
-    {
-      "id": "tt36543744",
-      "type": "movie",
-      "name": "Bouchra",
-      "description": "Wrestling with writer’s block for her first film, Bouchra, a queer Moroccan jackal living in NYC, starts having difficult yet overdue phone calls with her mother in Casablanca that begin influencing the project. Balancing the precarity of working as an artist, the rift in her cultural identity and an array of romantic interests, Bouchra’s emotional reckoning becomes her path to expression.",
-      "poster": "https://image.tmdb.org/t/p/w500/vphG0OWe7kL0P5xzQJiGNwKZ4EU.jpg",
       "releaseInfo": "2026-08-21"
     },
     {
@@ -175,14 +151,6 @@
       "description": "Avatar Aang, the world's last Airbender, learns of an ancient power that could save his culture from extinction. With the help of his friends, he embarks on a global quest to find it before it falls into the wrong hands and threatens to upend the peace they sacrificed everything to achieve.",
       "poster": "https://image.tmdb.org/t/p/w500/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg",
       "releaseInfo": "2026-07-25"
-    },
-    {
-      "id": "tt34477910",
-      "type": "movie",
-      "name": "Descendants: Wicked Wonderland",
-      "description": "Now that the Queen of Hearts is nice and Cinderella is safe, things seem perfect for Red and Chloe… But little do they know that changing the past created a new villain — Maddox Hatter. When Maddox captures the Queen of Hearts, Red and Chloe must work alongside Red’s new sister Pink, Luisa Madrigal’s son Luis, and Maddox’s son Max to save her and Wonderland.",
-      "poster": "https://image.tmdb.org/t/p/w500/xdhLAADGSse8KCrsDLBuM5b68Cg.jpg",
-      "releaseInfo": "2026-07-17"
     },
     {
       "id": "tt34459219",
@@ -297,14 +265,6 @@
       "releaseInfo": "2026-03-20"
     },
     {
-      "id": "tt37969426",
-      "type": "movie",
-      "name": "The Muppet Show",
-      "description": "Music, comedy, and a whole lot of chaos is bound to ensue when The Muppets once again take the stage of the original Muppet Theatre with their very special guest, Sabrina Carpenter!",
-      "poster": "https://image.tmdb.org/t/p/w500/tcwar1rL0neoLvnklL7DzYw7sN8.jpg",
-      "releaseInfo": "2026-02-04"
-    },
-    {
       "id": "tt37045674",
       "type": "movie",
       "name": "Teenage Mutant Ninja Turtles: Chrome Alone 2 - Lost in New Jersey",
@@ -335,14 +295,6 @@
       "description": "Desperate to be a big guy, SpongeBob sets out to prove his bravery to Mr. Krabs by following The Flying Dutchman – a mysterious swashbuckling ghost pirate – on a seafaring adventure that takes him to the deepest depths of the deep sea, where no Sponge has gone before.",
       "poster": "https://image.tmdb.org/t/p/w500/xJnOMMsFASxNiFnG7v3TNIQ3ife.jpg",
       "releaseInfo": "2026-01-20"
-    },
-    {
-      "id": "tt39088896",
-      "type": "movie",
-      "name": "Adult Swim's The Elephant",
-      "description": "Crafted in three parts by four animation superstars, Adult Swim's The Elephant brings to life a very human journey of self-discovery in varied styles.",
-      "poster": "https://image.tmdb.org/t/p/w500/hesk0yJrkojyuZcyZ4KRxMtAQNK.jpg",
-      "releaseInfo": "2025-12-20"
     },
     {
       "id": "tt37751253",
@@ -383,14 +335,6 @@
       "description": "Christmas elves Lanny and Wayne panic when their holiday missions go awry, leaving Wayne thinking he's in BIG trouble with Santa and accidentally revealing other merry mishaps.",
       "poster": "https://image.tmdb.org/t/p/w500/olbxBEAGaYCgyi2EEecuwa5tuUl.jpg",
       "releaseInfo": "2025-11-28"
-    },
-    {
-      "id": "tt36604797",
-      "type": "movie",
-      "name": "Holiday Touchdown: A Bills Love Story",
-      "description": "The Quinns and DeLucas have lived next door to each other for decades in the shadow of Highmark Stadium – the home of their beloved Buffalo Bills. With their longtime friendship rooted in being proud members of Bills Mafia, the two clans have enjoyed cherished traditions that revolve around cheering for their favorite team – especially at the holidays when they celebrate the last home game before Christmas.",
-      "poster": "https://image.tmdb.org/t/p/w500/ZotF04zyv7iVTSbpCHEbx4HUde.jpg",
-      "releaseInfo": "2025-11-22"
     },
     {
       "id": "tt38721186",
