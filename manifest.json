@@ -1,7 +1,7 @@
 {
   "id": "org.mycustomnewreleases",
   "version": "1.0.0",
-  "name": "New Releases",
+  "name": "New Kids Releases",
   "description": "Custom Movie Releases Addon",
   "resources": [
     "catalog",
@@ -17,8 +17,8 @@
   "catalogs": [
     {
       "type": "movie",
-      "id": "new_releases",
-      "name": "New Releases"
+      "id": "new_kids_releases",
+      "name": "New Kids Releases"
     }
   ],
   "behaviorHints": {
