@@ -1,0 +1,62 @@
+name: Build Movies Catalog
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Ensure package.json type=module
+        run: |
+          if [ ! -f package.json ]; then
+            echo '{ "type": "module" }' > package.json
+          else
+            node -e "let p=require('./package.json'); if(!p.type){p.type='module'; require('fs').writeFileSync('package.json', JSON.stringify(p,null,2))}"
+          fi
+
+      - name: Run build
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node build-movies.js
+
+      - name: Commit generated files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add catalog manifest.json package.json || true
+
+          git commit -m "Auto rebuild movies catalog" || echo "No changes"
+
+          git push origin HEAD:main || echo "Push skipped"
+
+      - name: Upload artifact for Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
