@@ -5,10 +5,10 @@ import path from "path";
 // CONFIG
 // ===============================
 const TMDB_KEY = process.env.TMDB_API_KEY || "944017b839d3c040bdd2574083e4c1bc";
-const DAYS_BACK = 180;
-const MAX_PAGES = 20;
+const DAYS_BACK = 365;
+const MAX_PAGES = 30;
 const TMDB_CONCURRENCY = 8;
-const MIN_VOTE_COUNT = 5;
+const MIN_VOTE_COUNT = 3;
 
 // ===============================
 // DATE HELPERS
