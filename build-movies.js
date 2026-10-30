@@ -6,18 +6,12 @@ import path from "path";
 // ===============================
 const TMDB_KEY = process.env.TMDB_API_KEY || "944017b839d3c040bdd2574083e4c1bc";
 const DAYS_BACK = 1460; // 4 years history
-const MAX_PAGES = 60;   // Page depth to scan 4 years
+const MAX_PAGES = 60;   // Scan window for 4 years
 const TMDB_CONCURRENCY = 8;
-const MIN_VOTE_COUNT = 3;
+const MIN_VOTE_COUNT = 5; // Higher minimum vote count to filter out obscure/unvetted entries
 
-// Allowed kid/family certifications (Movie + TV ratings)
-const ALLOWED_PG_RATINGS = new Set(["G", "PG", "TV-Y", "TV-Y7", "TV-G", "TV-PG"]);
-
-// Exclude descriptions/titles containing mature non-kids topics
-const MATURE_THEME_KEYWORDS = [
-  "marriage", "divorce", "cheating", "infidelity", "body-swap", "body swap", 
-  "erotic", "satire", "parody", "dark comedy"
-];
+// Strict Certification Whitelist (Movie + TV)
+const ALLOWED_KIDS_CERTIFICATIONS = new Set(["G", "PG", "TV-Y", "TV-Y7", "TV-G", "TV-PG"]);
 
 // ===============================
 // DATE HELPERS
@@ -44,21 +38,16 @@ async function fetchJSON(url) {
   }
 }
 
-// ===============================
-// ALLOW +2 DAY WINDOW
-// ===============================
 function isAllowed(dateStr) {
   if (!dateStr) return false;
-
   const date = new Date(dateStr).getTime();
   const now = Date.now();
-
   const TWO_DAYS = 2 * 24 * 60 * 60 * 1000;
   return date <= (now + TWO_DAYS);
 }
 
 // ===============================
-// RELEASE DATE, CERTIFICATION & DETAILS
+// RELEASE DATE & CERTIFICATION FETCH
 // ===============================
 async function fetchMovieDetails(id) {
   const [releaseJson, movieJson] = await Promise.all([
@@ -110,7 +99,7 @@ async function fetchMovieDetails(id) {
 }
 
 // ===============================
-// CONCURRENCY
+// CONCURRENCY MAPPER
 // ===============================
 async function pMap(list, fn, concurrency = TMDB_CONCURRENCY) {
   const out = new Array(list.length);
@@ -135,7 +124,7 @@ async function pMap(list, fn, concurrency = TMDB_CONCURRENCY) {
 }
 
 // ===============================
-// FETCH KIDS MOVIES
+// FETCH MOVIES
 // ===============================
 async function fetchMovies() {
   const all = [];
@@ -154,9 +143,8 @@ async function fetchMovies() {
       `&sort_by=primary_release_date.desc` +
       `&primary_release_date.gte=${DATE_FROM}` +
       `&primary_release_date.lte=${DATE_TO}` +
-      `&with_genres=16|10751` +
-      // Exclude adult genres: Horror (27), Thriller (53), Crime (80), War (10752), Doc (99), History (36), Romance (10749), TV Movie (10770), Drama (18)
-      `&without_genres=99,36,80,10752,27,53,10749,10770,18` +
+      `&with_genres=10751` + // Strict requirement: Must have Family (10751) genre
+      `&without_genres=99,36,80,10752,27,53,10749,10770,18` + // Exclude adult genres
       `&page=${page}`;
 
     const j = await fetchJSON(url);
@@ -168,23 +156,15 @@ async function fetchMovies() {
 
   const mapped = await pMap(all, async (m) => {
     if (!m?.id) return null;
-
     if (m.original_language && m.original_language !== "en") return null;
 
     const adultGenres = [99, 36, 80, 10752, 27, 53, 10749, 10770, 18];
     if (m.genre_ids?.some((gId) => adultGenres.includes(gId))) return null;
 
-    // Filter overview text for mature themes
-    const overviewLower = (m.overview || "").toLowerCase();
-    if (MATURE_THEME_KEYWORDS.some((kw) => overviewLower.includes(kw))) {
-      return null;
-    }
-
     const { usDate, certification, imdb_id, original_language, genres } = await fetchMovieDetails(m.id);
 
-    // STRICT CERTIFICATION RULE: Must be certified G, PG, TV-Y, TV-Y7, TV-G, or TV-PG
-    // Automatically drops NR, Unrated, PG-13, R, TV-MA, etc.
-    if (!certification || !ALLOWED_PG_RATINGS.has(certification)) return null;
+    // Filter purely on official certification whitelist
+    if (!certification || !ALLOWED_KIDS_CERTIFICATIONS.has(certification)) return null;
 
     if (genres.some((gId) => adultGenres.includes(gId))) return null;
     if (original_language && original_language !== "en") return null;
@@ -217,7 +197,7 @@ async function fetchMovies() {
 }
 
 // ===============================
-// META BUILDER & BUILD EXECUTOR
+// BUILD EXECUTOR
 // ===============================
 async function buildMeta(id) {
   const tmdbId = id.startsWith("tmdb:") ? id.split(":")[1] : null;
@@ -253,7 +233,7 @@ async function buildMeta(id) {
 }
 
 async function build() {
-  console.log("Fetching kids & family catalog…");
+  console.log("Fetching kids & family catalog (Pure API filtering)…");
   const movies = await fetchMovies();
 
   fs.mkdirSync("./catalog/movie", { recursive: true });
