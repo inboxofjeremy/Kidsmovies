@@ -87,6 +87,7 @@ async function fetchMovieDetails(id) {
   return {
     usDate: targetDate,
     imdb_id: movieJson?.imdb_id || null,
+    original_language: movieJson?.original_language || null
   };
 }
 
@@ -116,7 +117,7 @@ async function pMap(list, fn, concurrency = TMDB_CONCURRENCY) {
 }
 
 // ===============================
-// FETCH KIDS MOVIES (STRICT FILTERING)
+// FETCH ENGLISH KIDS MOVIES
 // ===============================
 async function fetchMovies() {
   const all = [];
@@ -127,15 +128,15 @@ async function fetchMovies() {
       `api_key=${TMDB_KEY}` +
       `&language=en-US` +
       `&region=US` +
+      `&with_original_language=en` + // Strictly filter TMDB search to English original language
       `&include_adult=false` +
       `&certification_country=US` +
-      `&certification.lte=PG` + // Strictly allows G, PG, NR (if appropriate), excludes PG-13, R, NC-17
+      `&certification.lte=PG` +
       `&vote_count.gte=${MIN_VOTE_COUNT}` +
       `&sort_by=primary_release_date.desc` +
       `&primary_release_date.gte=${DATE_FROM}` +
       `&primary_release_date.lte=${DATE_TO}` +
       `&with_genres=16|10751` +
-      // Exclude Documentaries (99), History (36), Crime (80), War (10752), Horror (27), Thriller (53)
       `&without_genres=99,36,80,10752,27,53` +
       `&page=${page}`;
 
@@ -149,13 +150,23 @@ async function fetchMovies() {
   const mapped = await pMap(all, async (m) => {
     if (!m?.id) return null;
 
-    // Additional sanity check on genre IDs:
+    // Reject non-English original titles upfront from discover list
+    if (m.original_language && m.original_language !== "en") {
+      return null;
+    }
+
+    // Double check adult/non-kids genre IDs
     const adultGenres = [99, 36, 80, 10752, 27, 53];
     if (m.genre_ids?.some((gId) => adultGenres.includes(gId))) {
       return null;
     }
 
-    const { usDate, imdb_id } = await fetchMovieDetails(m.id);
+    const { usDate, imdb_id, original_language } = await fetchMovieDetails(m.id);
+
+    // Verify fetched movie details also report English
+    if (original_language && original_language !== "en") {
+      return null;
+    }
 
     if (!usDate) return null;
     if (!isAllowed(usDate)) return null;
@@ -241,7 +252,7 @@ async function buildMeta(id) {
 // BUILD
 // ===============================
 async function build() {
-  console.log("Fetching kids movies…");
+  console.log("Fetching English kids movies…");
 
   const movies = await fetchMovies();
 
@@ -265,7 +276,7 @@ async function build() {
     );
   }
 
-  console.log(`Done. Saved ${movies.length} strict kids movies.`);
+  console.log(`Done. Saved ${movies.length} English kids movies.`);
 }
 
 build();
