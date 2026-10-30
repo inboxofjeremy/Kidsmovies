@@ -6,9 +6,9 @@ import path from "path";
 // ===============================
 const TMDB_KEY = process.env.TMDB_API_KEY || "944017b839d3c040bdd2574083e4c1bc";
 const DAYS_BACK = 1460; // 4 years
-const MAX_PAGES = 60;
+const MAX_PAGES = 100;
 const TMDB_CONCURRENCY = 8;
-const MIN_VOTE_COUNT = 3;
+const MIN_VOTE_COUNT = 5;
 
 // Allowed kid/family certifications
 const ALLOWED_CERTIFICATIONS = new Set(["G", "PG", "TV-Y", "TV-Y7", "TV-G", "TV-PG"]);
