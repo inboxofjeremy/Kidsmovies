@@ -17,7 +17,7 @@
   "catalogs": [
     {
       "type": "movie",
-      "id": "new_kids_releases",
+      "id": "kids_new_releases",
       "name": "New Kids Releases"
     }
   ],
