@@ -1,0 +1,460 @@
+{
+  "metas": [
+    {
+      "id": "tt36583977",
+      "type": "movie",
+      "name": "Forgotten Island",
+      "description": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+      "poster": "https://image.tmdb.org/t/p/w500/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
+      "releaseInfo": "2026-10-27"
+    },
+    {
+      "id": "tt36841161",
+      "type": "movie",
+      "name": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "description": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
+      "poster": "https://image.tmdb.org/t/p/w500/gayX49siwXf8eNs16rtk1fI91Ey.jpg",
+      "releaseInfo": "2026-10-23"
+    },
+    {
+      "id": "tt49317723",
+      "type": "movie",
+      "name": "Hot Wheels Let's Race: Attack of the T-Rex",
+      "description": "When a giant T-Rex threatens Hot Wheels City, it's up to Coop and his friends to race to the rescue and save the day.",
+      "poster": "https://image.tmdb.org/t/p/w500/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
+      "releaseInfo": "2026-10-20"
+    },
+    {
+      "id": "tt33571304",
+      "type": "movie",
+      "name": "Garuda: Dare to Dream",
+      "description": "A thirteen-year-old boy battling severe chronic asthma refuses to abandon his ambitions of joining the Indonesian National Youth Football Team, finding an extraordinary path to athletic rehabilitation through the intervention of a mystical Garuda entity and the strategic support of the head coach's daughter.",
+      "poster": "https://image.tmdb.org/t/p/w500/lqK1P7iLrXnYdXoK2FLv8euV4RF.jpg",
+      "releaseInfo": "2026-10-15"
+    },
+    {
+      "id": "tt36639956",
+      "type": "movie",
+      "name": "Iron Boy",
+      "description": "In rural France, 10-year-old Christophe tries to live up to his rigid and distant father on the family farm. But the young boy starts to lean over and collapse without warning — on the tractor, at school, at dinner... A doctor finds the solution: Christophe must wear an iron corset to keep himself upright. Forced to reinvent his life away from the farm, Christophe discovers a new passion for music, meets a new friend, and follows her into his first mischief. But will any of this really fix what is out of balance?",
+      "poster": "https://image.tmdb.org/t/p/w500/aXNm7mgW22mxCSwSV7i7GHjy6Ga.jpg",
+      "releaseInfo": "2026-10-14"
+    },
+    {
+      "id": "tmdb:1798852",
+      "type": "movie",
+      "name": "Angelo Pintus in Nabana",
+      "description": "",
+      "poster": "https://image.tmdb.org/t/p/w500/ic7036z9Q1ZJWh585syxy8t9Jkj.jpg",
+      "releaseInfo": "2026-10-10"
+    },
+    {
+      "id": "tt38807889",
+      "type": "movie",
+      "name": "Monster Mia",
+      "description": "12-year-old Mia and her scruffy pet rat Quentin are sent to the mysterious Rotwood Academy after one too many problems at school. The new school gives her the creeps, and Mia needs to figure a way out before the students realize she isn't a monster like them! But the vice principal Van Vlad hosts a particular dislike for humans, and Mia is scared he has seen through her act...",
+      "poster": "https://image.tmdb.org/t/p/w500/49lw5eVECEY30UIPwsYB78oj7Mh.jpg",
+      "releaseInfo": "2026-10-09"
+    },
+    {
+      "id": "tt39390582",
+      "type": "movie",
+      "name": "Hanuman Ansh",
+      "description": "A grieving boy seeks God to meet his departed mother, and in finding the divine, learns to serve humanity with miracles of love, food and silent blessings, becoming Hanuman Ansh, Neem Karoli Baba.",
+      "poster": "https://image.tmdb.org/t/p/w500/as2Y3zGUa2IUS3uAx2sh6Ano3es.jpg",
+      "releaseInfo": "2026-10-06"
+    },
+    {
+      "id": "tt47867242",
+      "type": "movie",
+      "name": "Renegade Immortal: Battle of the Immortal Slayer",
+      "description": "Trapped in a fatal pursuit within the Celestial Realm of Thunder, Wang Lin faces his ultimate crisis. Watch the underdog defy the odds, flip the script in a world-shaking counterattack, and achieve the ultimate, magnificent feat: SLAYING A CELESTIAL.",
+      "poster": "https://image.tmdb.org/t/p/w500/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
+      "releaseInfo": "2026-10-01"
+    },
+    {
+      "id": "tt1756855",
+      "type": "movie",
+      "name": "Coyote vs. Acme",
+      "description": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
+      "poster": "https://image.tmdb.org/t/p/w500/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
+      "releaseInfo": "2026-09-29"
+    },
+    {
+      "id": "tt29356163",
+      "type": "movie",
+      "name": "PAW Patrol: The Dino Movie",
+      "description": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
+      "poster": "https://image.tmdb.org/t/p/w500/cxXSF4aY5N2cOGwaga5OnpPFHzk.jpg",
+      "releaseInfo": "2026-09-29"
+    },
+    {
+      "id": "tt36282134",
+      "type": "movie",
+      "name": "Mononoke the Movie: Chapter III - The Curse of the Serpent",
+      "description": "When tragedy strikes within the walls of the Ōoku, twisted human passions and festering grudges spawn the Medicine Seller's most fearsome opponent yet.",
+      "poster": "https://image.tmdb.org/t/p/w500/nANxmUdcF2cyBNjBMeG1LaXnw0n.jpg",
+      "releaseInfo": "2026-09-29"
+    },
+    {
+      "id": "tt37850679",
+      "type": "movie",
+      "name": "Spidey and the Avengers: Halloween Team-Up!",
+      "description": "Spidey and the Avengers' Halloween plans are turned upside down by the mysterious Hallows' Eve, who plays magical tricks on trick or treaters and plans to ruin Halloween forever.",
+      "poster": "https://image.tmdb.org/t/p/w500/hPucpn2pmszkcqRVHmrlUYK0PtG.jpg",
+      "releaseInfo": "2026-09-24"
+    },
+    {
+      "id": "tt41007422",
+      "type": "movie",
+      "name": "Thomas & Friends: Really Helpful Engines",
+      "description": "When Gordon needs help, Thomas takes on extra work alone to prove himself. But a busy day on Sodor shows that even useful engines need their friends.",
+      "poster": "https://image.tmdb.org/t/p/w500/kuQldt0mSpQswKvQgdqB6CZ3WHH.jpg",
+      "releaseInfo": "2026-09-17"
+    },
+    {
+      "id": "tt44940424",
+      "type": "movie",
+      "name": "Optimus Prime Awakening",
+      "description": "An animated epilogue to The Transformers: The Movie (1986) and the final performance of Peter Cullen.",
+      "poster": "https://image.tmdb.org/t/p/w500/2hPh4j6ISRtaRwg57HmMrnzTW7O.jpg",
+      "releaseInfo": "2026-09-17"
+    },
+    {
+      "id": "tt1864268",
+      "type": "movie",
+      "name": "Che Guevara: The Last Companions",
+      "description": "After the triumph of the Cuban Revolution in 1959, three guerrilla fighters followed Che Guevara in his attempt to carry the uprising beyond the island. In 1967, after their final battle in Bolivia and Che’s execution, these shadow warriors embarked on an extraordinary 2,400 km journey across Bolivia, pursued by 4,000 soldiers and navigating remote terrain in a bid to stay alive. Sixty years later, Che’s last surviving comrades recount this untold story of endurance and loyalty, in which individual destinies were shaped by the larger geopolitical currents of the Cold War. Blending rare archive footage, animation and exclusive interviews, the film brings a forgotten chapter of history into the present.",
+      "poster": "https://image.tmdb.org/t/p/w500/qTiIhMhbE9i9LN4R9E1fCquW9c1.jpg",
+      "releaseInfo": "2026-09-09"
+    },
+    {
+      "id": "tt27419466",
+      "type": "movie",
+      "name": "Moana",
+      "description": "Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.",
+      "poster": "https://image.tmdb.org/t/p/w500/gaet1xQ2nxrG0V1Ep9T20ZMNEIC.jpg",
+      "releaseInfo": "2026-09-08"
+    },
+    {
+      "id": "tt37752275",
+      "type": "movie",
+      "name": "Clash of the Thundermans",
+      "description": "When Chloe develops a destructive new superpower, the Hero League orders her to an elite boarding school for superheroes to learn control of her abilities. Faced with the prospect of sending Chloe away for years, the Thundermans split apart, with Phoebe, Barb and Billy taking her into hiding. Max, Hank, and Nora track their rogue family members, until the two factions face off against each other in a full-on battle for the Thundermans’ future.",
+      "poster": "https://image.tmdb.org/t/p/w500/16oqRrWVzQm6qdGfBxvziZ2UiMT.jpg",
+      "releaseInfo": "2026-09-03"
+    },
+    {
+      "id": "tt43679852",
+      "type": "movie",
+      "name": "LEGO Star Wars: The Mandalorian",
+      "description": "The Mandalorian and Grogu join their misfit allies for an epic party, celebrating their heroism. As friends regale the crowd with tales of their adventures, a pirate threat looms.",
+      "poster": "https://image.tmdb.org/t/p/w500/x3HEvYXWOW6WHqsHmg2MUVy3SLm.jpg",
+      "releaseInfo": "2026-09-02"
+    },
+    {
+      "id": "tt14523706",
+      "type": "movie",
+      "name": "Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising-",
+      "description": "After the events of Rebellion, the world appears to be in balance—but that peace is fragile. As a new threat connected to Walpurgisnacht emerges, Homura Akemi is forced to face the consequences of her choices and question how far she is willing to go to protect Madoka.",
+      "poster": "https://image.tmdb.org/t/p/w500/g4kCd4rMuN7G3VQQDUT6mLbrBqQ.jpg",
+      "releaseInfo": "2026-08-28"
+    },
+    {
+      "id": "tt43141030",
+      "type": "movie",
+      "name": "Yellow Mirror",
+      "description": "A defective lamp reveals a heartbreaking truth about what Homer believes is reality, and an AI-powered tablet befriends and controls Maggie. The Simpsons struggle to find the light through two dark tales of the curious and bizarre.",
+      "poster": "https://image.tmdb.org/t/p/w500/1zdGvJAuuXC7dA3eV61OtUJNyjQ.jpg",
+      "releaseInfo": "2026-08-26"
+    },
+    {
+      "id": "tt36164852",
+      "type": "movie",
+      "name": "Tad and The Magic Lamp",
+      "description": "Tadeo, his girlfriend Sara, and his friends Momia, Jeff, and Belzoni embark on an adventure after Tadeo accidentally unleashes an ancient spell.",
+      "poster": "https://image.tmdb.org/t/p/w500/AdDxZgNmRYgDuweY8899buyVqlr.jpg",
+      "releaseInfo": "2026-08-26"
+    },
+    {
+      "id": "tt32333324",
+      "type": "movie",
+      "name": "Batman: Knightfall Part 1: Knightfall",
+      "description": "Arkham Asylum has been destroyed, and all its inmates have been unleashed upon Gotham City. As Batman races to round up some of his greatest enemies, he is pushed to his physical and mental limits and into a final confrontation with a new threat: the man called Bane!",
+      "poster": "https://image.tmdb.org/t/p/w500/360qdtu2hLnqMu8SVHMywn420w1.jpg",
+      "releaseInfo": "2026-08-25"
+    },
+    {
+      "id": "tt43689138",
+      "type": "movie",
+      "name": "LEGO Disney Princess: Magical Mayhem",
+      "description": "During a heavy rainstorm, the Princess characters and their sidekick friends take in animals in need while enjoying a cozy day in their castle. But when the animals run amok, chaos erupts. Sleuthing reveals a mischievous villain behind it all, and with teamwork, quick thinking, and help from an unexpected friend, the Princess characters must restore order and save their home.",
+      "poster": "https://image.tmdb.org/t/p/w500/3tCKtHBq9LC5Vd8S1UHVocZDj0l.jpg",
+      "releaseInfo": "2026-08-21"
+    },
+    {
+      "id": "tt42262473",
+      "type": "movie",
+      "name": "Modha Rathri",
+      "description": "Two strangers are brought together at an unusual wedding where, in one night, too many surprises unfold and several lies are told, spiraling into chaos that changes everything.",
+      "poster": "https://image.tmdb.org/t/p/w500/3VuNFeniljhEe9MDW12MnDbETgH.jpg",
+      "releaseInfo": "2026-08-21"
+    },
+    {
+      "id": "tt36543744",
+      "type": "movie",
+      "name": "Bouchra",
+      "description": "Wrestling with writer’s block for her first film, Bouchra, a queer Moroccan jackal living in NYC, starts having difficult yet overdue phone calls with her mother in Casablanca that begin influencing the project. Balancing the precarity of working as an artist, the rift in her cultural identity and an array of romantic interests, Bouchra’s emotional reckoning becomes her path to expression.",
+      "poster": "https://image.tmdb.org/t/p/w500/vphG0OWe7kL0P5xzQJiGNwKZ4EU.jpg",
+      "releaseInfo": "2026-08-21"
+    },
+    {
+      "id": "tt29355505",
+      "type": "movie",
+      "name": "Toy Story 5",
+      "description": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
+      "poster": "https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
+      "releaseInfo": "2026-08-18"
+    },
+    {
+      "id": "tt39368153",
+      "type": "movie",
+      "name": "Tombé du ciel",
+      "description": "",
+      "poster": "https://image.tmdb.org/t/p/w500/gOnDCEcVrLGXZQPmJGZvCPDHPc0.jpg",
+      "releaseInfo": "2026-08-12"
+    },
+    {
+      "id": "tt32890033",
+      "type": "movie",
+      "name": "Minions & Monsters",
+      "description": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
+      "poster": "https://image.tmdb.org/t/p/w500/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
+      "releaseInfo": "2026-08-11"
+    },
+    {
+      "id": "tt45615017",
+      "type": "movie",
+      "name": "Demon Agent",
+      "description": "The fantastical and magnificent city of Chang'an, a city woven with gears and mechanisms, is home to both humans and demons living side by side beneath its upturned eaves. Di Shao, a genius young man aspiring to become \"Chang'an's Number One Detective,\" possesses exceptional crime-solving skills and a sharp tongue; while Asa, a rookie wolf demon constable, is formidable in martial arts yet kind-hearted. A bizarre murder case forces these two adversaries to team up, embarking on a hilarious and bickering detective journey. As clues point to the heart of the city, can this unreliable duo protect the joyful daily life of this fantastical city? And what earth-shattering secret lies hidden behind the bustling and prosperous Chang'an?",
+      "poster": "https://image.tmdb.org/t/p/w500/fQRYOFC94VUvmjKkh3OF0bqtD81.jpg",
+      "releaseInfo": "2026-08-08"
+    },
+    {
+      "id": "tt42186253",
+      "type": "movie",
+      "name": "THE RIBBON HERO",
+      "description": "When the monstrous Nergal devastates her kingdom, Princess Sapphire reawakens as the Ribbon Hero and fights to save her new home from the same dark fate.",
+      "poster": "https://image.tmdb.org/t/p/w500/nUCkV0iODxbULZQ5vRN1sDjPrpk.jpg",
+      "releaseInfo": "2026-08-08"
+    },
+    {
+      "id": "tt37601032",
+      "type": "movie",
+      "name": "The Last Warrior: Kolobok",
+      "description": "Kolobok decides to change his fate and unwittingly becomes the partner of the humble baker Tikhon.",
+      "poster": "https://image.tmdb.org/t/p/w500/jPKQThX15zNRaYdbEhmnJEjGjWT.jpg",
+      "releaseInfo": "2026-08-06"
+    },
+    {
+      "id": "tt44146991",
+      "type": "movie",
+      "name": "Niu Lai",
+      "description": "The naive calf Niu Lai loves exploring the grasslands, but struggles to live up to his family’s expectations as future leader of the herd. With migration fast approaching, Niu Lai finds unlikely allies on his journey to learn the meaning of courage as they prepare for a dangerous trek across the desert.",
+      "poster": "https://image.tmdb.org/t/p/w500/eum2kcqFr665SgnFulgO7b2lRwW.jpg",
+      "releaseInfo": "2026-08-05"
+    },
+    {
+      "id": "tt43729889",
+      "type": "movie",
+      "name": "Storm on Sesame Street",
+      "description": "As a big storm approaches, Elmo and friends work together to get ready. After it passes, Sesame Street looks different — and everyone pitches in to help.",
+      "poster": "https://image.tmdb.org/t/p/w500/okvOQKSkMKmGt9LRV4eJ7ejikQv.jpg",
+      "releaseInfo": "2026-08-03"
+    },
+    {
+      "id": "tmdb:1757539",
+      "type": "movie",
+      "name": "Silent Traces",
+      "description": "Faris, a teenager raised by a single father after losing his mother at a young age, grows up believing that he is no longer valued. His father's constant busyness causes every attempt to seek attention and affection to end in disappointment. However, an unexpected loss forces Faris to see a side of his father that he had misunderstood all along. Beneath his father's silence and stern demeanor lies the love and unwavering support he had always longed for, leaving Faris with profound regret and an apology that can never be spoken.",
+      "poster": "https://image.tmdb.org/t/p/w500/rQmtiuAyLeu9V9bvWH5KG8oRcsW.jpg",
+      "releaseInfo": "2026-07-30"
+    },
+    {
+      "id": "tt42839367",
+      "type": "movie",
+      "name": "Snoopy Presents: There's No Place Like Home, Snoopy",
+      "description": "When Snoopy's beloved doghouse goes missing, he tries to track it down, and learns what makes a house feel like home.",
+      "poster": "https://image.tmdb.org/t/p/w500/YbC4SlzE030BgxWdKDdlatMh5W.jpg",
+      "releaseInfo": "2026-07-30"
+    },
+    {
+      "id": "tt18259538",
+      "type": "movie",
+      "name": "Avatar Aang: The Last Airbender",
+      "description": "Avatar Aang, the world's last Airbender, learns of an ancient power that could save his culture from extinction. With the help of his friends, he embarks on a global quest to find it before it falls into the wrong hands and threatens to upend the peace they sacrificed everything to achieve.",
+      "poster": "https://image.tmdb.org/t/p/w500/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg",
+      "releaseInfo": "2026-07-25"
+    },
+    {
+      "id": "tt39026173",
+      "type": "movie",
+      "name": "Chiikawa the Movie: The Secret of the Mermaid Island",
+      "description": "Chiikawa and friends set off on a whimsical summer adventure to a mysterious island said to hide a long-lost mermaid secret. What starts as a fun getaway quickly turns into a heartwarming journey filled with surprises, gentle thrills, and adorable chaos. With sparkling seas, strange legends, and unforgettable encounters, the trio learns about courage, friendship, and the magic hidden in small moments.",
+      "poster": "https://image.tmdb.org/t/p/w500/2sapvk8OG1rmaS2PquLnfyoMvOS.jpg",
+      "releaseInfo": "2026-07-24"
+    },
+    {
+      "id": "tt27897176",
+      "type": "movie",
+      "name": "I, Object",
+      "description": "10-year-old Tom, grieving the loss of his father and unable to relate to the people in his life, takes refuge in the everyday objects around him. Pop can lids, suitcases and untold numbers of everyday objects reveal their true faces and speak to him, helping him on his healing journey.",
+      "poster": "https://image.tmdb.org/t/p/w500/xZblxKLzgXameNgEdcE8o37Ch8I.jpg",
+      "releaseInfo": "2026-07-22"
+    },
+    {
+      "id": "tt34477910",
+      "type": "movie",
+      "name": "Descendants: Wicked Wonderland",
+      "description": "Now that the Queen of Hearts is nice and Cinderella is safe, things seem perfect for Red and Chloe… But little do they know that changing the past created a new villain — Maddox Hatter. When Maddox captures the Queen of Hearts, Red and Chloe must work alongside Red’s new sister Pink, Luisa Madrigal’s son Luis, and Maddox’s son Max to save her and Wonderland.",
+      "poster": "https://image.tmdb.org/t/p/w500/xdhLAADGSse8KCrsDLBuM5b68Cg.jpg",
+      "releaseInfo": "2026-07-17"
+    },
+    {
+      "id": "tt34459219",
+      "type": "movie",
+      "name": "The Breadwinner",
+      "description": "After his wife Katie lands a once-in-a-lifetime deal on Shark Tank that takes her on a prolonged business trip - lifelong breadwinner Nate Wilcox now has to fend for his family as a first-time stay-at-home dad.",
+      "poster": "https://image.tmdb.org/t/p/w500/4apG9Xk6HQvV48JKEjSUeiebju7.jpg",
+      "releaseInfo": "2026-07-14"
+    },
+    {
+      "id": "tt43515101",
+      "type": "movie",
+      "name": "All Wishes Come True!",
+      "description": "Eight grassroot mortals use their street smarts and hilarious schemes to defy powerful gods, earning their title as the Eight Immortals.",
+      "poster": "https://image.tmdb.org/t/p/w500/wJ9FLxq3Q6D4ve8TUepYsr0PL3p.jpg",
+      "releaseInfo": "2026-07-10"
+    },
+    {
+      "id": "tt36468125",
+      "type": "movie",
+      "name": "FOUFO",
+      "description": "The encounter of Madurese residents with small aliens that triggers hilarious chaos and unexpected adventures.",
+      "poster": "https://image.tmdb.org/t/p/w500/cYNgm6TffgIvqK1xwP264BooSVp.jpg",
+      "releaseInfo": "2026-07-09"
+    },
+    {
+      "id": "tt42669039",
+      "type": "movie",
+      "name": "Summer Sparks",
+      "description": "Follows a single father and a single mom at Camp Evergreen during a summer cook-off, where cooking mishaps and heartfelt moments lead to an unexpected romantic connection.",
+      "poster": "https://image.tmdb.org/t/p/w500/azL8xUAXTnW700ffzchkKmUCvp8.jpg",
+      "releaseInfo": "2026-07-07"
+    },
+    {
+      "id": "tt41295042",
+      "type": "movie",
+      "name": "One Piece Heroines",
+      "description": "After failing to stop the thieves due to ill-fitting shoes, Nami storms into the shop where she bought them for a refund. However, the head designer offers to make her a new pair from scratch on one condition: she must walk in their upcoming fashion show.",
+      "poster": "https://image.tmdb.org/t/p/w500/mrONQ5gkWIVSf3hp5n6w7qoK2oN.jpg",
+      "releaseInfo": "2026-07-05"
+    },
+    {
+      "id": "tt41338225",
+      "type": "movie",
+      "name": "Grandfather Fomich",
+      "description": "",
+      "poster": "https://image.tmdb.org/t/p/w500/liK9AIVvs4DWiq1QqUDt24cFhwa.jpg",
+      "releaseInfo": "2026-07-02"
+    },
+    {
+      "id": "tt37161355",
+      "type": "movie",
+      "name": "Daadi Ki Shaadi",
+      "description": "A grandmother’s mishap with a social media post causes consternation amongst her children and threatens the prospect of her granddaughter’s wedding.",
+      "poster": "https://image.tmdb.org/t/p/w500/hKbQjE5ZcZUpuzApEjyoVCUWwdx.jpg",
+      "releaseInfo": "2026-07-02"
+    },
+    {
+      "id": "tt43140112",
+      "type": "movie",
+      "name": "Extreme Makeover: Homer Edition",
+      "description": "Homer and Marge's fun couples' date night goes off the rails when Marge learns Homer left the kids unsupervised with only the doorbell camera as a babysitter. Frustrated with her imperfect husband, a tipsy Marge stirs up a trilogy of fantasies of a different Homer.",
+      "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
+      "releaseInfo": "2026-06-17"
+    },
+    {
+      "id": "tt36955518",
+      "type": "movie",
+      "name": "Jim Queen and the Quest for Chloroqueer",
+      "description": "When Heterosis, a mysterious virus that turns gay men straight, sweeps through the Parisian gay scene, Jim, the six-packed sovereign of the Gym Queens, goes from Pride royalty to social outcast. With only Lucien, a freshly-out twink with more heart than abs, still by his side, Jim must race to find a cure before the disease erases the community that once worshipped him.",
+      "poster": "https://image.tmdb.org/t/p/w500/qM0lAd9HAqfC6DjxPe9g5DCEevb.jpg",
+      "releaseInfo": "2026-06-17"
+    },
+    {
+      "id": "tt41635253",
+      "type": "movie",
+      "name": "New Toy Story",
+      "description": "When a new action figure accidentally knocks a princess doll over the backyard fence, a group of mismatched toys must work together to bring her home before dark.",
+      "poster": "https://image.tmdb.org/t/p/w500/lY4GSWvOGquJMZEY0e20v7i7Om4.jpg",
+      "releaseInfo": "2026-06-12"
+    },
+    {
+      "id": "tt42575634",
+      "type": "movie",
+      "name": "Vertiginous",
+      "description": "Jacques goes to his friend Bruno's house to tell him some big news: the entire human race is living in a simulation...",
+      "poster": "https://image.tmdb.org/t/p/w500/qO8nc3cSjzGduaC0deh8gBRKK9Z.jpg",
+      "releaseInfo": "2026-06-10"
+    },
+    {
+      "id": "tt41367695",
+      "type": "movie",
+      "name": "Propeller One-Way Night Coach",
+      "description": "During the golden age of aviation, a young airplane enthusiast and his mother embark on a cross-country journey to Hollywood—and their simple flight transforms into the trip of a lifetime.",
+      "poster": "https://image.tmdb.org/t/p/w500/joal4OSVC4T1yFb3kph91tkNNFf.jpg",
+      "releaseInfo": "2026-05-28"
+    },
+    {
+      "id": "tt37498793",
+      "type": "movie",
+      "name": "Children of Heaven",
+      "description": "Two siblings, Ali and Zahra, who agreed to keep the matter of Zahra's missing shoes a secret, which Ali had brought in for repair. To solve the problem, they decided to share Ali's worn-out shoes. Zahra would wear them in the morning during her school schedule, and after returning home, she would run as fast as she could so Ali could wear them to school in the afternoon. New hope emerged when Ali learned of an inter-school running competition with a prize of a pair of shoes for the third-place winner. Ali signed up, determined to win the competition so he could buy Zahra new shoes.",
+      "poster": "https://image.tmdb.org/t/p/w500/sAepBid10sCZFU3SOaEmwll48S3.jpg",
+      "releaseInfo": "2026-05-27"
+    },
+    {
+      "id": "tt38630268",
+      "type": "movie",
+      "name": "Niccolò",
+      "description": "From innocent to genius. Niccolò is a young violonist destined to become a legend.",
+      "poster": "https://image.tmdb.org/t/p/w500/ztMC8M68I6D5wPaHuBqzj0qo5hJ.jpg",
+      "releaseInfo": "2026-05-21"
+    },
+    {
+      "id": "tt42192201",
+      "type": "movie",
+      "name": "Bride of the Year",
+      "description": "When Lienkie's dream of budding a family of her own come crashing down, she hatches a devious plan to win \"Bride of the Year\" and get back at her ex.",
+      "poster": "https://image.tmdb.org/t/p/w500/2AiO7wnTrY5ktq0pLco3eS6g8NL.jpg",
+      "releaseInfo": "2026-05-15"
+    },
+    {
+      "id": "tt34545743",
+      "type": "movie",
+      "name": "Godari Gattupaina",
+      "description": "In the picturesque Godavari villages, a kind-hearted auto driver and a spirited college girl fall in love, but their bond is tested by her father's expectations and unforeseen challenges.",
+      "poster": "https://image.tmdb.org/t/p/w500/ijhuSRwHwocOfGEV9hiAnQCOdmw.jpg",
+      "releaseInfo": "2026-05-08"
+    },
+    {
+      "id": "tt42980748",
+      "type": "movie",
+      "name": "Copán: The Legend",
+      "description": "In the heart of the Honduran jungle lies the ancient city of Copan, cradle of the Mayan civilization and the unexpected setting for the redemption of Roberto Papa Agurcia.",
+      "poster": "https://image.tmdb.org/t/p/w500/wElzyWfNJ8487ZFAd3BVgnXx1uO.jpg",
+      "releaseInfo": "2026-05-07"
+    }
+  ]
+}
