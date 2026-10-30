@@ -5,16 +5,15 @@ import path from "path";
 // CONFIG
 // ===============================
 const TMDB_KEY = process.env.TMDB_API_KEY || "944017b839d3c040bdd2574083e4c1bc";
-const DAYS_BACK = 1460; // 4 years
-const MAX_PAGES = 60;
+const DAYS_BACK = 1460; // 4 years history
+const MAX_PAGES = 60;   // Higher page limit to scan 4 years of data
 const TMDB_CONCURRENCY = 8;
 const MIN_VOTE_COUNT = 3;
 
-// Safe certifications for live action vs animation
-const STRICT_KIDS_RATINGS = new Set(["G", "TV-Y", "TV-Y7", "TV-G"]);
+// Allowed kid/family certifications (includes both movie and TV ratings)
 const ALLOWED_PG_RATINGS = new Set(["G", "PG", "TV-Y", "TV-Y7", "TV-G", "TV-PG"]);
 
-// Automatic topic/theme filter (no manual movie titles needed)
+// Automatic topic/theme keyword exclusions (Inspects titles, descriptions, and TMDB tags)
 const AUTOMATIC_TEEN_ADULT_KEYWORDS = [
   "marriage", "divorce", "cheating", "body-swap", "body swap", 
   "high school", "teenager", "coming-of-age", "coming of age",
@@ -46,10 +45,15 @@ async function fetchJSON(url) {
   }
 }
 
+// ===============================
+// ALLOW +2 DAY WINDOW
+// ===============================
 function isAllowed(dateStr) {
   if (!dateStr) return false;
+
   const date = new Date(dateStr).getTime();
   const now = Date.now();
+
   const TWO_DAYS = 2 * 24 * 60 * 60 * 1000;
   return date <= (now + TWO_DAYS);
 }
@@ -136,7 +140,7 @@ async function pMap(list, fn, concurrency = TMDB_CONCURRENCY) {
 }
 
 // ===============================
-// FETCH AUTOMATED KIDS MOVIES
+// FETCH KIDS MOVIES
 // ===============================
 async function fetchMovies() {
   const all = [];
@@ -175,7 +179,7 @@ async function fetchMovies() {
     const adultGenres = [99, 36, 80, 10752, 27, 53, 10749, 10770, 18];
     if (m.genre_ids?.some((gId) => adultGenres.includes(gId))) return null;
 
-    // Check Overview for Teen/Adult Themes Automatically
+    // Check overview text automatically for adult/teen themes
     const overviewLower = (m.overview || "").toLowerCase();
     if (AUTOMATIC_TEEN_ADULT_KEYWORDS.some((kw) => overviewLower.includes(kw))) {
       return null;
@@ -183,23 +187,18 @@ async function fetchMovies() {
 
     const { usDate, certification, imdb_id, original_language, genres, keywords } = await fetchMovieDetails(m.id);
 
-    // Filter by Keywords API automatically
+    // Filter by TMDB Keywords API automatically
     if (keywords.some((kw) => AUTOMATIC_TEEN_ADULT_KEYWORDS.some((badKw) => kw.includes(badKw)))) {
       return null;
     }
 
+    // STRICT RULE: Must match allowed kid ratings (G, PG, TV-Y, TV-Y7, TV-G, TV-PG)
+    // Drops NR, Unrated, PG-13, R, TV-MA, etc.
     if (!certification || !ALLOWED_PG_RATINGS.has(certification)) return null;
+
+    // Double check detailed genre fetch
     if (genres.some((gId) => adultGenres.includes(gId))) return null;
     if (original_language && original_language !== "en") return null;
-
-    const isAnimation = genres.includes(16) || m.genre_ids?.includes(16);
-
-    // AUTOMATED LIVE-ACTION RULE:
-    // If it's Live-Action (not animated), enforce strictly G or TV-G ratings.
-    // This automatically cuts out live-action PG comedies aimed at teens/parents (Good Burger 2, Family Switch).
-    if (!isAnimation && !STRICT_KIDS_RATINGS.has(certification)) {
-      return null;
-    }
 
     if (!usDate || !isAllowed(usDate)) return null;
 
@@ -229,7 +228,7 @@ async function fetchMovies() {
 }
 
 // ===============================
-// BUILD EXECUTOR
+// META BUILDER & BUILD EXECUTOR
 // ===============================
 async function buildMeta(id) {
   const tmdbId = id.startsWith("tmdb:") ? id.split(":")[1] : null;
@@ -265,7 +264,7 @@ async function buildMeta(id) {
 }
 
 async function build() {
-  console.log("Fetching automated kid-friendly catalog…");
+  console.log("Fetching kids & family catalog…");
   const movies = await fetchMovies();
 
   fs.mkdirSync("./catalog/movie", { recursive: true });
