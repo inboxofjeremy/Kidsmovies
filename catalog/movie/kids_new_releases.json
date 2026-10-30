@@ -41,6 +41,14 @@
       "releaseInfo": "2026-09-29"
     },
     {
+      "id": "tt7734244",
+      "type": "movie",
+      "name": "The Magic Faraway Tree",
+      "description": "A modern family relocates to the countryside where the children discover a magical tree with eccentric residents. They're transported to fantastical lands, rekindling their family bond through adventures.",
+      "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+      "releaseInfo": "2026-09-29"
+    },
+    {
       "id": "tt37850679",
       "type": "movie",
       "name": "Spidey and the Avengers: Halloween Team-Up!",
@@ -87,6 +95,14 @@
       "description": "The Mandalorian and Grogu join their misfit allies for an epic party, celebrating their heroism. As friends regale the crowd with tales of their adventures, a pirate threat looms.",
       "poster": "https://image.tmdb.org/t/p/w500/x3HEvYXWOW6WHqsHmg2MUVy3SLm.jpg",
       "releaseInfo": "2026-09-02"
+    },
+    {
+      "id": "tt44930906",
+      "type": "movie",
+      "name": "Dog Man",
+      "description": "When a cop and his dog companion both get injured and eventually combined together to create a supa cop. He has to save OhKay City from the villainous Petey the Cat while grieving from losing his owner.",
+      "poster": "https://image.tmdb.org/t/p/w500/cdaDwBQK9Jdivd56OvnNJP8RXrM.jpg",
+      "releaseInfo": "2026-09-01"
     },
     {
       "id": "tt43141030",
@@ -137,6 +153,14 @@
       "releaseInfo": "2026-08-03"
     },
     {
+      "id": "tt43617141",
+      "type": "movie",
+      "name": "Mickey Mouse Clubhouse+: Mickey's Country Farm",
+      "description": "Mickey and friends use their new farm vehicles to build the Fairest Farm Fair ever — hoping Daisy’s cowgirl idol, Lasso Lucy, will stop by for a visit.",
+      "poster": "https://image.tmdb.org/t/p/w500/mSGv8TRbATPSzAK4Osg3aSgrxEw.jpg",
+      "releaseInfo": "2026-07-31"
+    },
+    {
       "id": "tt42839367",
       "type": "movie",
       "name": "Snoopy Presents: There's No Place Like Home, Snoopy",
@@ -169,12 +193,244 @@
       "releaseInfo": "2026-07-14"
     },
     {
+      "id": "tt32565993",
+      "type": "movie",
+      "name": "The Sheep Detectives",
+      "description": "George Hardy is a shepherd who reads detective novels to his beloved sheep every night, assuming they can't possibly understand. But when a mysterious incident disrupts life on the farm, the sheep realize they must become the detectives. As they follow the clues and investigate human suspects, they prove that even sheep can be brilliant crime-solvers.",
+      "poster": "https://image.tmdb.org/t/p/w500/iKy5460GdsoknM8ppmGlJbKxAKa.jpg",
+      "releaseInfo": "2026-06-24"
+    },
+    {
+      "id": "tt13518550",
+      "type": "movie",
+      "name": "The Last Whale Singer",
+      "description": "When a monstrous creature escapes from a melting iceberg, a self-doubting teenage humpback whale must face his greatest fears and dive into the darkest depths with his friends, to discover the mystical song that can save the oceans from destruction.",
+      "poster": "https://image.tmdb.org/t/p/w500/yIDPrKCgiG49cULhITKxeZywISe.jpg",
+      "releaseInfo": "2026-06-05"
+    },
+    {
       "id": "tt41367695",
       "type": "movie",
       "name": "Propeller One-Way Night Coach",
       "description": "During the golden age of aviation, a young airplane enthusiast and his mother embark on a cross-country journey to Hollywood—and their simple flight transforms into the trip of a lifetime.",
       "poster": "https://image.tmdb.org/t/p/w500/joal4OSVC4T1yFb3kph91tkNNFf.jpg",
       "releaseInfo": "2026-05-28"
+    },
+    {
+      "id": "tt2467700",
+      "type": "movie",
+      "name": "Animal Farm",
+      "description": "A group of farm animals rise up against their neglectful owner, dreaming of equality and freedom. But as the pigs take control, the revolution turns into tyranny, with truth rewritten and dissent crushed.",
+      "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
+      "releaseInfo": "2026-05-26"
+    },
+    {
+      "id": "tt39183773",
+      "type": "movie",
+      "name": "Paper Trail",
+      "description": "A life, seen through paper.",
+      "poster": "https://image.tmdb.org/t/p/w500/AiurfAE3tMx0wFg7uwnFrE3JaR9.jpg",
+      "releaseInfo": "2026-05-20"
+    },
+    {
+      "id": "tt28650488",
+      "type": "movie",
+      "name": "The Super Mario Galaxy Movie",
+      "description": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
+      "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+      "releaseInfo": "2026-05-19"
+    },
+    {
+      "id": "tt29552248",
+      "type": "movie",
+      "name": "Swapped",
+      "description": "A small woodland creature and a majestic bird, two natural sworn enemies of the Valley, magically trade places and set off on an adventure of a lifetime to switch back. Their journey soon uncovers a greater threat—one that could endanger not only their species, but the entire valley they call home.",
+      "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+      "releaseInfo": "2026-05-01"
+    },
+    {
+      "id": "tt18310498",
+      "type": "movie",
+      "name": "Mars",
+      "description": "A ragtag group of misfits embark on a wild space adventure to Mars, only to discover they’ve been bamboozled by a billionaire.",
+      "poster": "https://image.tmdb.org/t/p/w500/rJdT3kiG2q0CAnPNKkldIG7McqG.jpg",
+      "releaseInfo": "2026-05-01"
+    },
+    {
+      "id": "tt26443616",
+      "type": "movie",
+      "name": "Hoppers",
+      "description": "Scientists have discovered how to 'hop' human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals. Animal lover Mabel seizes an opportunity to use the technology, uncovering mysteries within the animal world beyond anything she could have imagined.",
+      "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+      "releaseInfo": "2026-04-28"
+    },
+    {
+      "id": "tt37930376",
+      "type": "movie",
+      "name": "Krypto Saves the Day!: Coastal Catastrophe",
+      "description": "A fun day at the beach goes sideways when some sneaky foes get between Krypto and his hot dog.",
+      "poster": "https://image.tmdb.org/t/p/w500/hkf0Oty4U32n9f078QU48UAAUpL.jpg",
+      "releaseInfo": "2026-04-18"
+    },
+    {
+      "id": "tt3517106",
+      "type": "movie",
+      "name": "The Land of Sometimes",
+      "description": "Twins Alfie and Elise find a magical Wish Watch on Christmas Eve and are swept by the Wish Collector into the musical Land of Sometimes, where they learn that wishes have consequences.",
+      "poster": "https://image.tmdb.org/t/p/w500/uEZAx4Rk42hv8bfrXC9pyQPWErw.jpg",
+      "releaseInfo": "2026-04-07"
+    },
+    {
+      "id": "tt27613895",
+      "type": "movie",
+      "name": "GOAT",
+      "description": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world.",
+      "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+      "releaseInfo": "2026-03-24"
+    },
+    {
+      "id": "tt12824390",
+      "type": "movie",
+      "name": "The Pout-Pout Fish",
+      "description": "Living on a rundown shipwreck, Mr. Fish one day discovers a hyperactive young sea dragon Pip – who had mistaken his home for a junkyard – pilfering his belongings. The heated argument that ensues leaves both their houses in ruin. But there is hope! Embarking on a seemingly impossible quest in search of the mythical 'Shimmer' to grant them a wish, there’s only one problem: someone else is on the hunt...",
+      "poster": "https://image.tmdb.org/t/p/w500/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
+      "releaseInfo": "2026-03-20"
+    },
+    {
+      "id": "tt37969426",
+      "type": "movie",
+      "name": "The Muppet Show",
+      "description": "Music, comedy, and a whole lot of chaos is bound to ensue when The Muppets once again take the stage of the original Muppet Theatre with their very special guest, Sabrina Carpenter!",
+      "poster": "https://image.tmdb.org/t/p/w500/tcwar1rL0neoLvnklL7DzYw7sN8.jpg",
+      "releaseInfo": "2026-02-04"
+    },
+    {
+      "id": "tt37045674",
+      "type": "movie",
+      "name": "Teenage Mutant Ninja Turtles: Chrome Alone 2 - Lost in New Jersey",
+      "description": "When a mysterious toy company seeks to profit off the turtles' new hero status, the brothers follow the clues to New Jersey and make a shocking discovery in this all new original short.",
+      "poster": "https://image.tmdb.org/t/p/w500/trqwtP3SaCPUonSe360y0oIprRi.jpg",
+      "releaseInfo": "2026-01-31"
+    },
+    {
+      "id": "tt39565775",
+      "type": "movie",
+      "name": "Rocky's Cat-astrophe",
+      "description": "When one of Humdinger's schemes goes awry, a Junkyard Kitten's home is destroyed and Rocky bites off more than he can chew when he invites the kitten to stay at the Lookout overnight. While the kitten causes more trouble than expected, Rocky learns that even heroes need help.",
+      "poster": "https://image.tmdb.org/t/p/w500/pqfkJh0CyF00GvR4NIdvJYkJb2F.jpg",
+      "releaseInfo": "2026-01-30"
+    },
+    {
+      "id": "tt26443597",
+      "type": "movie",
+      "name": "Zootopia 2",
+      "description": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De'Snake arrives and turns the animal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before.",
+      "poster": "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+      "releaseInfo": "2026-01-26"
+    },
+    {
+      "id": "tt23572848",
+      "type": "movie",
+      "name": "The SpongeBob Movie: Search for SquarePants",
+      "description": "Desperate to be a big guy, SpongeBob sets out to prove his bravery to Mr. Krabs by following The Flying Dutchman – a mysterious swashbuckling ghost pirate – on a seafaring adventure that takes him to the deepest depths of the deep sea, where no Sponge has gone before.",
+      "poster": "https://image.tmdb.org/t/p/w500/xJnOMMsFASxNiFnG7v3TNIQ3ife.jpg",
+      "releaseInfo": "2026-01-20"
+    },
+    {
+      "id": "tt39088896",
+      "type": "movie",
+      "name": "Adult Swim's The Elephant",
+      "description": "Crafted in three parts by four animation superstars, Adult Swim's The Elephant brings to life a very human journey of self-discovery in varied styles.",
+      "poster": "https://image.tmdb.org/t/p/w500/hesk0yJrkojyuZcyZ4KRxMtAQNK.jpg",
+      "releaseInfo": "2025-12-20"
+    },
+    {
+      "id": "tt37751253",
+      "type": "movie",
+      "name": "Diary of a Wimpy Kid: The Last Straw",
+      "description": "When laidback Greg finds himself at odds with his dad's outsized expectations, pressure builds to turn his act around. After a series of hilarious near disasters, Greg's dad presents him with an ultimatum that just might challenge his wimpy ways for good.",
+      "poster": "https://image.tmdb.org/t/p/w500/emcCjpC289NxAGuVwlItHCTrgT7.jpg",
+      "releaseInfo": "2025-12-05"
+    },
+    {
+      "id": "tt39089423",
+      "type": "movie",
+      "name": "The First Snow of Fraggle Rock",
+      "description": "When the holidays are filled with unexpected adventures and challenges, the Fraggles learn to appreciate each day for being unique and special, like a snowflake.",
+      "poster": "https://image.tmdb.org/t/p/w500/xyxAOTToALUkeFS9x5V6MOv8YWr.jpg",
+      "releaseInfo": "2025-12-04"
+    },
+    {
+      "id": "tt37671699",
+      "type": "movie",
+      "name": "A Paw Patrol Christmas",
+      "description": "Rubble is looking forward to Santa bringing him a new laser drill, but finds that Santa has come down with a cold and can’t deliver any presents. When Mayor Humdinger decides he’s going to the North Pole to take all the gifts for himself, it’s up to the PAW Patrol to stop him.",
+      "poster": "https://image.tmdb.org/t/p/w500/dZpH8UEQD2743cMOPjXqNCg7bWv.jpg",
+      "releaseInfo": "2025-11-29"
+    },
+    {
+      "id": "tt37930374",
+      "type": "movie",
+      "name": "Krypto Saves the Day!: Package Pandemonium",
+      "description": "Krypto smells something special in a holiday package, and in his eagerness to grab the gift he makes a mess of Metropolis's festivities.",
+      "poster": null,
+      "releaseInfo": "2025-11-28"
+    },
+    {
+      "id": "tt32594892",
+      "type": "movie",
+      "name": "Prep & Landing: The Snowball Protocol",
+      "description": "Christmas elves Lanny and Wayne panic when their holiday missions go awry, leaving Wayne thinking he's in BIG trouble with Santa and accidentally revealing other merry mishaps.",
+      "poster": "https://image.tmdb.org/t/p/w500/olbxBEAGaYCgyi2EEecuwa5tuUl.jpg",
+      "releaseInfo": "2025-11-28"
+    },
+    {
+      "id": "tt36604797",
+      "type": "movie",
+      "name": "Holiday Touchdown: A Bills Love Story",
+      "description": "The Quinns and DeLucas have lived next door to each other for decades in the shadow of Highmark Stadium – the home of their beloved Buffalo Bills. With their longtime friendship rooted in being proud members of Bills Mafia, the two clans have enjoyed cherished traditions that revolve around cheering for their favorite team – especially at the holidays when they celebrate the last home game before Christmas.",
+      "poster": "https://image.tmdb.org/t/p/w500/ZotF04zyv7iVTSbpCHEbx4HUde.jpg",
+      "releaseInfo": "2025-11-22"
+    },
+    {
+      "id": "tt38721186",
+      "type": "movie",
+      "name": "A Loud House Christmas Movie: Naughty or Nice",
+      "description": "Desperate to get off Santa's Naughty List before Christmas, Lincoln resorts to hacking into the North Pole computers and putting himself on the nice list. But when the hack gets out of control, he ends up reversing the Naughty\\/Nice lists around the world and turning the North Pole itself Naughty. Lincoln enlists his family to go to the North Pole and try to fix the mess he made. Teaming up with his new frenemy, Duncan, the elf who first put him on the naughty list, Lincoln and the Louds must battle a now evil Santa and his minions to save Christmas.",
+      "poster": "https://image.tmdb.org/t/p/w500/x8etkE8pdopoHx8B8PJrinU01Wz.jpg",
+      "releaseInfo": "2025-11-21"
+    },
+    {
+      "id": "tt27604215",
+      "type": "movie",
+      "name": "In Your Dreams",
+      "description": "Stevie and her little brother Elliot journey into the wildly absurd landscape of their own dreams to ask the Sandman to grant them the perfect family.",
+      "poster": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+      "releaseInfo": "2025-11-14"
+    },
+    {
+      "id": "tt38909003",
+      "type": "movie",
+      "name": "A Holiday Short: Best Christmas Ever",
+      "description": "When Santa mistakes the doodle on a girl's list for a holiday wish, she wakes up on Christmas morning to find an unusual new friend under the tree.",
+      "poster": "https://image.tmdb.org/t/p/w500/5Q07rEmkArjOxHOvoztZySZRO8Y.jpg",
+      "releaseInfo": "2025-11-10"
+    },
+    {
+      "id": "tt37677952",
+      "type": "movie",
+      "name": "Dr. Seuss's The Sneetches",
+      "description": "An unexpected friendship forms between two young Sneetches on an island surrounded by beaches in this sweet musical special set in the world of Seuss.",
+      "poster": "https://image.tmdb.org/t/p/w500/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg",
+      "releaseInfo": "2025-11-03"
+    },
+    {
+      "id": "tt31349857",
+      "type": "movie",
+      "name": "Dolphin Summer",
+      "description": "Aspiring marine biologist, Sarah, seizes a chance to intern at the Abaco Island Marine Sanctuary. Sarah, her friends, and the town launch a live-streaming 'Dolphin Discovery' show to save the sanctuary.",
+      "poster": "https://image.tmdb.org/t/p/w500/fXqVQ3gfADVaBAIlL8MBdHcWv20.jpg",
+      "releaseInfo": "2025-07-15"
     }
   ]
 }
