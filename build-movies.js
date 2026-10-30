@@ -121,7 +121,7 @@ async function pMap(list, fn, concurrency = TMDB_CONCURRENCY) {
 }
 
 // ===============================
-// FETCH MOVIES
+// FETCH KIDS MOVIES
 // ===============================
 async function fetchMovies() {
   const all = [];
@@ -131,13 +131,15 @@ async function fetchMovies() {
       `https://api.themoviedb.org/3/discover/movie?` +
       `api_key=${TMDB_KEY}` +
       `&language=en-US` +
-      `&with_original_language=en` +
       `&region=US` +
       `&vote_count.gte=${MIN_VOTE_COUNT}` +
       `&sort_by=primary_release_date.desc` +
       `&primary_release_date.gte=${DATE_FROM}` +
       `&primary_release_date.lte=${DATE_TO}` +
-      `&without_genres=27` +
+      // with_genres: 16 (Animation) OR 10751 (Family). Using pipe "|" for logical OR
+      `&with_genres=16|10751` +
+      // Exclude mature/dark genres just in case
+      `&without_genres=27,53,80,10752` +
       `&page=${page}`;
 
     const j = await fetchJSON(url);
@@ -242,7 +244,7 @@ async function buildMeta(id) {
 // BUILD
 // ===============================
 async function build() {
-  console.log("Fetching movies…");
+  console.log("Fetching kids movies…");
 
   const movies = await fetchMovies();
 
@@ -250,7 +252,7 @@ async function build() {
   fs.mkdirSync("./meta/movie", { recursive: true });
 
   fs.writeFileSync(
-    "./catalog/movie/new_releases.json",
+    "./catalog/movie/kids_new_releases.json",
     JSON.stringify({ metas: movies }, null, 2)
   );
 
@@ -266,7 +268,7 @@ async function build() {
     );
   }
 
-  console.log("Done.");
+  console.log(`Done. Saved ${movies.length} kids movies.`);
 }
 
 build();
