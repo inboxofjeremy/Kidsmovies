@@ -6,17 +6,17 @@ import path from "path";
 // ===============================
 const TMDB_KEY = process.env.TMDB_API_KEY || "944017b839d3c040bdd2574083e4c1bc";
 const DAYS_BACK = 1460; // 4 years history
-const MAX_PAGES = 60;   // Higher page limit to scan 4 years of data
+const MAX_PAGES = 60;   // Page depth to scan 4 years
 const TMDB_CONCURRENCY = 8;
 const MIN_VOTE_COUNT = 3;
 
-// Allowed kid/family certifications (includes both movie and TV ratings)
+// Allowed kid/family certifications (Movie + TV ratings)
 const ALLOWED_PG_RATINGS = new Set(["G", "PG", "TV-Y", "TV-Y7", "TV-G", "TV-PG"]);
 
-// Automatic topic/theme keyword exclusions (Inspects titles, descriptions, and TMDB tags)
-const AUTOMATIC_TEEN_ADULT_KEYWORDS = [
-  "marriage", "divorce", "cheating", "body-swap", "body swap", "teenager", "coming-of-age", "coming of age",
-  "erotic", "satire", "parody", "dark comedy", "dating", "infidelity"
+// Exclude descriptions/titles containing mature non-kids topics
+const MATURE_THEME_KEYWORDS = [
+  "marriage", "divorce", "cheating", "infidelity", "body-swap", "body swap", 
+  "erotic", "satire", "parody", "dark comedy"
 ];
 
 // ===============================
@@ -61,10 +61,9 @@ function isAllowed(dateStr) {
 // RELEASE DATE, CERTIFICATION & DETAILS
 // ===============================
 async function fetchMovieDetails(id) {
-  const [releaseJson, movieJson, keywordsJson] = await Promise.all([
+  const [releaseJson, movieJson] = await Promise.all([
     fetchJSON(`https://api.themoviedb.org/3/movie/${id}/release_dates?api_key=${TMDB_KEY}`),
-    fetchJSON(`https://api.themoviedb.org/3/movie/${id}?api_key=${TMDB_KEY}&language=en-US`),
-    fetchJSON(`https://api.themoviedb.org/3/movie/${id}/keywords?api_key=${TMDB_KEY}`)
+    fetchJSON(`https://api.themoviedb.org/3/movie/${id}?api_key=${TMDB_KEY}&language=en-US`)
   ]);
 
   const us = releaseJson?.results?.find((r) => r.iso_3166_1 === "US");
@@ -101,15 +100,12 @@ async function fetchMovieDetails(id) {
     targetDate = movieJson.release_date.slice(0, 10);
   }
 
-  const keywords = keywordsJson?.keywords?.map((k) => k.name.toLowerCase()) || [];
-
   return {
     usDate: targetDate,
     certification,
     imdb_id: movieJson?.imdb_id || null,
     original_language: movieJson?.original_language || null,
-    genres: movieJson?.genres?.map((g) => g.id) || [],
-    keywords
+    genres: movieJson?.genres?.map((g) => g.id) || []
   };
 }
 
@@ -178,24 +174,18 @@ async function fetchMovies() {
     const adultGenres = [99, 36, 80, 10752, 27, 53, 10749, 10770, 18];
     if (m.genre_ids?.some((gId) => adultGenres.includes(gId))) return null;
 
-    // Check overview text automatically for adult/teen themes
+    // Filter overview text for mature themes
     const overviewLower = (m.overview || "").toLowerCase();
-    if (AUTOMATIC_TEEN_ADULT_KEYWORDS.some((kw) => overviewLower.includes(kw))) {
+    if (MATURE_THEME_KEYWORDS.some((kw) => overviewLower.includes(kw))) {
       return null;
     }
 
-    const { usDate, certification, imdb_id, original_language, genres, keywords } = await fetchMovieDetails(m.id);
+    const { usDate, certification, imdb_id, original_language, genres } = await fetchMovieDetails(m.id);
 
-    // Filter by TMDB Keywords API automatically
-    if (keywords.some((kw) => AUTOMATIC_TEEN_ADULT_KEYWORDS.some((badKw) => kw.includes(badKw)))) {
-      return null;
-    }
-
-    // STRICT RULE: Must match allowed kid ratings (G, PG, TV-Y, TV-Y7, TV-G, TV-PG)
-    // Drops NR, Unrated, PG-13, R, TV-MA, etc.
+    // STRICT CERTIFICATION RULE: Must be certified G, PG, TV-Y, TV-Y7, TV-G, or TV-PG
+    // Automatically drops NR, Unrated, PG-13, R, TV-MA, etc.
     if (!certification || !ALLOWED_PG_RATINGS.has(certification)) return null;
 
-    // Double check detailed genre fetch
     if (genres.some((gId) => adultGenres.includes(gId))) return null;
     if (original_language && original_language !== "en") return null;
 
