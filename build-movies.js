@@ -5,8 +5,8 @@ import path from "path";
 // CONFIG
 // ===============================
 const TMDB_KEY = process.env.TMDB_API_KEY || "944017b839d3c040bdd2574083e4c1bc";
-const DAYS_BACK = 365;
-const MAX_PAGES = 30;
+const DAYS_BACK = 1460;
+const MAX_PAGES = 120;
 const TMDB_CONCURRENCY = 8;
 const MIN_VOTE_COUNT = 3;
 
