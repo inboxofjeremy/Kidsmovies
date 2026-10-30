@@ -162,6 +162,25 @@ async function fetchMovies() {
   const mapped = await pMap(all, async (m) => {
     if (!m?.id) return null;
 
+    const titleLower = (m.title || "").toLowerCase();
+    const origTitleLower = (m.original_title || "").toLowerCase();
+
+    // 1. Title Blacklist (including all Simpsons entries)
+    const blockedTitles = [
+      "simpsons",
+      "the simpsons",
+      "family switch",
+      "f+",
+      "f-plus",
+      "bouchra",
+      "bušra",
+      "holiday touchdown"
+    ];
+
+    if (blockedTitles.some((t) => titleLower.includes(t) || origTitleLower.includes(t))) {
+      return null;
+    }
+
     if (m.original_language && m.original_language !== "en") {
       return null;
     }
@@ -173,8 +192,7 @@ async function fetchMovies() {
 
     const { usDate, certification, imdb_id, original_language, genres } = await fetchMovieDetails(m.id);
 
-    // STRICT RULE: Certification MUST be in ALLOWED_CERTIFICATIONS (G, PG, TV-Y, TV-Y7, TV-G, TV-PG)
-    // Automatically drops NR, Unrated, PG-13, R, TV-MA, etc.
+    // STRICT RULE: Must match G, PG, TV-Y, TV-Y7, TV-G, TV-PG
     if (!certification || !ALLOWED_CERTIFICATIONS.has(certification)) {
       return null;
     }
