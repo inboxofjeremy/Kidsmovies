@@ -5,10 +5,13 @@ import path from "path";
 // CONFIG
 // ===============================
 const TMDB_KEY = process.env.TMDB_API_KEY || "944017b839d3c040bdd2574083e4c1bc";
-const DAYS_BACK = 1460;
-const MAX_PAGES = 120;
+const DAYS_BACK = 1460; // 4 years
+const MAX_PAGES = 60;
 const TMDB_CONCURRENCY = 8;
 const MIN_VOTE_COUNT = 3;
+
+// Allowed kid/family certifications
+const ALLOWED_CERTIFICATIONS = new Set(["G", "PG", "TV-Y", "TV-Y7", "TV-G", "TV-PG"]);
 
 // ===============================
 // DATE HELPERS
@@ -49,7 +52,7 @@ function isAllowed(dateStr) {
 }
 
 // ===============================
-// RELEASE DATE & IMDB ID HELPER
+// RELEASE DATE, CERTIFICATION & IMDB ID HELPER
 // ===============================
 async function fetchMovieDetails(id) {
   const [releaseJson, movieJson] = await Promise.all([
@@ -60,7 +63,14 @@ async function fetchMovieDetails(id) {
   const us = releaseJson?.results?.find((r) => r.iso_3166_1 === "US");
   
   let targetDate = null;
+  let certification = null;
+
   if (us?.release_dates?.length) {
+    const ratedItem = us.release_dates.find((d) => d.certification && d.certification.trim() !== "");
+    if (ratedItem) {
+      certification = ratedItem.certification.toUpperCase().trim();
+    }
+
     const digitalDates = us.release_dates
       .filter((d) => d.type === 4 && d.release_date)
       .map((d) => d.release_date.slice(0, 10))
@@ -86,8 +96,10 @@ async function fetchMovieDetails(id) {
 
   return {
     usDate: targetDate,
+    certification,
     imdb_id: movieJson?.imdb_id || null,
-    original_language: movieJson?.original_language || null
+    original_language: movieJson?.original_language || null,
+    genres: movieJson?.genres?.map((g) => g.id) || []
   };
 }
 
@@ -117,7 +129,7 @@ async function pMap(list, fn, concurrency = TMDB_CONCURRENCY) {
 }
 
 // ===============================
-// FETCH ENGLISH KIDS MOVIES
+// FETCH STRICTLY RATED KIDS MOVIES
 // ===============================
 async function fetchMovies() {
   const all = [];
@@ -137,8 +149,7 @@ async function fetchMovies() {
       `&primary_release_date.gte=${DATE_FROM}` +
       `&primary_release_date.lte=${DATE_TO}` +
       `&with_genres=16|10751` +
-      // Exclude Documentaries (99), History (36), Crime (80), War (10752), Horror (27), Thriller (53), Romance (10749), TV Movie (10770)
-      `&without_genres=99,36,80,10752,27,53,10749,10770` +
+      `&without_genres=99,36,80,10752,27,53,10749,10770,18` +
       `&page=${page}`;
 
     const j = await fetchJSON(url);
@@ -151,26 +162,27 @@ async function fetchMovies() {
   const mapped = await pMap(all, async (m) => {
     if (!m?.id) return null;
 
-    // Explicit blacklist for known rogue entries or adult titles
-    const titleLower = (m.title || m.original_title || "").toLowerCase();
-    if (titleLower.includes("bouchra") || titleLower.includes("holiday touchdown")) {
-      return null;
-    }
-
-    // Reject non-English original titles upfront from discover list
     if (m.original_language && m.original_language !== "en") {
       return null;
     }
 
-    // Double check adult/non-kids genre IDs (including Romance & TV Movie)
-    const adultGenres = [99, 36, 80, 10752, 27, 53, 10749, 10770];
+    const adultGenres = [99, 36, 80, 10752, 27, 53, 10749, 10770, 18];
     if (m.genre_ids?.some((gId) => adultGenres.includes(gId))) {
       return null;
     }
 
-    const { usDate, imdb_id, original_language } = await fetchMovieDetails(m.id);
+    const { usDate, certification, imdb_id, original_language, genres } = await fetchMovieDetails(m.id);
 
-    // Verify fetched movie details also report English
+    // STRICT RULE: Certification MUST be in ALLOWED_CERTIFICATIONS (G, PG, TV-Y, TV-Y7, TV-G, TV-PG)
+    // Automatically drops NR, Unrated, PG-13, R, TV-MA, etc.
+    if (!certification || !ALLOWED_CERTIFICATIONS.has(certification)) {
+      return null;
+    }
+
+    if (genres.some((gId) => adultGenres.includes(gId))) {
+      return null;
+    }
+
     if (original_language && original_language !== "en") {
       return null;
     }
@@ -208,7 +220,7 @@ async function fetchMovies() {
 }
 
 // ===============================
-// META BUILDER
+// META BUILDER & BUILD EXECUTOR
 // ===============================
 async function buildMeta(id) {
   const tmdbId = id.startsWith("tmdb:") ? id.split(":")[1] : null;
@@ -255,11 +267,8 @@ async function buildMeta(id) {
   };
 }
 
-// ===============================
-// BUILD
-// ===============================
 async function build() {
-  console.log("Fetching English kids movies…");
+  console.log("Fetching strictly rated kids movies (G, PG, TV-Y/Y7/G/PG)…");
 
   const movies = await fetchMovies();
 
@@ -283,7 +292,7 @@ async function build() {
     );
   }
 
-  console.log(`Done. Saved ${movies.length} English kids movies.`);
+  console.log(`Done. Saved ${movies.length} rated kids movies.`);
 }
 
 build();
