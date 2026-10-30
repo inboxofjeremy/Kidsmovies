@@ -185,30 +185,6 @@
       "releaseInfo": "2026-06-05"
     },
     {
-      "id": "tt41367695",
-      "type": "movie",
-      "name": "Propeller One-Way Night Coach",
-      "description": "During the golden age of aviation, a young airplane enthusiast and his mother embark on a cross-country journey to Hollywood—and their simple flight transforms into the trip of a lifetime.",
-      "poster": "https://image.tmdb.org/t/p/w500/joal4OSVC4T1yFb3kph91tkNNFf.jpg",
-      "releaseInfo": "2026-05-28"
-    },
-    {
-      "id": "tt2467700",
-      "type": "movie",
-      "name": "Animal Farm",
-      "description": "A group of farm animals rise up against their neglectful owner, dreaming of equality and freedom. But as the pigs take control, the revolution turns into tyranny, with truth rewritten and dissent crushed.",
-      "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
-      "releaseInfo": "2026-05-26"
-    },
-    {
-      "id": "tt39183773",
-      "type": "movie",
-      "name": "Paper Trail",
-      "description": "A life, seen through paper.",
-      "poster": "https://image.tmdb.org/t/p/w500/AiurfAE3tMx0wFg7uwnFrE3JaR9.jpg",
-      "releaseInfo": "2026-05-20"
-    },
-    {
       "id": "tt28650488",
       "type": "movie",
       "name": "The Super Mario Galaxy Movie",
@@ -233,52 +209,12 @@
       "releaseInfo": "2026-05-01"
     },
     {
-      "id": "tt18310498",
-      "type": "movie",
-      "name": "Mars",
-      "description": "A ragtag group of misfits embark on a wild space adventure to Mars, only to discover they’ve been bamboozled by a billionaire.",
-      "poster": "https://image.tmdb.org/t/p/w500/rJdT3kiG2q0CAnPNKkldIG7McqG.jpg",
-      "releaseInfo": "2026-05-01"
-    },
-    {
       "id": "tt26443616",
       "type": "movie",
       "name": "Hoppers",
       "description": "Scientists have discovered how to 'hop' human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals. Animal lover Mabel seizes an opportunity to use the technology, uncovering mysteries within the animal world beyond anything she could have imagined.",
       "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
       "releaseInfo": "2026-04-28"
-    },
-    {
-      "id": "tt27752111",
-      "type": "movie",
-      "name": "The Mountain",
-      "description": "Sam, a fearless young girl raised outside of her Māori culture, is determined to fulfill her mission of connecting with her mountain. She hopes it can heal her from the cancer she is battling. Along the way, she meets some misfits and new kids in town, and together they journey through a difficult route, discovering the true spirit of adventure and the magic of friendship.",
-      "poster": "https://image.tmdb.org/t/p/w500/dIvD6THx7hIatXWFMaaAJr3fpwV.jpg",
-      "releaseInfo": "2026-04-24"
-    },
-    {
-      "id": "tt37930376",
-      "type": "movie",
-      "name": "Krypto Saves the Day!: Coastal Catastrophe",
-      "description": "A fun day at the beach goes sideways when some sneaky foes get between Krypto and his hot dog.",
-      "poster": "https://image.tmdb.org/t/p/w500/hkf0Oty4U32n9f078QU48UAAUpL.jpg",
-      "releaseInfo": "2026-04-18"
-    },
-    {
-      "id": "tt3517106",
-      "type": "movie",
-      "name": "The Land of Sometimes",
-      "description": "Twins Alfie and Elise find a magical Wish Watch on Christmas Eve and are swept by the Wish Collector into the musical Land of Sometimes, where they learn that wishes have consequences.",
-      "poster": "https://image.tmdb.org/t/p/w500/uEZAx4Rk42hv8bfrXC9pyQPWErw.jpg",
-      "releaseInfo": "2026-04-07"
-    },
-    {
-      "id": "tt37976405",
-      "type": "movie",
-      "name": "Versa",
-      "description": "A young couple looking to start a family who experience emotions—from grief and loss to ultimate joy—as they embark on an ethereal, abstract, and imaginative cosmic dance of life.",
-      "poster": "https://image.tmdb.org/t/p/w500/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
-      "releaseInfo": "2026-03-27"
     },
     {
       "id": "tt27613895",
@@ -337,14 +273,6 @@
       "releaseInfo": "2026-01-16"
     },
     {
-      "id": "tt5181260",
-      "type": "movie",
-      "name": "The Unbreakable Boy",
-      "description": "When Scott and Teresa LeRette learn that their son Austin is both autistic and has brittle bone disease, they initially worry for their son’s future. But with Scott’s growing faith and Austin’s incredible spirit, they become 'unbreakable', finding joy, gratitude, and courage even in the most trying times.",
-      "poster": "https://image.tmdb.org/t/p/w500/ob1cuQzzggELGtWx5TchixKsBVn.jpg",
-      "releaseInfo": "2026-01-01"
-    },
-    {
       "id": "tt37751253",
       "type": "movie",
       "name": "Diary of a Wimpy Kid: The Last Straw",
@@ -369,28 +297,12 @@
       "releaseInfo": "2025-11-29"
     },
     {
-      "id": "tt37930374",
-      "type": "movie",
-      "name": "Krypto Saves the Day!: Package Pandemonium",
-      "description": "Krypto smells something special in a holiday package, and in his eagerness to grab the gift he makes a mess of Metropolis's festivities.",
-      "poster": null,
-      "releaseInfo": "2025-11-28"
-    },
-    {
       "id": "tt32594892",
       "type": "movie",
       "name": "Prep & Landing: The Snowball Protocol",
       "description": "Christmas elves Lanny and Wayne panic when their holiday missions go awry, leaving Wayne thinking he's in BIG trouble with Santa and accidentally revealing other merry mishaps.",
       "poster": "https://image.tmdb.org/t/p/w500/olbxBEAGaYCgyi2EEecuwa5tuUl.jpg",
       "releaseInfo": "2025-11-28"
-    },
-    {
-      "id": "tt38721186",
-      "type": "movie",
-      "name": "A Loud House Christmas Movie: Naughty or Nice",
-      "description": "Desperate to get off Santa's Naughty List before Christmas, Lincoln resorts to hacking into the North Pole computers and putting himself on the nice list. But when the hack gets out of control, he ends up reversing the Naughty\\/Nice lists around the world and turning the North Pole itself Naughty. Lincoln enlists his family to go to the North Pole and try to fix the mess he made. Teaming up with his new frenemy, Duncan, the elf who first put him on the naughty list, Lincoln and the Louds must battle a now evil Santa and his minions to save Christmas.",
-      "poster": "https://image.tmdb.org/t/p/w500/x8etkE8pdopoHx8B8PJrinU01Wz.jpg",
-      "releaseInfo": "2025-11-21"
     },
     {
       "id": "tt26720001",
@@ -401,28 +313,12 @@
       "releaseInfo": "2025-11-18"
     },
     {
-      "id": "tt29781139",
-      "type": "movie",
-      "name": "Lesbian Space Princess",
-      "description": "A space princess is thrust out of her sheltered life into a galactic quest to save her bounty hunter ex-girlfriend from the straight white maliens.",
-      "poster": "https://image.tmdb.org/t/p/w500/bmf6spk0WZ10lz4eAK95P1zRB4F.jpg",
-      "releaseInfo": "2025-11-18"
-    },
-    {
       "id": "tt27604215",
       "type": "movie",
       "name": "In Your Dreams",
       "description": "Stevie and her little brother Elliot journey into the wildly absurd landscape of their own dreams to ask the Sandman to grant them the perfect family.",
       "poster": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
       "releaseInfo": "2025-11-14"
-    },
-    {
-      "id": "tt24659406",
-      "type": "movie",
-      "name": "SuperKlaus",
-      "description": "Santa Claus's wish comes true when he accidentally bumps his head and starts believing he's SuperKlaus. With the help of Billie and Leo his elf-xecutive assistant, SuperKlaus will take on a toy-obsessed businessman to save Christmas.",
-      "poster": "https://image.tmdb.org/t/p/w500/8sgc5TA8xsi4wpKrf7XrFKscujQ.jpg",
-      "releaseInfo": "2025-11-11"
     },
     {
       "id": "tt38909003",
@@ -473,14 +369,6 @@
       "releaseInfo": "2025-10-14"
     },
     {
-      "id": "tt33235979",
-      "type": "movie",
-      "name": "Light of the World",
-      "description": "It's 30 AD and everyone is expectantly awaiting the coming Messiah. While Jesus isn't exactly what they imagined, there is something special about this man. Soon, John, James, Andrew, Peter, and others begin to follow Jesus on an unexpected adventure. This beautifully animated story of Jesus is told through the eyes of his beloved young friend, the Apostle John.",
-      "poster": "https://image.tmdb.org/t/p/w500/lngk84juVGt3BuxcNEwP74JmX7b.jpg",
-      "releaseInfo": "2025-10-14"
-    },
-    {
       "id": "tt31956415",
       "type": "movie",
       "name": "Freakier Friday",
@@ -527,14 +415,6 @@
       "description": "When Papa Smurf is mysteriously taken by evil wizards, Razamel and Gargamel, Smurfette leads the Smurfs on a mission into the real world to save him. With the help of new friends, the Smurfs must discover what defines their destiny to save the universe.",
       "poster": "https://image.tmdb.org/t/p/w500/8o6lkhL32xQJeB52IIG1us5BVey.jpg",
       "releaseInfo": "2025-08-12"
-    },
-    {
-      "id": "tt34107852",
-      "type": "movie",
-      "name": "The Wildman of Shaggy Creek",
-      "description": "When a young boy discovers a Bigfoot monster may be lurking in the woods behind his house, he must face his fear to uncover the truth.",
-      "poster": "https://image.tmdb.org/t/p/w500/A4UTvIqVp2XKtqy0P2fTDFo1wnc.jpg",
-      "releaseInfo": "2025-08-01"
     },
     {
       "id": "tt11655566",
@@ -593,28 +473,12 @@
       "releaseInfo": "2025-06-20"
     },
     {
-      "id": "tt16983588",
-      "type": "movie",
-      "name": "Maxxie LaWow: Drag Super-shero",
-      "description": "A shy barista stumbles upon a magical pink wig that transforms him into a fearless drag super-shero. But when a villainous queen starts kidnapping drag performers to steal their magical tears, he must step into the spotlight, embrace his power, and lip-sync for their lives in a high-flying, show-stopping battle for the ages!",
-      "poster": "https://image.tmdb.org/t/p/w500/fJmKlh201Aoopi4VsHCaxAkEpEC.jpg",
-      "releaseInfo": "2025-06-17"
-    },
-    {
       "id": "tt28322249",
       "type": "movie",
       "name": "F+",
       "description": "A group of young teenagers plan the perfect heist by breaking into their middle school to change their failing test grades.",
       "poster": "https://image.tmdb.org/t/p/w500/f0qeTgIcGZ6s3jz5xg8PQ7K0MZO.jpg",
       "releaseInfo": "2025-06-06"
-    },
-    {
-      "id": "tt3975726",
-      "type": "movie",
-      "name": "Book of Joshua: Walls of Jericho",
-      "description": "Led by Joshua, the Israelites abide by God's battle plan and witness the collapse of the mighty walls of Jericho, revealing the power of unwavering faith.",
-      "poster": "https://image.tmdb.org/t/p/w500/zu54drUl5ZPSTrTOHSuFnImMz4A.jpg",
-      "releaseInfo": "2025-06-03"
     },
     {
       "id": "tt36789845",
@@ -697,14 +561,6 @@
       "releaseInfo": "2025-03-14"
     },
     {
-      "id": "tt30495680",
-      "type": "movie",
-      "name": "Return to Wickensburg",
-      "description": "Mr. Hexenmeister has escaped from prison, and once again threatens Wickensburg. It's a race against time to find an ancient orb, capable of destroying the entire town, before it falls into the wrong hands.",
-      "poster": "https://image.tmdb.org/t/p/w500/hMXaZ56dh2XyYUGTaVXnjfoSP2H.jpg",
-      "releaseInfo": "2025-03-01"
-    },
-    {
       "id": "tt10954718",
       "type": "movie",
       "name": "Dog Man",
@@ -769,14 +625,6 @@
       "releaseInfo": "2025-01-03"
     },
     {
-      "id": "tt26731216",
-      "type": "movie",
-      "name": "The Forge",
-      "description": "19 year old Isaiah Wright lives for basketball and video games. A year out of high school, he has no job, no plans, and no idea how to be a man. At odds with his single mother Cynthia, Isaiah is given an ultimatum – to step up or move out. Feeling the pull from his friends and the push from his mom, Isaiah is hired by Moore Fitness, unaware of how the owner will personally impact his life. With the prayers of his mother and unexpected guidance from his new mentor, Isaiah is forced to deal with his past, sacrifice his selfishness and discover how God might have a greater purpose for his life.",
-      "poster": "https://image.tmdb.org/t/p/w500/oranxontIQRmhuyQlkoAwxpeBYz.jpg",
-      "releaseInfo": "2024-12-21"
-    },
-    {
       "id": "tt34791030",
       "type": "movie",
       "name": "The Simpsons: O C'mon All Ye Faithful",
@@ -791,14 +639,6 @@
       "description": "A workaholic dad, trying to win over his kids, heads to the coast of Durban for a big work meeting — under the guise of a family road trip vacation.",
       "poster": "https://image.tmdb.org/t/p/w500/pNZHImRQhSq5qEPSpDkmWLRB4RS.jpg",
       "releaseInfo": "2024-12-13"
-    },
-    {
-      "id": "tt2347285",
-      "type": "movie",
-      "name": "The Best Christmas Pageant Ever",
-      "description": "The Herdman kids are undeniably the worst kids in the history of the world. They lie, steal, cheat, bully and overall terrorize their small community. But this Christmas, they're taking over their local church Pageant – and they just might unwittingly teach a shocked little town the true meaning of Christmas.",
-      "poster": "https://image.tmdb.org/t/p/w500/6XjvhydAlXbQodoWbIf77H0Dd9R.jpg",
-      "releaseInfo": "2024-12-10"
     },
     {
       "id": "tt23941990",
@@ -831,22 +671,6 @@
       "description": "When a powerful spell turns her parents into giant monsters, a teenage princess must journey into the wild to reverse the curse before it's too late.",
       "poster": "https://image.tmdb.org/t/p/w500/4dSrwXJNKtMtlkwJPgZMkjjuHvD.jpg",
       "releaseInfo": "2024-11-22"
-    },
-    {
-      "id": "tt5012320",
-      "type": "movie",
-      "name": "Out of My Mind",
-      "description": "Melody Brooks, a sixth grader with cerebral palsy, has a quick wit and a sharp mind, but because she is non-verbal and uses a wheelchair, she is not given the same opportunities as her classmates. When a young educator notices her student's untapped potential and Melody starts to participate in mainstream education, Melody shows that what she has to say is more important than how she says it.",
-      "poster": "https://image.tmdb.org/t/p/w500/zo3DmHvUctMnIlwiJ4sz7JHH8I7.jpg",
-      "releaseInfo": "2024-11-22"
-    },
-    {
-      "id": "tt31499438",
-      "type": "movie",
-      "name": "Thomas & Friends: The Christmas Letter Express",
-      "description": "Percy discovers a child's letter to Santa Claus forgotten at the bottom of his mail van on Christmas Eve, but he is determined to make things right, even if that means tracking down Mr. Claus himself! With help from Thomas and his friends, Percy travels through dazzling parades, sweet-smelling gingerbread bakes, and snowflake flurries on a quest to deliver the letter to Santa and make a child’s Christmas Wish come true.",
-      "poster": "https://image.tmdb.org/t/p/w500/gLi0InRJqjYEnkd4H9gl00hRkvb.jpg",
-      "releaseInfo": "2024-11-19"
     },
     {
       "id": "tt24116372",
@@ -887,14 +711,6 @@
       "description": "Every year, unemployed copywriter Joe Michaels reads his wealthy friend's annual over-the-top Christmas letter, and feels like a loser. But this year's going to be different.",
       "poster": "https://image.tmdb.org/t/p/w500/boHHkwToybyAFydXcQoqAE0LQTE.jpg",
       "releaseInfo": "2024-11-12"
-    },
-    {
-      "id": "tt2965408",
-      "type": "movie",
-      "name": "Lost on a Mountain in Maine",
-      "description": "When twelve-year-old Donn Fendler gets tired of waiting for his father and brothers to join him on the summit of Maine's highest peak, he decides to find his own way back to camp. But Donn doesn't count on a fast-moving fog that obscures the path. He doesn't count on falling down an embankment that hides him from sight. And he doesn't count on taking a turn that leaves him alone to wander aimlessly for nearly two weeks in the empty mountain wilderness.",
-      "poster": "https://image.tmdb.org/t/p/w500/elKEzHpbdoTMkK0IpUKcK6x1Ttl.jpg",
-      "releaseInfo": "2024-11-01"
     },
     {
       "id": "tt13176330",
@@ -969,22 +785,6 @@
       "releaseInfo": "2024-10-01"
     },
     {
-      "id": "tt8609660",
-      "type": "movie",
-      "name": "My Penguin Friend",
-      "description": "A lost penguin rescued from an oil spill transforms the life of a heartbroken fisherman. They become unlikely friends, so bonded that even the vast ocean cannot divide them.",
-      "poster": "https://image.tmdb.org/t/p/w500/65ll0fwaCMDHuD5XMJk4f4Olc5b.jpg",
-      "releaseInfo": "2024-10-01"
-    },
-    {
-      "id": "tt15685360",
-      "type": "movie",
-      "name": "You Gotta Believe",
-      "description": "After dedicating the season to a teammate’s ailing father, a group of underestimated Ft. Worth youth baseball players takes its Cinderella run all the way to the 2002 Little League World Series—culminating in a record-breaking showdown that became an instant ESPN classic.",
-      "poster": "https://image.tmdb.org/t/p/w500/l4X9SeMFCv414BCt97IBgzYX7JC.jpg",
-      "releaseInfo": "2024-09-17"
-    },
-    {
       "id": "tt26445481",
       "type": "movie",
       "name": "The Magician's Raincoat",
@@ -1041,22 +841,6 @@
       "releaseInfo": "2024-08-15"
     },
     {
-      "id": "tt33070534",
-      "type": "movie",
-      "name": "Benny's Birthday",
-      "description": "Benny finds himself trapped in a time loop of a Minion-style birthday party, encountering uproarious mischief at every turn.",
-      "poster": "https://image.tmdb.org/t/p/w500/f7JdGZEZEUizD8f15s1UKmvZ8Z8.jpg",
-      "releaseInfo": "2024-08-06"
-    },
-    {
-      "id": "tt33070526",
-      "type": "movie",
-      "name": "Game Over and Over",
-      "description": "After stumbling upon a powered-up game controller inside Gru’s lair, the mischievous Minions discover its ability to control one another, unleashing mayhem as they compete for high scores.",
-      "poster": "https://image.tmdb.org/t/p/w500/4KXqJM4omxijYck63F0lGgf8EGk.jpg",
-      "releaseInfo": "2024-08-06"
-    },
-    {
       "id": "tt7510222",
       "type": "movie",
       "name": "Despicable Me 4",
@@ -1095,14 +879,6 @@
       "description": "Lincoln and the Louds are ecstatic to welcome their new Gran-Gran, Myrtle, into the family with a tropical wedding celebration; but the festivities are cut short when an old nemesis from Myrtle's secret agent past appears on the island.",
       "poster": "https://image.tmdb.org/t/p/w500/mh4Mk95u7fdY4D4t5kRGQpQbVFy.jpg",
       "releaseInfo": "2024-06-21"
-    },
-    {
-      "id": "tt20255354",
-      "type": "movie",
-      "name": "The Present",
-      "description": "A brilliant boy discovers he can manipulate time using an enchanted family heirloom, then teaming up with his siblings to go back to the eve of their parents’ separation in hopes of changing the outcome. As their schemes become more elaborate, the siblings will learn about family bonds and what they can and can’t control.",
-      "poster": "https://image.tmdb.org/t/p/w500/mRXPjCNFbXVXmaqHItMHDUPaxvK.jpg",
-      "releaseInfo": "2024-06-18"
     },
     {
       "id": "tt11152168",
@@ -1161,38 +937,6 @@
       "releaseInfo": "2024-05-10"
     },
     {
-      "id": "tt31946567",
-      "type": "movie",
-      "name": "Red vs. Blue: Restoration",
-      "description": "When the universe's greatest villain returns in a terrifying new form, old adversaries, the Reds and Blues of Blood Gulch, will have to set aside their differences to save the galaxy one last time.",
-      "poster": "https://image.tmdb.org/t/p/w500/6NqsWAedQu3MsREhQlB0SyFobQR.jpg",
-      "releaseInfo": "2024-05-07"
-    },
-    {
-      "id": "tt7738330",
-      "type": "movie",
-      "name": "The Long Game",
-      "description": "In a segregated Texas, five Mexican-American teenage caddies were prohibited from playing at the country club where they worked. Against all odds, they formed their own team, built a one-hole course in the fields, and won the 1957 Texas State championship. Based on a true story.",
-      "poster": "https://image.tmdb.org/t/p/w500/inta4LBe5fJsjgsZjCT6nxjSHso.jpg",
-      "releaseInfo": "2024-04-30"
-    },
-    {
-      "id": "tt23638614",
-      "type": "movie",
-      "name": "Unsung Hero",
-      "description": "When David Smallbone's successful music company collapses, he moves his family from Australia to the United States in search of a brighter future. With nothing more than their six children, their suitcases, and their love of music, David and his pregnant wife Helen set out to rebuild their lives from the ground up. Based on a remarkable true story, a mum's faith stands against all odds; and inspires her husband and children to hold onto theirs.",
-      "poster": "https://image.tmdb.org/t/p/w500/mtkAdP8l8Hx9bIF2JChLdpy3VQL.jpg",
-      "releaseInfo": "2024-04-26"
-    },
-    {
-      "id": "tt10294634",
-      "type": "movie",
-      "name": "Wildfire: The Legend of the Cherokee Ghost Horse",
-      "description": "Emotionally lost and distraught following the death of her father, young Samantha finds peace from the attentions she receives from a mysterious wild horse that seems to be following her as she walks home from school each day.",
-      "poster": "https://image.tmdb.org/t/p/w500/rfPXwD2vu7x3gxMRKY6iUX2g8r4.jpg",
-      "releaseInfo": "2024-04-19"
-    },
-    {
       "id": "tt26700853",
       "type": "movie",
       "name": "Puffin Rock and the New Friends",
@@ -1225,14 +969,6 @@
       "releaseInfo": "2024-04-09"
     },
     {
-      "id": "tt27369002",
-      "type": "movie",
-      "name": "The Spider Within: A Spider-Verse Story",
-      "description": "After a particularly challenging day, Miles experiences a panic attack that forces him to confront the manifestations of his anxiety and learn that reaching out for help can be just as brave an act as protecting his city from evil.",
-      "poster": "https://image.tmdb.org/t/p/w500/2xlk27ZW2WI6Q77SLEmwhUpz190.jpg",
-      "releaseInfo": "2024-03-27"
-    },
-    {
       "id": "tt31123288",
       "type": "movie",
       "name": "The Casagrandes Movie",
@@ -1247,14 +983,6 @@
       "description": "Twins Phoebe and Max are enjoying their superhero lifestyle, but when one 'save' goes awry, the Thundermans are sent back to Hiddenville. While Hank and Barb enjoy their return, and Billy and Nora look forward to a normal high school life, Max and Phoebe are determined to regain their superhero status.",
       "poster": "https://image.tmdb.org/t/p/w500/2J5eeroLDY0d45mVjpuGhcLZs3W.jpg",
       "releaseInfo": "2024-03-07"
-    },
-    {
-      "id": "tt31408354",
-      "type": "movie",
-      "name": "GRUFF",
-      "description": "GRUFF is a handmade, paper short film that tells the story of a daughter, mother, and grandfather and how love is conveyed in different ways.",
-      "poster": "https://image.tmdb.org/t/p/w500/zdAY7FJEztHh2ixuNpykUgA9K83.jpg",
-      "releaseInfo": "2024-03-01"
     },
     {
       "id": "tt31122323",
@@ -1369,22 +1097,6 @@
       "releaseInfo": "2023-12-13"
     },
     {
-      "id": "tt15332976",
-      "type": "movie",
-      "name": "I Can",
-      "description": "A couple's adulterous affair leads to an unexpected pregnancy. They leave their spouses to begin a new life together, but their daughter Katelyn is born with a birth defect: only one fully developed arm. Although her dad believes Katelyn's condition is God’s punishment for the affair, Katelyn defies all odds with an incredible gift for softball.",
-      "poster": "https://image.tmdb.org/t/p/w500/yTR6lnN6BDarUqOD7N3BDrSydB1.jpg",
-      "releaseInfo": "2023-12-12"
-    },
-    {
-      "id": "tt15084854",
-      "type": "movie",
-      "name": "Baby Shark's Big Movie",
-      "description": "Baby Shark is forced to leave the world he loves behind after his family’s move to the big city, and must adjust to his new life without his best friend, William. When Baby Shark encounters an evil pop starfish named Stariana who plans to steal his gift of song in order to dominate all underwater music, he must break her spell to restore harmony to the seas.",
-      "poster": "https://image.tmdb.org/t/p/w500/pF9Y5H5x94Tuo6xAZBCrGG8Wvq5.jpg",
-      "releaseInfo": "2023-12-08"
-    },
-    {
       "id": "tt15352516",
       "type": "movie",
       "name": "Merry Little Batman",
@@ -1398,14 +1110,6 @@
       "name": "Diary of a Wimpy Kid Christmas: Cabin Fever",
       "description": "A hilarious and heartfelt holiday tale centered around everyone's favorite disaster-prone middle school student, Greg Heffley, which finds him desperately fighting to stay off Santa's naughty list as the family prepares for a major winter snowstorm.",
       "poster": "https://image.tmdb.org/t/p/w500/CgWUleumTXrFL6AsQKjpcuwWyN.jpg",
-      "releaseInfo": "2023-12-08"
-    },
-    {
-      "id": "tt13848804",
-      "type": "movie",
-      "name": "Journey to Bethlehem",
-      "description": "A young woman carrying an unimaginable responsibility. A young man torn between love and honor. A jealous king who will stop at nothing to keep his crown.",
-      "poster": "https://image.tmdb.org/t/p/w500/cJgF1vjiNoRAh5UePmiPfjrw6Iv.jpg",
       "releaseInfo": "2023-12-08"
     },
     {
@@ -1505,14 +1209,6 @@
       "releaseInfo": "2023-10-31"
     },
     {
-      "id": "tt29621035",
-      "type": "movie",
-      "name": "Young David",
-      "description": "In the quiet hills of Bethlehem, a shepherd boy named David finds meaning in every melody and strength in every trial. Follow the early adventures of Israel’s future king as he learns courage in the fields, kindness through friendship, and faith in the face of fear. Each story reveals the humble beginnings of a legend whose greatest victories began long before the battlefield.",
-      "poster": "https://image.tmdb.org/t/p/w500/dYaySKBEiuzXPLRjQWcCOExOhAz.jpg",
-      "releaseInfo": "2023-10-27"
-    },
-    {
       "id": "tt28477867",
       "type": "movie",
       "name": "LEGO Marvel Avengers: Code Red",
@@ -1529,14 +1225,6 @@
       "releaseInfo": "2023-10-24"
     },
     {
-      "id": "tt29568123",
-      "type": "movie",
-      "name": "Thomas & Friends: The Great Bubbly Build",
-      "description": "When Sandy and Carly set out to make an art project together, Sandy focuses on its form and Carly focuses on its function. But when their ideas clash and the project fails, they learn that it needs the right mix of both of their ideas to succeed.",
-      "poster": "https://image.tmdb.org/t/p/w500/vc1w9SpkHJ1nIrvlH9FYBHWNUJO.jpg",
-      "releaseInfo": "2023-10-20"
-    },
-    {
       "id": "tt29277717",
       "type": "movie",
       "name": "Peter & the Wolf",
@@ -1551,14 +1239,6 @@
       "description": "On the heels of successfully escaping a deadly digital trap, the members of the Justice League emerge in their own world to discover that Grimm, ravenous creatures from Remnant, have overtaken Earth! In order to defeat the monsters, they must call on their new friends – Team RWBY – for help!",
       "poster": "https://image.tmdb.org/t/p/w500/o9qmCvnJLCqMuKsrZ0tWvSCEWTz.jpg",
       "releaseInfo": "2023-10-17"
-    },
-    {
-      "id": "tt28035641",
-      "type": "movie",
-      "name": "Once Upon a Studio",
-      "description": "Created for Disney's 100th anniversary, the short features Mickey Mouse corralling a gallery of legendary Disney characters for a group photo.",
-      "poster": "https://image.tmdb.org/t/p/w500/aiy3G1cYWV3LgKZHY6a3jL8bjYL.jpg",
-      "releaseInfo": "2023-10-16"
     },
     {
       "id": "tt4556264",
@@ -1593,14 +1273,6 @@
       "releaseInfo": "2023-09-29"
     },
     {
-      "id": "tt28508231",
-      "type": "movie",
-      "name": "Scooby-Doo! and Krypto, Too!",
-      "description": "When the Justice League goes missing and villains overrun Metropolis, there's only one team that can solve this mystery: Scooby-Doo and the gang! But wait, there's a new dog in town – Krypto – Superman's Superdog with Super Powers. Mystery Inc. will need all the help it can get when phantoms menace the Justice League's headquarters.",
-      "poster": "https://image.tmdb.org/t/p/w500/ntMOnvlYYnio7Fx3xqBu9B1Sz7f.jpg",
-      "releaseInfo": "2023-09-26"
-    },
-    {
       "id": "tt13978520",
       "type": "movie",
       "name": "Spy Kids: Armageddon",
@@ -1623,14 +1295,6 @@
       "description": "After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers through heroic acts. Their new friend April O'Neil helps them take on a mysterious crime syndicate, but they soon get in over their heads when an army of mutants is unleashed upon them.",
       "poster": "https://image.tmdb.org/t/p/w500/gyh0eECE2IqrW8GWl3KoHBfc45j.jpg",
       "releaseInfo": "2023-09-01"
-    },
-    {
-      "id": "tt7517142",
-      "type": "movie",
-      "name": "Too Much Life",
-      "description": "Harper Hudson is smart, popular, and set to be Student Body President—until her best friend runs against her. Chaos ensues as she destroys the school’s plumeria tree, loses her “fake” boyfriend, and risks exposure by a reporter. Can Harper face the truth?",
-      "poster": "https://image.tmdb.org/t/p/w500/rWKfWO1oyFCktXnh3qYGcvksT5e.jpg",
-      "releaseInfo": "2023-08-19"
     },
     {
       "id": "tt28477869",
@@ -1713,28 +1377,12 @@
       "releaseInfo": "2023-06-23"
     },
     {
-      "id": "tt23836278",
-      "type": "movie",
-      "name": "God's Country Song",
-      "description": "An aspiring country singer chasing stardom learns he has a young son he never knew about, forcing him to confront his drinking, fractured family relationships, and the kind of man and father he is meant to become.",
-      "poster": "https://image.tmdb.org/t/p/w500/yseigOgQaXpyflaprAkE2Qg2Zuw.jpg",
-      "releaseInfo": "2023-06-16"
-    },
-    {
       "id": "tt14799576",
       "type": "movie",
       "name": "The Secret Kingdom",
       "description": "Verity and Peter’s trip to the old family mansion takes a turn when the floor of their room suddenly gives way and they fall into an underground chamber where they are met by a civilization of creatures. The leader tells them that Peter's arrival was foretold as he’s the one who can use Great Clock of the Citadel to restart time and destroy the Shroud, a malevolent creature who feeds on fear itself...",
       "poster": "https://image.tmdb.org/t/p/w500/dteXMzVY53GBHUgrR7vigAartsP.jpg",
       "releaseInfo": "2023-06-09"
-    },
-    {
-      "id": "tt6435164",
-      "type": "movie",
-      "name": "My Love Affair with Marriage",
-      "description": "From an early age, songs and fairytales convinced Zelma that Love would solve all her problems as long as she abided by societal expectations of how a girl should act. But as she grew older something didn't seem right with the concept of love: the more she tried to conform, the more her body resisted. A story about the acceptance of the inner female rebellion.",
-      "poster": "https://image.tmdb.org/t/p/w500/utJBQxzoJFlOS3ZAV16uuWFcU5b.jpg",
-      "releaseInfo": "2023-06-07"
     },
     {
       "id": "tt26341934",
@@ -1809,14 +1457,6 @@
       "releaseInfo": "2023-04-25"
     },
     {
-      "id": "tmdb:1145101",
-      "type": "movie",
-      "name": "Lady Jellyfish",
-      "description": "A story of a recent graduate's perplexity and escape.",
-      "poster": "https://image.tmdb.org/t/p/w500/xh8IquduxBBcRHoEdNJQEJpCDxb.jpg",
-      "releaseInfo": "2023-04-24"
-    },
-    {
       "id": "tt23219684",
       "type": "movie",
       "name": "Mighty Morphin Power Rangers: Once & Always",
@@ -1849,14 +1489,6 @@
       "releaseInfo": "2023-03-21"
     },
     {
-      "id": "tt14570572",
-      "type": "movie",
-      "name": "Making Him Famous",
-      "description": "Mario King (Vonii Bristow) is an inspirational speaker in the constant pursuit of fame. Though his grandfather (Cameron Arnett) always instilled the importance of living a life of integrity, Mario's affluent lifestyle leads to temptation, sending him down a path of destruction fueled by his own greed and arrogance.  Disgraced and humiliated, Mario picks up a delivery job in a small town in North Carolina hoping to make ends meet. When a speeding ticket threatens his livelihood and freedom, Mario must take on community service work at Safe Harbor homeless shelter.  While reluctant at first, Mario soon finds his calling in helping others with the encouragement of Olivia McBride (Morgan Graham) and Steven Young (Cornelius Muller). As Mario re-discovers the true meaning of \"making Him famous,\" he begins to feel as if his past life is pulling him back.",
-      "poster": "https://image.tmdb.org/t/p/w500/2mVJuVYyIEyGwwJ7oINxK77yBmh.jpg",
-      "releaseInfo": "2023-03-17"
-    },
-    {
       "id": "tt2560092",
       "type": "movie",
       "name": "The Magician's Elephant",
@@ -1871,14 +1503,6 @@
       "description": "When her babysitting business takes a hit, Skipper takes a summer job at the water park. Here she can quickly put her skills as a nanny to good use.",
       "poster": "https://image.tmdb.org/t/p/w500/dBeIdkiWzWhH5JynDvCDpwAqbY5.jpg",
       "releaseInfo": "2023-03-16"
-    },
-    {
-      "id": "tt13650494",
-      "type": "movie",
-      "name": "Chang Can Dunk",
-      "description": "Chang, a 16-year-old, Asian American, bets the high school basketball star that he can dunk by Homecoming. The bet leads 5' 8\" Chang on a quest to learn to dunk—not only to impress his crush, Kristy, but to gain the respect of his high school peers too. But before he can rise up and truly throw one down, he'll have to reexamine everything he knows about himself, his friendships and his family.",
-      "poster": "https://image.tmdb.org/t/p/w500/ohaIkrTd47z43IuLlwwNg7bi96c.jpg",
-      "releaseInfo": "2023-03-10"
     },
     {
       "id": "tt14399126",
@@ -1897,44 +1521,12 @@
       "releaseInfo": "2023-02-28"
     },
     {
-      "id": "tt19386904",
-      "type": "movie",
-      "name": "Heart of a Champion",
-      "description": "A 14-year-old coping with the divorce of her parents, a new school and typical teenage growing pains finds purpose and pride in a lost horse she cares for and trains for a state competition.",
-      "poster": "https://image.tmdb.org/t/p/w500/ag2oRLkgubAVDvJjWPi5mh4j0QZ.jpg",
-      "releaseInfo": "2023-02-21"
-    },
-    {
-      "id": "tt17663790",
-      "type": "movie",
-      "name": "My Year of Dicks",
-      "description": "An imaginative 15-year-old is stubbornly determined to lose her virginity despite the pathetic pickings in the outskirts of Houston in the early '90s.",
-      "poster": "https://image.tmdb.org/t/p/w500/pJDxugqyIjvwrhQdnYuCeMzEpAu.jpg",
-      "releaseInfo": "2023-02-17"
-    },
-    {
       "id": "tt10473036",
       "type": "movie",
       "name": "The Amazing Maurice",
       "description": "Maurice is a streetwise ginger cat who comes up with a money-making scam by befriending a group of self-taught talking rats. When Maurice and the rodents meet a bookworm called Malicia, their little con soon goes down the drain.",
       "poster": "https://image.tmdb.org/t/p/w500/ydhZeUjbzVEFclUpMhLfDZSavUY.jpg",
       "releaseInfo": "2023-02-03"
-    },
-    {
-      "id": "tt11207270",
-      "type": "movie",
-      "name": "Rock Dog 3: Battle the Beat",
-      "description": "After touring the world, Bodi takes some time off and returns to his village. When he learns that the girl group, K-9, doesn't know who rock legend Angus Scattergood is, he is compelled to join the musical competition show, “Battle the Beat,” to inspire a new generation of rock stars. But after joining the show, Bodi quickly realizes he has bitten off more than he can chew when he becomes an overnight TV personality sensation.",
-      "poster": "https://image.tmdb.org/t/p/w500/39Hr1FKfqqvx0umS60PCCWtBOKd.jpg",
-      "releaseInfo": "2023-01-24"
-    },
-    {
-      "id": "tt15334430",
-      "type": "movie",
-      "name": "Dog Gone",
-      "description": "When his beloved dog goes missing, a young man embarks on an incredible search with his parents to find him and give him life-saving medication.",
-      "poster": "https://image.tmdb.org/t/p/w500/eYWdLZCS9W1Xli9bynzFSddLx02.jpg",
-      "releaseInfo": "2023-01-13"
     },
     {
       "id": "tt3915174",
@@ -1953,28 +1545,12 @@
       "releaseInfo": "2022-12-25"
     },
     {
-      "id": "tt22667880",
-      "type": "movie",
-      "name": "The Boy, the Mole, the Fox and the Horse",
-      "description": "The unlikely friendship of a boy, a mole, a fox and a horse traveling together in the boy's search for home.",
-      "poster": "https://image.tmdb.org/t/p/w500/wAKBWRhMmBtrCCuqmFwPm2RGTph.jpg",
-      "releaseInfo": "2022-12-24"
-    },
-    {
       "id": "tt10298840",
       "type": "movie",
       "name": "Strange World",
       "description": "A journey deep into an uncharted and treacherous land, where fantastical creatures await the legendary Clades—a family of explorers whose differences threaten to topple their latest, and by far most crucial, mission.",
       "poster": "https://image.tmdb.org/t/p/w500/a9x70QUXs6uEwtin1SGNKoFXoia.jpg",
       "releaseInfo": "2022-12-22"
-    },
-    {
-      "id": "tt15481802",
-      "type": "movie",
-      "name": "Moonrise",
-      "description": "After country singer Will Brown's wife passes away, his grief sidelines his career and pushes him away from his young daughter until a bright and talented horse trainer shows him strength, forgiveness and grace to live life again",
-      "poster": "https://image.tmdb.org/t/p/w500/nOMQMIphDZuOoAkrktd22dJJnmv.jpg",
-      "releaseInfo": "2022-12-15"
     },
     {
       "id": "tt24082346",
@@ -2017,14 +1593,6 @@
       "releaseInfo": "2022-12-05"
     },
     {
-      "id": "tt19316010",
-      "type": "movie",
-      "name": "Miracle at Manchester",
-      "description": "A community comes together to organize a miracle for a teen battling terminal brain cancer while two men find their own restoration in his healing journey.",
-      "poster": "https://image.tmdb.org/t/p/w500/zxTgQaYYyBrYt5MOdbmwDo3QNHP.jpg",
-      "releaseInfo": "2022-12-03"
-    },
-    {
       "id": "tt15847828",
       "type": "movie",
       "name": "Diary of a Wimpy Kid: Rodrick Rules",
@@ -2049,14 +1617,6 @@
       "releaseInfo": "2022-12-01"
     },
     {
-      "id": "tt6666116",
-      "type": "movie",
-      "name": "Summertime Dropouts",
-      "description": "Best friends and classmates Dave, Joe, and Danny put together a pop punk band, Summertime Dropouts. Seizing the opportunity to play at Warped Tour, the guys must prepare for the big day. Between work, school, and relationships, the band comes to the realization that the road to fame isn't an easy journey.",
-      "poster": "https://image.tmdb.org/t/p/w500/jAhY7CZj2K0NT5uG90sm7I8ajlM.jpg",
-      "releaseInfo": "2022-11-29"
-    },
-    {
       "id": "tt23144072",
       "type": "movie",
       "name": "The Action Pack Saves Christmas",
@@ -2071,14 +1631,6 @@
       "description": "When young Callie Coleman discovers she can magically control her father Bobby's football performance, she transforms him from a fumble-prone journeyman into a star running back.",
       "poster": "https://image.tmdb.org/t/p/w500/lC99lme4UplMUICswlA4mfe5GNx.jpg",
       "releaseInfo": "2022-11-25"
-    },
-    {
-      "id": "tt22207152",
-      "type": "movie",
-      "name": "A Christmas Mystery",
-      "description": "When her best friend's father is falsely accused of stealing the town's prized jingle bells, a young amateur sleuth and her friends must find the real thief before Christmas.",
-      "poster": "https://image.tmdb.org/t/p/w500/7ROhQeFIRCDadpIe4C7fVi5mV1Q.jpg",
-      "releaseInfo": "2022-11-24"
     },
     {
       "id": "tt20561114",
@@ -2102,14 +1654,6 @@
       "name": "The Wonderful Autumn of Mickey Mouse",
       "description": "In a leafy hamlet, Mickey Mouse is determined to undo the failures of his family’s past after inheriting a rundown pumpkin farm from a distant relative, and the epic legend of its futility.",
       "poster": "https://image.tmdb.org/t/p/w500/zrkEy57ZMm28MinRXoM93SI7CWq.jpg",
-      "releaseInfo": "2022-11-18"
-    },
-    {
-      "id": "tt15038118",
-      "type": "movie",
-      "name": "Blue's Big City Adventure",
-      "description": "When Josh gets the opportunity of a lifetime to audition for Rainbow Puppy’s Broadway musical, Josh and Blue skidoo to NYC for the very first time where they meet new friends and discover the magic of music, dance, and following one’s dreams.",
-      "poster": "https://image.tmdb.org/t/p/w500/sAYBC3WhhiX25629HLpCvkpGk9q.jpg",
       "releaseInfo": "2022-11-18"
     },
     {
@@ -2182,14 +1726,6 @@
       "name": "Guardians of Time",
       "description": "One day, in the family manor, four cousins discover a passage to a mysterious world. Trapped in this unearthed land, the Kingdom of Keoherus, they must confront the Guardian of Time and face dark forces and beast to hopefully get home.",
       "poster": "https://image.tmdb.org/t/p/w500/hpbpga8Rkwgku5HlxgsGnOoWlvY.jpg",
-      "releaseInfo": "2022-10-11"
-    },
-    {
-      "id": "tt10580194",
-      "type": "movie",
-      "name": "Ghoster",
-      "description": "When a mysterious letter appears on the day they are being evicted, Elizabeth and her father can’t believe their luck to discover they've inherited Echoville Manor, a sprawling, thirty-seven room estate. Upon arriving, Elizabeth finds that the mansion is inhabited by the world’s cutest spirit, Ghoster, who has been trapped within a mirrored prison there for fifty years. Together, they must uncover the secrets to Echoville to free Ghoster before the nefarious Yuto captures her soul as well in his quest for immortality.",
-      "poster": "https://image.tmdb.org/t/p/w500/yWZuwxOsGyiqJy3j4YB1sFWpFxW.jpg",
       "releaseInfo": "2022-10-11"
     },
     {
