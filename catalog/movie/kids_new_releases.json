@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tt36583977",
+      "type": "movie",
+      "name": "Forgotten Island",
+      "description": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+      "poster": "https://image.tmdb.org/t/p/w500/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
+      "releaseInfo": "2026-10-27"
+    },
+    {
       "id": "tt36841161",
       "type": "movie",
       "name": "Shaun the Sheep: The Beast of Mossy Bottom",
@@ -169,6 +177,14 @@
       "releaseInfo": "2026-06-24"
     },
     {
+      "id": "tt13518550",
+      "type": "movie",
+      "name": "The Last Whale Singer",
+      "description": "When a monstrous creature escapes from a melting iceberg, a self-doubting teenage humpback whale must face his greatest fears and dive into the darkest depths with his friends, to discover the mystical song that can save the oceans from destruction.",
+      "poster": "https://image.tmdb.org/t/p/w500/yIDPrKCgiG49cULhITKxeZywISe.jpg",
+      "releaseInfo": "2026-06-05"
+    },
+    {
       "id": "tt28650488",
       "type": "movie",
       "name": "The Super Mario Galaxy Movie",
@@ -185,12 +201,28 @@
       "releaseInfo": "2026-05-05"
     },
     {
+      "id": "tt29552248",
+      "type": "movie",
+      "name": "Swapped",
+      "description": "A small woodland creature and a majestic bird, two natural sworn enemies of the Valley, magically trade places and set off on an adventure of a lifetime to switch back. Their journey soon uncovers a greater threat—one that could endanger not only their species, but the entire valley they call home.",
+      "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+      "releaseInfo": "2026-05-01"
+    },
+    {
       "id": "tt26443616",
       "type": "movie",
       "name": "Hoppers",
       "description": "Scientists have discovered how to 'hop' human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals. Animal lover Mabel seizes an opportunity to use the technology, uncovering mysteries within the animal world beyond anything she could have imagined.",
       "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
       "releaseInfo": "2026-04-28"
+    },
+    {
+      "id": "tt27613895",
+      "type": "movie",
+      "name": "GOAT",
+      "description": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world.",
+      "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+      "releaseInfo": "2026-03-24"
     },
     {
       "id": "tt12824390",
@@ -329,6 +361,22 @@
       "releaseInfo": "2025-10-16"
     },
     {
+      "id": "tt32214143",
+      "type": "movie",
+      "name": "Gabby's Dollhouse: The Movie",
+      "description": "When her beloved dollhouse is accidentally claimed by an eccentric cat lady during a road trip to Cat Francisco, Gabby embarks on a real-world adventure to reunite the Gabby Cats and rescue her most prized possession before it is too late.",
+      "poster": "https://image.tmdb.org/t/p/w500/t6LLguAmu6iZUN8pWhT7Q0IcaQ5.jpg",
+      "releaseInfo": "2025-10-14"
+    },
+    {
+      "id": "tt31956415",
+      "type": "movie",
+      "name": "Freakier Friday",
+      "description": "Years after Tess and Anna endured an identity crisis, Anna now has a daughter of her own and a soon-to-be stepdaughter. As they navigate the myriad challenges that come when two families merge, Tess and Anna discover lightning might indeed strike twice.",
+      "poster": "https://image.tmdb.org/t/p/w500/9wV65OmsjLAqBfDnYTkMPutXH8j.jpg",
+      "releaseInfo": "2025-10-07"
+    },
+    {
       "id": "tt26238710",
       "type": "movie",
       "name": "Sketch",
@@ -343,6 +391,14 @@
       "description": "After Ariel, Moana, Tiana, Rapunzel, and Snow White thwarted Gaston's plan to take over all of their kingdoms, he calls upon Ursula, Jafar, and the Evil Queen to help take the Princesses down once and for all. The Princesses learn about Gaston's scheme and recruit a few friends of their own with the help of Magic Mirror: Aurora, Belle, and Cinderella! Together, the Princesses team up for an ultimate showdown of good versus evil.",
       "poster": "https://image.tmdb.org/t/p/w500/ajcRSuv1rYbrDxnlNN5xx5H44Ft.jpg",
       "releaseInfo": "2025-08-25"
+    },
+    {
+      "id": "tt4900148",
+      "type": "movie",
+      "name": "Elio",
+      "description": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.",
+      "poster": "https://image.tmdb.org/t/p/w500/7z8jDiTZZco9moIKpTUImFtTy7o.jpg",
+      "releaseInfo": "2025-08-19"
     },
     {
       "id": "tt36988583",
@@ -415,6 +471,14 @@
       "description": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
       "poster": "https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
       "releaseInfo": "2025-06-20"
+    },
+    {
+      "id": "tt28322249",
+      "type": "movie",
+      "name": "F+",
+      "description": "A group of young teenagers plan the perfect heist by breaking into their middle school to change their failing test grades.",
+      "poster": "https://image.tmdb.org/t/p/w500/f0qeTgIcGZ6s3jz5xg8PQ7K0MZO.jpg",
+      "releaseInfo": "2025-06-06"
     },
     {
       "id": "tt36789845",
@@ -519,6 +583,14 @@
       "description": "In this extra scene from \"Descendants: The Rise of Red,\" Bridget follows her dream of spreading love and joy to all through her dance, the \"Shuffle of Love.\" Red and Chloe see how important the dance is to Bridget and offer to help perfect it in time to debut the dance at Merlin Academy’s biggest event, Castlecoming. In the euphoria of perfecting her dance for all to see, Bridget’s imagination runs wild, and her dance explodes beyond her wildest dreams… or so she thinks.",
       "poster": "https://image.tmdb.org/t/p/w500/qmwlCXNdSww6pkX0JDqGadpypoJ.jpg",
       "releaseInfo": "2025-02-13"
+    },
+    {
+      "id": "tt13622970",
+      "type": "movie",
+      "name": "Moana 2",
+      "description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+      "poster": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+      "releaseInfo": "2025-01-28"
     },
     {
       "id": "tt31909472",
@@ -705,6 +777,14 @@
       "releaseInfo": "2024-10-03"
     },
     {
+      "id": "tt21383098",
+      "type": "movie",
+      "name": "Treasure Trackers",
+      "description": "A trio of misfit middle schoolers band together to investigate their small town's mythic treasure, only to uncover a Halloween curse.",
+      "poster": "https://image.tmdb.org/t/p/w500/5vsU3Rhl2ZB7YF1pnTP5T5Aaw5M.jpg",
+      "releaseInfo": "2024-10-01"
+    },
+    {
       "id": "tt26445481",
       "type": "movie",
       "name": "The Magician's Raincoat",
@@ -735,6 +815,14 @@
       "description": "When Freddy Lupin's wayward wish transforms him into a werewolf and deposits a mischievous moon sprite on Earth, Freddy must restore the cosmic order before the earth and moon collide.",
       "poster": "https://image.tmdb.org/t/p/w500/pHGB9jN31cDNKhR0VRNZsXZkGZQ.jpg",
       "releaseInfo": "2024-08-23"
+    },
+    {
+      "id": "tt22022452",
+      "type": "movie",
+      "name": "Inside Out 2",
+      "description": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
+      "poster": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+      "releaseInfo": "2024-08-20"
     },
     {
       "id": "tt29898251",
@@ -1017,6 +1105,22 @@
       "releaseInfo": "2023-12-08"
     },
     {
+      "id": "tt29033964",
+      "type": "movie",
+      "name": "Diary of a Wimpy Kid Christmas: Cabin Fever",
+      "description": "A hilarious and heartfelt holiday tale centered around everyone's favorite disaster-prone middle school student, Greg Heffley, which finds him desperately fighting to stay off Santa's naughty list as the family prepares for a major winter snowstorm.",
+      "poster": "https://image.tmdb.org/t/p/w500/CgWUleumTXrFL6AsQKjpcuwWyN.jpg",
+      "releaseInfo": "2023-12-08"
+    },
+    {
+      "id": "tt14227048",
+      "type": "movie",
+      "name": "Family Switch",
+      "description": "When the Walker family members switch bodies with each other during a rare planetary alignment, their hilarious journey to find their way back to normal will bring them closer together than they ever thought possible.",
+      "poster": "https://image.tmdb.org/t/p/w500/g8Gwitm4CtZBSYhLeSY4Z3Xwwcg.jpg",
+      "releaseInfo": "2023-11-30"
+    },
+    {
       "id": "tt28863512",
       "type": "movie",
       "name": "The Bad Guys: A Very Bad Holiday",
@@ -1185,6 +1289,14 @@
       "releaseInfo": "2023-09-19"
     },
     {
+      "id": "tt8589698",
+      "type": "movie",
+      "name": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+      "description": "After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers through heroic acts. Their new friend April O'Neil helps them take on a mysterious crime syndicate, but they soon get in over their heads when an army of mutants is unleashed upon them.",
+      "poster": "https://image.tmdb.org/t/p/w500/gyh0eECE2IqrW8GWl3KoHBfc45j.jpg",
+      "releaseInfo": "2023-09-01"
+    },
+    {
       "id": "tt28477869",
       "type": "movie",
       "name": "Lego Disney Princess: The Castle Quest",
@@ -1233,12 +1345,36 @@
       "releaseInfo": "2023-07-20"
     },
     {
+      "id": "tt27155038",
+      "type": "movie",
+      "name": "Ruby Gillman, Teenage Kraken",
+      "description": "Ruby Gillman, a sweet and awkward high school student, discovers she's a direct descendant of the warrior kraken queens. The kraken are sworn to protect the oceans of the world against the vain, power-hungry mermaids. Destined to inherit the throne from her commanding grandmother, Ruby must use her newfound powers to protect those she loves most.",
+      "poster": "https://image.tmdb.org/t/p/w500/8ChIb3WzYAcza1vrXR56v510MWk.jpg",
+      "releaseInfo": "2023-07-18"
+    },
+    {
+      "id": "tt19500164",
+      "type": "movie",
+      "name": "Nimona",
+      "description": "A knight framed for a tragic crime teams with a scrappy, shape-shifting teen to prove his innocence.",
+      "poster": "https://image.tmdb.org/t/p/w500/2NQljeavtfl22207D1kxLpa4LS3.jpg",
+      "releaseInfo": "2023-06-30"
+    },
+    {
       "id": "tt6338856",
       "type": "movie",
       "name": "R.A.D.A.R.: The Adventures of the Bionic Dog",
       "description": "Gabe and Kylie hunt for lost pirate treasure, hoping to bring tourists to their sleepy Florida town — and save Gabe’s mom’s diner. When they find a precious sapphire, they’re helped by R.A.D.A.R., a clever dog who’s actually a robot! But the mad scientist who invented the treasure-hunting dog wants to steal him back — along with the town’s famous sapphire! Can Gabe and Kylie protect the dog, guard the jewel, and save the town?",
       "poster": "https://image.tmdb.org/t/p/w500/bS8yOrOZ8DMxW4DfrBJxvlAtkVx.jpg",
       "releaseInfo": "2023-06-27"
+    },
+    {
+      "id": "tt16023442",
+      "type": "movie",
+      "name": "World's Best",
+      "description": "Twelve-year-old mathematics genius Prem discovers his recently deceased father was a famous rapper and immediately sets out to learn more about his father’s life and passions. Empowered by imaginative hip-hop music-fueled fantasies, Prem is determined to find out if hip-hop truly is in his DNA.",
+      "poster": "https://image.tmdb.org/t/p/w500/9xvEhZZMOmLIkqe4khrtF5TkOnO.jpg",
+      "releaseInfo": "2023-06-23"
     },
     {
       "id": "tt14799576",
@@ -1281,6 +1417,14 @@
       "releaseInfo": "2023-05-12"
     },
     {
+      "id": "tt5264838",
+      "type": "movie",
+      "name": "Crater",
+      "description": "After the death of his father, a boy growing up on a lunar mining colony takes a trip to explore a legendary crater, along with his four best friends, prior to being permanently relocated to another planet.",
+      "poster": "https://image.tmdb.org/t/p/w500/n8ZpMwYT02XjpQHpSxn1eJw5Zpz.jpg",
+      "releaseInfo": "2023-05-12"
+    },
+    {
       "id": "tt27658815",
       "type": "movie",
       "name": "Maggie Simpson in \"Rogue Not Quite One\"",
@@ -1305,12 +1449,28 @@
       "releaseInfo": "2023-04-27"
     },
     {
+      "id": "tt24548912",
+      "type": "movie",
+      "name": "Justice League x RWBY: Super Heroes & Huntsmen, Part One",
+      "description": "Superman, Batman, Wonder Woman, Flash, Cyborg, Green Lantern and Vixen are transported to the strange world of Remnant and find themselves turned into teenagers. Meanwhile, Remnant heroes Ruby, Weiss, Blake and Yang must combine forces with the Justice League to uncover why their planet has been mysteriously altered before a superpowered Grimm destroys everything.",
+      "poster": "https://image.tmdb.org/t/p/w500/lCwLDdFH8oNRzUH0qgucdRGACAJ.jpg",
+      "releaseInfo": "2023-04-25"
+    },
+    {
       "id": "tt23219684",
       "type": "movie",
       "name": "Mighty Morphin Power Rangers: Once & Always",
       "description": "After tragedy strikes, an unlikely young hero takes her rightful place among the Power Rangers to face off against the team's oldest archnemesis.",
       "poster": "https://image.tmdb.org/t/p/w500/vc87upO8vcAGj9OmgH3AIz6ikKB.jpg",
       "releaseInfo": "2023-04-19"
+    },
+    {
+      "id": "tt14923260",
+      "type": "movie",
+      "name": "Chupa",
+      "description": "While visiting family in Mexico, a lonely boy befriends a mythical creature hiding on his grandfather's ranch and embarks on the adventure of a lifetime.",
+      "poster": "https://image.tmdb.org/t/p/w500/ra3xm8KFAkwK0CdbPRkfYADJYTB.jpg",
+      "releaseInfo": "2023-04-07"
     },
     {
       "id": "tt14033342",
@@ -1345,6 +1505,14 @@
       "releaseInfo": "2023-03-16"
     },
     {
+      "id": "tt14399126",
+      "type": "movie",
+      "name": "The Adventures of Jurassic Pet 2: The Lost Secret",
+      "description": "There's a new baby T. Rex in town – and his name is Junior! When Junior escapes into our world from the Land of the Dinosaurs, teenager Wendy and her friend, Curtis, must return him safely before anyone finds him.",
+      "poster": "https://image.tmdb.org/t/p/w500/wxDG3w316i5bQ4vw4qDAVE7tAR9.jpg",
+      "releaseInfo": "2023-02-28"
+    },
+    {
       "id": "tt27384764",
       "type": "movie",
       "name": "The Trident",
@@ -1375,6 +1543,14 @@
       "description": "An extraordinary young girl discovers her superpower and summons the remarkable courage, against all odds, to help others change their stories, whilst also taking charge of her own destiny. Standing up for what's right, she's met with miraculous results.",
       "poster": "https://image.tmdb.org/t/p/w500/ga8R3OiOMMgSvZ4cOj8x7prUNYZ.jpg",
       "releaseInfo": "2022-12-25"
+    },
+    {
+      "id": "tt10298840",
+      "type": "movie",
+      "name": "Strange World",
+      "description": "A journey deep into an uncharted and treacherous land, where fantastical creatures await the legendary Clades—a family of explorers whose differences threaten to topple their latest, and by far most crucial, mission.",
+      "poster": "https://image.tmdb.org/t/p/w500/a9x70QUXs6uEwtin1SGNKoFXoia.jpg",
+      "releaseInfo": "2022-12-22"
     },
     {
       "id": "tt24082346",
