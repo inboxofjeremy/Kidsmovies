@@ -329,7 +329,7 @@
       "releaseInfo": "2025-10-07"
     },
     {
-      "id": "tmdb:1319969",
+      "id": "tt26238710",
       "type": "movie",
       "name": "Sketch",
       "description": "When a young girl’s sketchbook falls into a strange pond, her drawings come to life—chaotic, real, and on the loose. As the town descends into chaos, her family must reunite and stop the monsters they never meant to unleash.",
@@ -359,6 +359,14 @@
       "description": "Music and glee fill the air as Charlie Brown and the gang head off to summer camp. First-timer Sally doesn't get what all the hype is about. But when the camp may be forced to close, they team up to save it so more kids can make their own special memories.",
       "poster": "https://image.tmdb.org/t/p/w500/kK1ugxST3tCJZjZEO37sLb4Yot5.jpg",
       "releaseInfo": "2025-08-14"
+    },
+    {
+      "id": "tt18069420",
+      "type": "movie",
+      "name": "Smurfs",
+      "description": "When Papa Smurf is mysteriously taken by evil wizards, Razamel and Gargamel, Smurfette leads the Smurfs on a mission into the real world to save him. With the help of new friends, the Smurfs must discover what defines their destiny to save the universe.",
+      "poster": "https://image.tmdb.org/t/p/w500/8o6lkhL32xQJeB52IIG1us5BVey.jpg",
+      "releaseInfo": "2025-08-12"
     },
     {
       "id": "tt11655566",
@@ -417,6 +425,14 @@
       "releaseInfo": "2025-05-29"
     },
     {
+      "id": "tt7967302",
+      "type": "movie",
+      "name": "The King of Kings",
+      "description": "Charles Dickens tells his young son Walter the greatest story ever told, and what begins as a bedtime tale becomes a life-changing journey. Through vivid imagination, the boy walks alongside Jesus, witnessing His miracles, facing His trials, and understanding His ultimate sacrifice.",
+      "poster": "https://image.tmdb.org/t/p/w500/ccw7CCIAvcZV431CP7NhHAHuiHR.jpg",
+      "releaseInfo": "2025-05-27"
+    },
+    {
       "id": "tt8866456",
       "type": "movie",
       "name": "The Legend of Ochi",
@@ -425,12 +441,60 @@
       "releaseInfo": "2025-05-20"
     },
     {
-      "id": "tmdb:1084153",
+      "id": "tt5822536",
+      "type": "movie",
+      "name": "Paddington in Peru",
+      "description": "Paddington travels to Peru to visit his beloved Aunt Lucy, who now resides at the Home for Retired Bears. With the Brown Family in tow, a thrilling adventure ensues when a mystery plunges them into an unexpected journey through the Amazon rainforest and up to the mountain peaks of Peru.",
+      "poster": "https://image.tmdb.org/t/p/w500/1ffZAucqfvQu36x1C49XfOdjuOG.jpg",
+      "releaseInfo": "2025-05-15"
+    },
+    {
+      "id": "tt3566834",
+      "type": "movie",
+      "name": "A Minecraft Movie",
+      "description": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
+      "poster": "https://image.tmdb.org/t/p/w500/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+      "releaseInfo": "2025-05-13"
+    },
+    {
+      "id": "tt6208148",
+      "type": "movie",
+      "name": "Snow White",
+      "description": "Following the benevolent King's disappearance, the Evil Queen dominated the once fair land with a cruel streak. Princess Snow White flees the castle when the Queen, in her jealousy over Snow White's inner beauty, tries to kill her. Deep into the dark woods, she stumbles upon seven magical dwarves and a young bandit named Jonathan. Together, they strive to survive the Queen's relentless pursuit and aspire to take back the kingdom.",
+      "poster": "https://image.tmdb.org/t/p/w500/oLxWocqheC8XbXbxqJ3x422j9PW.jpg",
+      "releaseInfo": "2025-05-13"
+    },
+    {
+      "id": "tt9254940",
       "type": "movie",
       "name": "Sneaks",
       "description": "When his sister is stolen by a shady collector, a pampered, custom sneaker must leave his velvet-lined box and navigate the streets of New York City with a ragtag group of streetwise footwear to bring her home.",
       "poster": "https://image.tmdb.org/t/p/w500/3SipvmtH9VOyLmII9JLs34qFfil.jpg",
       "releaseInfo": "2025-04-18"
+    },
+    {
+      "id": "tt15352542",
+      "type": "movie",
+      "name": "The Day the Earth Blew Up: A Looney Tunes Movie",
+      "description": "Porky and Daffy, the classic animated odd couple, turn into unlikely heroes when their antics at the local bubble gum factory uncover a secret alien mind control plot. Against all odds, the two are determined to save their town (and the world!)...that is if they don't drive each other crazy in the process.",
+      "poster": "https://image.tmdb.org/t/p/w500/s2lB1kaYCdGSnZX5meQCiOR6HfX.jpg",
+      "releaseInfo": "2025-04-15"
+    },
+    {
+      "id": "tt13782222",
+      "type": "movie",
+      "name": "Alexander and the Terrible, Horrible, No Good, Very Bad Road Trip",
+      "description": "Eleven-year-old Alexander and his family embark on a dream Spring Break vacation to Mexico City only to have all their plans go terribly wrong when they discover a cursed idol.",
+      "poster": "https://image.tmdb.org/t/p/w500/srOAe7Xe2KN4QZDSoALmE9T8Hh6.jpg",
+      "releaseInfo": "2025-03-28"
+    },
+    {
+      "id": "tt29362046",
+      "type": "movie",
+      "name": "The Sloth Lane",
+      "description": "After a terrifying storm destroys their home, a speedy sloth named Laura and her kooky family move to the big city in their rusted old food truck, Gordito, hoping to make their business a success. The family's delicious food catches the eye of a quick-witted cheetah who will stop at nothing to revive her failing fast-food business.",
+      "poster": "https://image.tmdb.org/t/p/w500/toBN1A9AnhoUzXyu9gaVyQVJehp.jpg",
+      "releaseInfo": "2025-03-14"
     },
     {
       "id": "tt10954718",
@@ -441,7 +505,7 @@
       "releaseInfo": "2025-02-18"
     },
     {
-      "id": "tmdb:762509",
+      "id": "tt13186482",
       "type": "movie",
       "name": "Mufasa: The Lion King",
       "description": "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.",
@@ -449,12 +513,20 @@
       "releaseInfo": "2025-02-18"
     },
     {
-      "id": "tmdb:1420763",
+      "id": "tt35599556",
       "type": "movie",
       "name": "Shuffle of Love: A Descendants Short Story",
       "description": "In this extra scene from \"Descendants: The Rise of Red,\" Bridget follows her dream of spreading love and joy to all through her dance, the \"Shuffle of Love.\" Red and Chloe see how important the dance is to Bridget and offer to help perfect it in time to debut the dance at Merlin Academy’s biggest event, Castlecoming. In the euphoria of perfecting her dance for all to see, Bridget’s imagination runs wild, and her dance explodes beyond her wildest dreams… or so she thinks.",
       "poster": "https://image.tmdb.org/t/p/w500/qmwlCXNdSww6pkX0JDqGadpypoJ.jpg",
       "releaseInfo": "2025-02-13"
+    },
+    {
+      "id": "tt13622970",
+      "type": "movie",
+      "name": "Moana 2",
+      "description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+      "poster": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+      "releaseInfo": "2025-01-28"
     },
     {
       "id": "tt31909472",
@@ -465,7 +537,7 @@
       "releaseInfo": "2025-01-21"
     },
     {
-      "id": "tmdb:939243",
+      "id": "tt18259086",
       "type": "movie",
       "name": "Sonic the Hedgehog 3",
       "description": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet.",
@@ -473,7 +545,31 @@
       "releaseInfo": "2025-01-21"
     },
     {
-      "id": "tmdb:645757",
+      "id": "tt7787524",
+      "type": "movie",
+      "name": "Henry Danger: The Movie",
+      "description": "Henry Hart meets a superfan—eager to fight crime with Kid Danger—who comes into possession of a device that can open up alternate realities. Facing a wild ride, Henry will need his best friend Jasper and his new superfan sidekick to find his way out or be stuck in another dimension forever.",
+      "poster": "https://image.tmdb.org/t/p/w500/dFWj2rOGsqSIX1PHFghbCBgpMnk.jpg",
+      "releaseInfo": "2025-01-17"
+    },
+    {
+      "id": "tt17163970",
+      "type": "movie",
+      "name": "Wallace & Gromit: Vengeance Most Fowl",
+      "description": "Gromit’s concern that Wallace is becoming too dependent on his inventions proves justified, when Wallace invents a “smart” gnome that seems to develop a mind of its own. When it emerges that a vengeful figure from the past might be masterminding things, it falls to Gromit to battle sinister forces and save his master… or Wallace may never be able to invent again!",
+      "poster": "https://image.tmdb.org/t/p/w500/jUWFSBxTOiCinPdTOh3IDUXVemZ.jpg",
+      "releaseInfo": "2025-01-03"
+    },
+    {
+      "id": "tt34608980",
+      "type": "movie",
+      "name": "Disaster Holiday",
+      "description": "A workaholic dad, trying to win over his kids, heads to the coast of Durban for a big work meeting — under the guise of a family road trip vacation.",
+      "poster": "https://image.tmdb.org/t/p/w500/pNZHImRQhSq5qEPSpDkmWLRB4RS.jpg",
+      "releaseInfo": "2024-12-13"
+    },
+    {
+      "id": "tt14855468",
       "type": "movie",
       "name": "That Christmas",
       "description": "It's an unforgettable Christmas for the townsfolk of Wellington-on-Sea when the worst snowstorm in history alters everyone's plans — including Santa's.",
@@ -481,12 +577,196 @@
       "releaseInfo": "2024-12-04"
     },
     {
-      "id": "tmdb:1355755",
+      "id": "tt34614991",
+      "type": "movie",
+      "name": "Mickey and the Very Many Christmases",
+      "description": "Mickey makes a magical wish that every day could be Christmas — but winds up having second thoughts when his wish actually comes true!",
+      "poster": "https://image.tmdb.org/t/p/w500/j8HNzRSIsiiCfSzsU1FU8U60VAd.jpg",
+      "releaseInfo": "2024-12-02"
+    },
+    {
+      "id": "tt7215232",
+      "type": "movie",
+      "name": "Spellbound",
+      "description": "When a powerful spell turns her parents into giant monsters, a teenage princess must journey into the wild to reverse the curse before it's too late.",
+      "poster": "https://image.tmdb.org/t/p/w500/4dSrwXJNKtMtlkwJPgZMkjjuHvD.jpg",
+      "releaseInfo": "2024-11-22"
+    },
+    {
+      "id": "tt32919749",
+      "type": "movie",
+      "name": "The Night Before Christmas in Wonderland",
+      "description": "It’s St Nick’s turn for an adventure down the rabbit hole. There he meets the Mad Hatter, recast as a high-fashion, reindeer-loving tea party host; the White Rabbit, an endearingly scatty and forgetful character; the Queen of Hearts, a Scrooge-esque tinsel-hater, her antagonistic sidekick, the Cheshire Cat and Alice herself, whose kindness helps St. Nick save Christmas.",
+      "poster": "https://image.tmdb.org/t/p/w500/spJJCe4rntGxu9YXDEw2r5hz5oq.jpg",
+      "releaseInfo": "2024-11-15"
+    },
+    {
+      "id": "tt33395815",
       "type": "movie",
       "name": "An Almost Christmas Story",
       "description": "A young owl meets a lost little girl in New York City. Together, they try to get home for Christmas.",
       "poster": "https://image.tmdb.org/t/p/w500/mQC3nIJ9DQ74t9vFzUjqP8eohgX.jpg",
       "releaseInfo": "2024-11-15"
+    },
+    {
+      "id": "tt34572436",
+      "type": "movie",
+      "name": "The Boy & the Octopus",
+      "description": "A young boy encounters a curious octopus while snorkeling on a seaside vacation. The persistent mollusk attaches itself to the boy’s head and becomes his constant companion.",
+      "poster": "https://image.tmdb.org/t/p/w500/4PxZT8I9M92DGpkqoj9IqjK0Rhy.jpg",
+      "releaseInfo": "2024-11-12"
+    },
+    {
+      "id": "tt13176330",
+      "type": "movie",
+      "name": "Hitpig!",
+      "description": "A porcine bounty hunter accepts his next hit: Pickles, a naive, ebullient elephant. Though he initially sets out to capture the perky pachyderm, the unlikely pair find themselves crisscrossing the globe on an adventure that brings out the best in both of them.",
+      "poster": "https://image.tmdb.org/t/p/w500/bYa20LYAZ3Q7lKXtLYybo0yWWTN.jpg",
+      "releaseInfo": "2024-11-01"
+    },
+    {
+      "id": "tt8864596",
+      "type": "movie",
+      "name": "Transformers One",
+      "description": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
+      "poster": "https://image.tmdb.org/t/p/w500/iRCgqpdVE4wyLQvGYU3ZP7pAtUc.jpg",
+      "releaseInfo": "2024-10-22"
+    },
+    {
+      "id": "tt33999453",
+      "type": "movie",
+      "name": "Sing: Thriller",
+      "description": "Buster Moon dreams up a star-studded spectacle set to Michael Jackson's \"Thriller\" in this animated short featuring characters from the hit \"Sing\" films.",
+      "poster": "https://image.tmdb.org/t/p/w500/g0PZr8TYqIhSWq1EPmTisIqfr0K.jpg",
+      "releaseInfo": "2024-10-16"
+    },
+    {
+      "id": "tt29623480",
+      "type": "movie",
+      "name": "The Wild Robot",
+      "description": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+      "poster": "https://image.tmdb.org/t/p/w500/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg",
+      "releaseInfo": "2024-10-15"
+    },
+    {
+      "id": "tt29258548",
+      "type": "movie",
+      "name": "Gracie & Pedro: Pets to the Rescue",
+      "description": "Family frenemies, Gracie and Pedro, must put their differences aside, embarking on a thrilling quest packed with perilous escapades in order to reunite with their owners.",
+      "poster": "https://image.tmdb.org/t/p/w500/1agSI7NGvagr720za8XAubtqUoB.jpg",
+      "releaseInfo": "2024-10-08"
+    },
+    {
+      "id": "tt21383098",
+      "type": "movie",
+      "name": "Treasure Trackers",
+      "description": "A trio of misfit middle schoolers band together to investigate their small town's mythic treasure, only to uncover a Halloween curse.",
+      "poster": "https://image.tmdb.org/t/p/w500/5vsU3Rhl2ZB7YF1pnTP5T5Aaw5M.jpg",
+      "releaseInfo": "2024-10-01"
+    },
+    {
+      "id": "tt26445481",
+      "type": "movie",
+      "name": "The Magician's Raincoat",
+      "description": "Three kids discover a magical raincoat that transports them into the body of its owner, a cursed magician. With a scorned witch hot on their trail, they must solve the mystery of the raincoat and break its curse before it's too late.",
+      "poster": "https://image.tmdb.org/t/p/w500/2sepxjUsrL265MGxu43CPbMZgxe.jpg",
+      "releaseInfo": "2024-09-03"
+    },
+    {
+      "id": "tt22755734",
+      "type": "movie",
+      "name": "Thabo and the Rhino Case",
+      "description": "Eleven-year-old Thabo wants to become a private detective like in the movies. If only his home, the small African village of Hlatikulu, was not the most peaceful savannah paradise. But things take a sudden turn when a rhino is murdered in the neighboring safari park because of its precious horn.",
+      "poster": "https://image.tmdb.org/t/p/w500/3Lpo6gAclJ2ruZP3xaZbJjVt9Zc.jpg",
+      "releaseInfo": "2024-09-03"
+    },
+    {
+      "id": "tt1609486",
+      "type": "movie",
+      "name": "Harold and the Purple Crayon",
+      "description": "Inside of his book, adventurous Harold can make anything come to life simply by drawing it. After he grows up and draws himself off the book's pages and into the physical world, Harold finds he has a lot to learn about real life.",
+      "poster": "https://image.tmdb.org/t/p/w500/qtW6bWUEqfPLaD6KnetIlSG4adf.jpg",
+      "releaseInfo": "2024-08-27"
+    },
+    {
+      "id": "tt27722575",
+      "type": "movie",
+      "name": "200% Wolf",
+      "description": "When Freddy Lupin's wayward wish transforms him into a werewolf and deposits a mischievous moon sprite on Earth, Freddy must restore the cosmic order before the earth and moon collide.",
+      "poster": "https://image.tmdb.org/t/p/w500/pHGB9jN31cDNKhR0VRNZsXZkGZQ.jpg",
+      "releaseInfo": "2024-08-23"
+    },
+    {
+      "id": "tt22022452",
+      "type": "movie",
+      "name": "Inside Out 2",
+      "description": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
+      "poster": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+      "releaseInfo": "2024-08-20"
+    },
+    {
+      "id": "tt29898251",
+      "type": "movie",
+      "name": "Ryan's World the Movie: Titan Universe Adventure",
+      "description": "Ryan jumps into a mystical superhero comic book to save his younger sisters, Emma and Kate.",
+      "poster": "https://image.tmdb.org/t/p/w500/4Eyzvc3NxaZZm7KWGNxlt69ZPdF.jpg",
+      "releaseInfo": "2024-08-16"
+    },
+    {
+      "id": "tt27816875",
+      "type": "movie",
+      "name": "Combat Wombat: Back 2 Back",
+      "description": "When the promise of living in a perfect digital world traps the citizens of Sanctuary City online, Combat Wombat and Sweetie must return to save the day and kick some wom-butt!",
+      "poster": "https://image.tmdb.org/t/p/w500/tFMSeMJhzolmtA14Azh0HPjNc1T.jpg",
+      "releaseInfo": "2024-08-15"
+    },
+    {
+      "id": "tt7510222",
+      "type": "movie",
+      "name": "Despicable Me 4",
+      "description": "Gru and Lucy and their girls—Margo, Edith and Agnes—welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad. Gru also faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina, forcing the family to go on the run.",
+      "poster": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+      "releaseInfo": "2024-08-06"
+    },
+    {
+      "id": "tt23063732",
+      "type": "movie",
+      "name": "Saving Bikini Bottom: The Sandy Cheeks Movie",
+      "description": "When Bikini Bottom is scooped from the ocean, scientific squirrel Sandy Cheeks and her pal SpongeBob SquarePants saddle up for Texas to save their town.",
+      "poster": "https://image.tmdb.org/t/p/w500/30YnfZdMNIV7noWLdvmcJS0cbnQ.jpg",
+      "releaseInfo": "2024-08-02"
+    },
+    {
+      "id": "tt20202136",
+      "type": "movie",
+      "name": "Descendants: The Rise of Red",
+      "description": "After the Queen of Hearts incites a coup on Auradon, her rebellious daughter Red and Cinderella's perfectionist daughter Chloe join forces and travel back in time to try to undo the traumatic event that set Red's mother down her villainous path.",
+      "poster": "https://image.tmdb.org/t/p/w500/8fYluTtB3b3HKO7KQa5tzrvGaps.jpg",
+      "releaseInfo": "2024-07-12"
+    },
+    {
+      "id": "tt5779228",
+      "type": "movie",
+      "name": "The Garfield Movie",
+      "description": "Garfield, the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father – scruffy street cat Vic – Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.",
+      "poster": "https://image.tmdb.org/t/p/w500/p6AbOJvMQhBmffd0PIv0u8ghWeY.jpg",
+      "releaseInfo": "2024-07-09"
+    },
+    {
+      "id": "tt32223312",
+      "type": "movie",
+      "name": "No Time to Spy: A Loud House Movie",
+      "description": "Lincoln and the Louds are ecstatic to welcome their new Gran-Gran, Myrtle, into the family with a tropical wedding celebration; but the festivities are cut short when an old nemesis from Myrtle's secret agent past appears on the island.",
+      "poster": "https://image.tmdb.org/t/p/w500/mh4Mk95u7fdY4D4t5kRGQpQbVFy.jpg",
+      "releaseInfo": "2024-06-21"
+    },
+    {
+      "id": "tt11152168",
+      "type": "movie",
+      "name": "IF",
+      "description": "After discovering she can see everyone's imaginary friends, a girl embarks on a magical adventure to reconnect forgotten imaginary friends with their kids.",
+      "poster": "https://image.tmdb.org/t/p/w500/xbKFv4KF3sVYuWKllLlwWDmuZP7.jpg",
+      "releaseInfo": "2024-06-18"
     },
     {
       "id": "tt14514964",
@@ -497,6 +777,38 @@
       "releaseInfo": "2024-06-18"
     },
     {
+      "id": "tt9471678",
+      "type": "movie",
+      "name": "Ultraman: Rising",
+      "description": "A star athlete reluctantly returns home to take over his father's duties as Ultraman, shielding Tokyo from giant monsters as he becomes a legendary hero.",
+      "poster": "https://image.tmdb.org/t/p/w500/j886YEkIUsiImY53px5VHKD4lRa.jpg",
+      "releaseInfo": "2024-06-14"
+    },
+    {
+      "id": "tt32568049",
+      "type": "movie",
+      "name": "D.I.Y. Duck",
+      "description": "Donald Duck's efforts to replace a light bulb end in comic and catastrophic results.",
+      "poster": "https://image.tmdb.org/t/p/w500/2n5AI9Rt1NqjfshQ2j1kLXpDBMq.jpg",
+      "releaseInfo": "2024-06-09"
+    },
+    {
+      "id": "tt5765240",
+      "type": "movie",
+      "name": "The Legend of Catclaws Mountain",
+      "description": "Mindy adopts Angel, a high-spirited pony that—according to legend—will lead its owner to gold hidden in the nearby mountains. When Angel is kidnapped by a mad treasure hunter, Mindy and her school friends head into the hills to rescue the pony and hunt for the lost gold. But Mindy meets a mountain man that warns her the treasure is part of an ancient curse—if they remove the gold, they'll destroy the beautiful forest.",
+      "poster": "https://image.tmdb.org/t/p/w500/4T3Gz4ZC8H6kaEpq56S4j3mI40L.jpg",
+      "releaseInfo": "2024-05-28"
+    },
+    {
+      "id": "tt10442352",
+      "type": "movie",
+      "name": "Thelma the Unicorn",
+      "description": "Thelma dreams of being a glamorous unicorn. Then in a rare pink and glitter-filled moment of fate, Thelma's wish comes true. She rises to instant international stardom, but at an unexpected cost. After a while, Thelma realizes that she was happier as her ordinary, sparkle-free self. So she ditches her horn, scrubs off her sparkles, and returns home, where her best friend is waiting for her with a hug.",
+      "poster": "https://image.tmdb.org/t/p/w500/yutiEZ7taGDNau2jGjKIdDwQpDw.jpg",
+      "releaseInfo": "2024-05-17"
+    },
+    {
       "id": "tt26700853",
       "type": "movie",
       "name": "Puffin Rock and the New Friends",
@@ -505,7 +817,55 @@
       "releaseInfo": "2024-04-16"
     },
     {
-      "id": "tmdb:1221396",
+      "id": "tt20221690",
+      "type": "movie",
+      "name": "Woody Woodpecker Goes to Camp",
+      "description": "After getting kicked out of the forest, Woody thinks he's found a forever home at Camp Woo Hoo — until an inspector threatens to shut down the camp.",
+      "poster": "https://image.tmdb.org/t/p/w500/6hw6zvAsBSMyDxnk68XPpjZZyvz.jpg",
+      "releaseInfo": "2024-04-12"
+    },
+    {
+      "id": "tt21692408",
+      "type": "movie",
+      "name": "Kung Fu Panda 4",
+      "description": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+      "poster": "https://image.tmdb.org/t/p/w500/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
+      "releaseInfo": "2024-04-09"
+    },
+    {
+      "id": "tt31123288",
+      "type": "movie",
+      "name": "The Casagrandes Movie",
+      "description": "On a birthday trip to Mexico, 12-year-old Ronnie Anne accidentally frees a demigod trapped in a mountain and needs her family's help to set things right.",
+      "poster": "https://image.tmdb.org/t/p/w500/1ZHetsKD44xB63ZjTjqryC0CtoL.jpg",
+      "releaseInfo": "2024-03-22"
+    },
+    {
+      "id": "tt26943420",
+      "type": "movie",
+      "name": "The Thundermans Return",
+      "description": "Twins Phoebe and Max are enjoying their superhero lifestyle, but when one 'save' goes awry, the Thundermans are sent back to Hiddenville. While Hank and Barb enjoy their return, and Billy and Nora look forward to a normal high school life, Max and Phoebe are determined to regain their superhero status.",
+      "poster": "https://image.tmdb.org/t/p/w500/2J5eeroLDY0d45mVjpuGhcLZs3W.jpg",
+      "releaseInfo": "2024-03-07"
+    },
+    {
+      "id": "tt30841644",
+      "type": "movie",
+      "name": "Snoopy Presents: Welcome Home, Franklin",
+      "description": "Franklin is new to town and hoping to make friends, but his usual tactics don't work on the Peanuts gang. When the Soap Box Derby arrives, he's sure it's a chance to impress new pals and teams up with the only other unpartnered kid: Charlie Brown.",
+      "poster": "https://image.tmdb.org/t/p/w500/iPyuXrj4lmmQ40TBg5eDhvd7ShV.jpg",
+      "releaseInfo": "2024-02-15"
+    },
+    {
+      "id": "tt21956238",
+      "type": "movie",
+      "name": "Popular Theory",
+      "description": "Erwin, a girl genius, is the youngest student in high school. Unfortunately she struggles with social isolation. When she meets fellow science guru, Winston, they team up to invent a chemical that changes the high school hierarchy forever.",
+      "poster": "https://image.tmdb.org/t/p/w500/vN9MHehYsw5M5SoB4QQZNEmuaqH.jpg",
+      "releaseInfo": "2024-02-09"
+    },
+    {
+      "id": "tt30818907",
       "type": "movie",
       "name": "Self",
       "description": "A wooden puppet who desperately wants to fit in makes an ill-fated wish upon a star, sparking a journey of self-discovery.",
@@ -513,12 +873,68 @@
       "releaseInfo": "2024-02-02"
     },
     {
-      "id": "tmdb:1207417",
+      "id": "tt5834410",
+      "type": "movie",
+      "name": "The Tiger's Apprentice",
+      "description": "After the death of his grandmother, Tom Lee discovers he is part of a long lineage of magical protectors known as the Guardians. With guidance from a mythical tiger named Hu and the other Zodiac animal warriors, Tom trains to take on an evil force that threatens humanity.",
+      "poster": "https://image.tmdb.org/t/p/w500/64ZktFMmTzsm47wdsaMOID0DzcY.jpg",
+      "releaseInfo": "2024-02-02"
+    },
+    {
+      "id": "tt28066777",
+      "type": "movie",
+      "name": "Orion and the Dark",
+      "description": "A boy with an active imagination faces his fears on an unforgettable journey through the night with his new friend: a giant, smiling creature named Dark.",
+      "poster": "https://image.tmdb.org/t/p/w500/N2ddXhBX5kqwA9flbm2yqFtX6b.jpg",
+      "releaseInfo": "2024-02-02"
+    },
+    {
+      "id": "tt6166392",
+      "type": "movie",
+      "name": "Wonka",
+      "description": "Willy Wonka – chock-full of ideas and determined to change the world one delectable bite at a time – is proof that the best things in life begin with a dream, and if you’re lucky enough to meet Willy Wonka, anything is possible.",
+      "poster": "https://image.tmdb.org/t/p/w500/qhb1qOilapbapxWQn9jtRCMwXJF.jpg",
+      "releaseInfo": "2024-01-30"
+    },
+    {
+      "id": "tt6495056",
+      "type": "movie",
+      "name": "Migration",
+      "description": "After a migrating duck family alights on their pond with thrilling tales of far-flung places, the Mallard family embarks on a family road trip, from New England, to New York City, to tropical Jamaica.",
+      "poster": "https://image.tmdb.org/t/p/w500/ldfCF9RhR40mppkzmftxapaHeTo.jpg",
+      "releaseInfo": "2024-01-23"
+    },
+    {
+      "id": "tt11304740",
+      "type": "movie",
+      "name": "Wish",
+      "description": "Asha, a sharp-witted idealist, makes a wish so powerful that it is answered by a cosmic force – a little ball of boundless energy called Star. Together, Asha and Star confront a most formidable foe - the ruler of Rosas, King Magnifico - to save her community and prove that when the will of one courageous human connects with the magic of the stars, wondrous things can happen.",
+      "poster": "https://image.tmdb.org/t/p/w500/nesuSdJakNkf0zs7OfoasB6Clxf.jpg",
+      "releaseInfo": "2024-01-23"
+    },
+    {
+      "id": "tt30061777",
       "type": "movie",
       "name": "Mooned",
       "description": "Villainous Vector must figure out how to get off the moon and return to Earth.",
       "poster": "https://image.tmdb.org/t/p/w500/zJeGQ67XPRkr9lpUOIUYLOhPNf.jpg",
       "releaseInfo": "2023-12-22"
+    },
+    {
+      "id": "tt14362112",
+      "type": "movie",
+      "name": "Trolls Band Together",
+      "description": "When Branch's brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+      "poster": "https://image.tmdb.org/t/p/w500/3ySgD2xwasTHOK6R9bNZiEwKgYo.jpg",
+      "releaseInfo": "2023-12-19"
+    },
+    {
+      "id": "tt8337264",
+      "type": "movie",
+      "name": "Chicken Run: Dawn of the Nugget",
+      "description": "A band of fearless chickens flock together to save poultry-kind from an unsettling new threat: a nearby farm that's cooking up something suspicious.",
+      "poster": "https://image.tmdb.org/t/p/w500/eImY0cjbH0bll8EXSqxqEZIZcmY.jpg",
+      "releaseInfo": "2023-12-15"
     },
     {
       "id": "tt20221460",
@@ -529,7 +945,23 @@
       "releaseInfo": "2023-12-13"
     },
     {
-      "id": "tmdb:798021",
+      "id": "tt15352516",
+      "type": "movie",
+      "name": "Merry Little Batman",
+      "description": "This Christmas, Damian Wayne wants to be a superhero like his dad – the one and only Batman. When Damian is left home alone while Batman takes on Gotham’s worst supervillains on Christmas Eve, he stumbles upon a villainous plot to steal Christmas and leaps at the chance to save the day.",
+      "poster": "https://image.tmdb.org/t/p/w500/2J70guF8wcErbYbRgZUBcvShgI1.jpg",
+      "releaseInfo": "2023-12-08"
+    },
+    {
+      "id": "tt29033964",
+      "type": "movie",
+      "name": "Diary of a Wimpy Kid Christmas: Cabin Fever",
+      "description": "A hilarious and heartfelt holiday tale centered around everyone's favorite disaster-prone middle school student, Greg Heffley, which finds him desperately fighting to stay off Santa's naughty list as the family prepares for a major winter snowstorm.",
+      "poster": "https://image.tmdb.org/t/p/w500/CgWUleumTXrFL6AsQKjpcuwWyN.jpg",
+      "releaseInfo": "2023-12-08"
+    },
+    {
+      "id": "tt14227048",
       "type": "movie",
       "name": "Family Switch",
       "description": "When the Walker family members switch bodies with each other during a rare planetary alignment, their hilarious journey to find their way back to normal will bring them closer together than they ever thought possible.",
@@ -537,12 +969,76 @@
       "releaseInfo": "2023-11-30"
     },
     {
-      "id": "tmdb:1075794",
+      "id": "tt28863512",
+      "type": "movie",
+      "name": "The Bad Guys: A Very Bad Holiday",
+      "description": "To keep their annual Holiday Heist-tacular afloat, Mr. Wolf and his crew of animal outlaws will have to restore the whole city's Christmas spirit — fast!",
+      "poster": "https://image.tmdb.org/t/p/w500/er0Gth3Tr279hFq1xeKdYxhcleO.jpg",
+      "releaseInfo": "2023-11-30"
+    },
+    {
+      "id": "tt21328106",
+      "type": "movie",
+      "name": "Candy Cane Lane",
+      "description": "Determined to win the neighborhood's annual Christmas decorating contest, family man Chris makes a pact with an elf to help him out-do the competition. However, the elf casts a spell bringing the twelve days of Christmas to life, unleashing chaos on the small unsuspecting town.",
+      "poster": "https://image.tmdb.org/t/p/w500/of6Ds591FJTKoBHYjDFzH6jlTyK.jpg",
+      "releaseInfo": "2023-11-30"
+    },
+    {
+      "id": "tt25289836",
+      "type": "movie",
+      "name": "Good Burger 2",
+      "description": "Dexter Reed is down on his luck after another one of his inventions fails. Ed welcomes Dex back to Good Burger with open arms and gives him his old job back. With a new crew working at Good Burger, Dex devises a plan to get back on his feet but unfortunately puts the fate of Good Burger at risk once again.",
+      "poster": "https://image.tmdb.org/t/p/w500/pcwOHNTIy6pVOLj6Tjp8tSL9bwF.jpg",
+      "releaseInfo": "2023-11-22"
+    },
+    {
+      "id": "tt9900816",
+      "type": "movie",
+      "name": "The Velveteen Rabbit",
+      "description": "When seven-year-old William receives a new favorite toy for Christmas, he discovers a lifelong friend and unlocks a world of magic.",
+      "poster": "https://image.tmdb.org/t/p/w500/aM0ViG6LVkN1PQGe9Bon1gQXpc7.jpg",
+      "releaseInfo": "2023-11-21"
+    },
+    {
+      "id": "tt15352526",
+      "type": "movie",
+      "name": "Urkel Saves Santa: The Movie!",
+      "description": "The holiday season has arrived, and brilliant but accident-prone Steve Urkel has already ruined his local celebration by publicly humiliating a shopping mall Santa. In his attempt to make things right and score some nice points with the big guy in the North Pole, Steve creates an invention that only makes things worse. Using his big brain and even bigger heart, Steve must find the real Santa to see if together they can help the city rediscover the holiday spirit.",
+      "poster": "https://image.tmdb.org/t/p/w500/hSBIk1EQrt2DJHQHjYqQCHQeHRt.jpg",
+      "releaseInfo": "2023-11-21"
+    },
+    {
+      "id": "tt5755238",
       "type": "movie",
       "name": "Leo",
       "description": "Jaded 74-year-old reptile Leo has been stuck in the same Florida classroom for decades with his terrarium-mate turtle. When he learns he only has one year left to live, he plans to escape to experience life on the outside but instead gets caught up in the problems of his anxious students — including an impossibly mean substitute teacher.",
       "poster": "https://image.tmdb.org/t/p/w500/gSOVog7ydsaF1YpgAqBqnKYFGY.jpg",
       "releaseInfo": "2023-11-21"
+    },
+    {
+      "id": "tt5608166",
+      "type": "movie",
+      "name": "Dashing Through the Snow",
+      "description": "Eddie Garrick is a good-hearted man who has lost his belief in the wonder of Christmas. While spending time with his nine-year-old daughter Charlotte on Christmas Eve, he befriends a mysterious man in a red suit named Nick.",
+      "poster": "https://image.tmdb.org/t/p/w500/AnfXxsoLBS6JDpu65vHsEvEcWSA.jpg",
+      "releaseInfo": "2023-11-17"
+    },
+    {
+      "id": "tt31989199",
+      "type": "movie",
+      "name": "Dora: Say Hola to Adventure!",
+      "description": "It’s Dora, the world’s most famous exploradora, like you’ve never seen her before! Join her and ALL her friends for BRAND NEW, magical adventures in the rainforest!",
+      "poster": "https://image.tmdb.org/t/p/w500/zN3BO43b0JAn1ZCpbwBH6KEP56U.jpg",
+      "releaseInfo": "2023-11-10"
+    },
+    {
+      "id": "tt23870264",
+      "type": "movie",
+      "name": "Glisten and the Merry Mission",
+      "description": "Follows Marzipan, a young elfling, and her mother Cinnameg, as Marzipan must believe in the magic of the season and goes on an adventure to rediscover the enchanted snow deer named Glisten and save Christmas.",
+      "poster": "https://image.tmdb.org/t/p/w500/rjXxgYdLCr9GowOAp1UW9q2uLDl.jpg",
+      "releaseInfo": "2023-11-03"
     },
     {
       "id": "tt15837338",
@@ -553,12 +1049,52 @@
       "releaseInfo": "2023-10-31"
     },
     {
+      "id": "tt28477867",
+      "type": "movie",
+      "name": "LEGO Marvel Avengers: Code Red",
+      "description": "The Avengers gather to celebrate their latest victory, but their celebration is quickly interrupted by the mysterious disappearance of Black Widow's father, Red Guardian. As the Avengers investigate, they discover that Red Guardian isn't the only one missing when they meet a dangerous new foe quite unlike anything they've ever encountered before.",
+      "poster": "https://image.tmdb.org/t/p/w500/rDzig50dj7VpLwJ7SThbamETK1G.jpg",
+      "releaseInfo": "2023-10-27"
+    },
+    {
       "id": "tt14051976",
       "type": "movie",
       "name": "Camp Hideout",
       "description": "Noah is a troubled teen who nearly gets caught stealing a top-secret gadget from some big city thugs. After barely escaping, he decides to hide out at a summer camp that's run by the eccentric Falco and counselors Jake and Selena. As Noah tries to blend in with the rest of the rowdy campers, his crooked partners show up to steal the classified item, now in his possession.",
       "poster": "https://image.tmdb.org/t/p/w500/iRqstvN60G1JytNcqerdvOvEA21.jpg",
       "releaseInfo": "2023-10-24"
+    },
+    {
+      "id": "tt29277717",
+      "type": "movie",
+      "name": "Peter & the Wolf",
+      "description": "A grieving 12-year-old Peter is now in the care of his grandfather after enduring the loss of a parent. Upon hearing stories of a wolf on the loose, Peter decides to explore the vast meadow and forest nearby to try and find the wolf himself. Along the way he encounters creatures who help him on his quest while contending with hunters aiming to win a prize for capturing the wolf.",
+      "poster": "https://image.tmdb.org/t/p/w500/mZM8vI8VyWRAobI4gcCxMrtgRQl.jpg",
+      "releaseInfo": "2023-10-19"
+    },
+    {
+      "id": "tt4556264",
+      "type": "movie",
+      "name": "Scarygirl",
+      "description": "As her world is shrouded in darkness, a young girl must overcome her fears and travel to a mysterious city of light, save her father from a dangerous scientist and prevent the destruction of her planet.",
+      "poster": "https://image.tmdb.org/t/p/w500/1tcLXVaXFG9OObnCN3a5KrymrQG.jpg",
+      "releaseInfo": "2023-10-05"
+    },
+    {
+      "id": "tt10338176",
+      "type": "movie",
+      "name": "Christmas Time",
+      "description": "A physics teacher's obsessive dislike for Christmas is put to the test when a reservation mishap sends him and his family on a trip to Lapland, a tourist destination dedicated to Christmas and surprisingly near the North Pole.",
+      "poster": "https://image.tmdb.org/t/p/w500/1Dtn68L8iZ7wOlhc1NY7PE3XtFl.jpg",
+      "releaseInfo": "2023-10-03"
+    },
+    {
+      "id": "tt28689850",
+      "type": "movie",
+      "name": "Mickey and Friends: Trick or Treats",
+      "description": "Mickey, Minnie, Goofy, Donald and Daisy are trick-or-treating when Donald spies the spookiest mansion he’s ever seen and assumes it has the best treats. After he convinces his friends to risk a visit, the owner, Witch Hazel, casts a spell that turns them into their costumes.",
+      "poster": "https://image.tmdb.org/t/p/w500/5Gz3k1TqeAxL5M47XZzjltxQrMb.jpg",
+      "releaseInfo": "2023-10-02"
     },
     {
       "id": "tt29142552",
@@ -569,7 +1105,7 @@
       "releaseInfo": "2023-09-29"
     },
     {
-      "id": "tmdb:790493",
+      "id": "tt13978520",
       "type": "movie",
       "name": "Spy Kids: Armageddon",
       "description": "When the children of the world’s greatest secret agents unwittingly help a powerful game developer unleash a computer virus that gives him control of all technology, they must become spies themselves to save their parents and the world.",
