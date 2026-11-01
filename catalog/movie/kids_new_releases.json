@@ -369,6 +369,14 @@
       "releaseInfo": "2025-08-12"
     },
     {
+      "id": "tt11655566",
+      "type": "movie",
+      "name": "Lilo & Stitch",
+      "description": "The wildly funny and touching story of a lonely Hawaiian girl and the fugitive alien who helps to mend her broken family.",
+      "poster": "https://image.tmdb.org/t/p/w500/ckQzKpQJO4ZQDCN5evdpKcfm7Ys.jpg",
+      "releaseInfo": "2025-07-22"
+    },
+    {
       "id": "tt37045668",
       "type": "movie",
       "name": "SpongeBob SquarePants: Order Up",
@@ -377,7 +385,7 @@
       "releaseInfo": "2025-07-18"
     },
     {
-      "id": "tmdb:1087192",
+      "id": "tt26743210",
       "type": "movie",
       "name": "How to Train Your Dragon",
       "description": "On the rugged isle of Berk, where Vikings and dragons have been bitter enemies for generations, Hiccup stands apart, defying centuries of tradition when he befriends Toothless, a feared Night Fury dragon. Their unlikely bond reveals the true nature of dragons, challenging the very foundations of Viking society.",
@@ -401,6 +409,14 @@
       "releaseInfo": "2025-06-20"
     },
     {
+      "id": "tt28322249",
+      "type": "movie",
+      "name": "F+",
+      "description": "A group of young teenagers plan the perfect heist by breaking into their middle school to change their failing test grades.",
+      "poster": "https://image.tmdb.org/t/p/w500/f0qeTgIcGZ6s3jz5xg8PQ7K0MZO.jpg",
+      "releaseInfo": "2025-06-06"
+    },
+    {
       "id": "tt36789845",
       "type": "movie",
       "name": "Lulu Is a Rhinoceros",
@@ -409,7 +425,7 @@
       "releaseInfo": "2025-05-29"
     },
     {
-      "id": "tmdb:1181107",
+      "id": "tt7967302",
       "type": "movie",
       "name": "The King of Kings",
       "description": "Charles Dickens tells his young son Walter the greatest story ever told, and what begins as a bedtime tale becomes a life-changing journey. Through vivid imagination, the boy walks alongside Jesus, witnessing His miracles, facing His trials, and understanding His ultimate sacrifice.",
@@ -417,12 +433,28 @@
       "releaseInfo": "2025-05-27"
     },
     {
-      "id": "tmdb:896536",
+      "id": "tt8866456",
       "type": "movie",
       "name": "The Legend of Ochi",
       "description": "In a remote village on the island of Carpathia, a shy farm girl named Yuri is raised to fear an elusive animal species known as ochi. But when Yuri discovers a wounded baby ochi has been left behind, she escapes on a quest to bring him home.",
       "poster": "https://image.tmdb.org/t/p/w500/qYyEelO4JfOwE0Ui5KsrCE0O8UA.jpg",
       "releaseInfo": "2025-05-20"
+    },
+    {
+      "id": "tt5822536",
+      "type": "movie",
+      "name": "Paddington in Peru",
+      "description": "Paddington travels to Peru to visit his beloved Aunt Lucy, who now resides at the Home for Retired Bears. With the Brown Family in tow, a thrilling adventure ensues when a mystery plunges them into an unexpected journey through the Amazon rainforest and up to the mountain peaks of Peru.",
+      "poster": "https://image.tmdb.org/t/p/w500/1ffZAucqfvQu36x1C49XfOdjuOG.jpg",
+      "releaseInfo": "2025-05-15"
+    },
+    {
+      "id": "tt3566834",
+      "type": "movie",
+      "name": "A Minecraft Movie",
+      "description": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
+      "poster": "https://image.tmdb.org/t/p/w500/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+      "releaseInfo": "2025-05-13"
     },
     {
       "id": "tt6208148",
@@ -433,7 +465,7 @@
       "releaseInfo": "2025-05-13"
     },
     {
-      "id": "tmdb:1084153",
+      "id": "tt9254940",
       "type": "movie",
       "name": "Sneaks",
       "description": "When his sister is stolen by a shady collector, a pampered, custom sneaker must leave his velvet-lined box and navigate the streets of New York City with a ragtag group of streetwise footwear to bring her home.",
@@ -473,6 +505,14 @@
       "releaseInfo": "2025-02-18"
     },
     {
+      "id": "tt13186482",
+      "type": "movie",
+      "name": "Mufasa: The Lion King",
+      "description": "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.",
+      "poster": "https://image.tmdb.org/t/p/w500/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg",
+      "releaseInfo": "2025-02-18"
+    },
+    {
       "id": "tt35599556",
       "type": "movie",
       "name": "Shuffle of Love: A Descendants Short Story",
@@ -481,12 +521,84 @@
       "releaseInfo": "2025-02-13"
     },
     {
-      "id": "tmdb:926670",
+      "id": "tt13622970",
+      "type": "movie",
+      "name": "Moana 2",
+      "description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+      "poster": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+      "releaseInfo": "2025-01-28"
+    },
+    {
+      "id": "tt31909472",
+      "type": "movie",
+      "name": "Kiff: Lore of the Ring Light",
+      "description": "Kiff and her friends go on an adventure to destroy a ring light of immense power.",
+      "poster": "https://image.tmdb.org/t/p/w500/tfdzBx8on6mHdXusi08ZEEPSFqx.jpg",
+      "releaseInfo": "2025-01-21"
+    },
+    {
+      "id": "tt18259086",
+      "type": "movie",
+      "name": "Sonic the Hedgehog 3",
+      "description": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet.",
+      "poster": "https://image.tmdb.org/t/p/w500/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+      "releaseInfo": "2025-01-21"
+    },
+    {
+      "id": "tt7787524",
       "type": "movie",
       "name": "Henry Danger: The Movie",
       "description": "Henry Hart meets a superfan—eager to fight crime with Kid Danger—who comes into possession of a device that can open up alternate realities. Facing a wild ride, Henry will need his best friend Jasper and his new superfan sidekick to find his way out or be stuck in another dimension forever.",
       "poster": "https://image.tmdb.org/t/p/w500/dFWj2rOGsqSIX1PHFghbCBgpMnk.jpg",
       "releaseInfo": "2025-01-17"
+    },
+    {
+      "id": "tt17163970",
+      "type": "movie",
+      "name": "Wallace & Gromit: Vengeance Most Fowl",
+      "description": "Gromit’s concern that Wallace is becoming too dependent on his inventions proves justified, when Wallace invents a “smart” gnome that seems to develop a mind of its own. When it emerges that a vengeful figure from the past might be masterminding things, it falls to Gromit to battle sinister forces and save his master… or Wallace may never be able to invent again!",
+      "poster": "https://image.tmdb.org/t/p/w500/jUWFSBxTOiCinPdTOh3IDUXVemZ.jpg",
+      "releaseInfo": "2025-01-03"
+    },
+    {
+      "id": "tt34608980",
+      "type": "movie",
+      "name": "Disaster Holiday",
+      "description": "A workaholic dad, trying to win over his kids, heads to the coast of Durban for a big work meeting — under the guise of a family road trip vacation.",
+      "poster": "https://image.tmdb.org/t/p/w500/pNZHImRQhSq5qEPSpDkmWLRB4RS.jpg",
+      "releaseInfo": "2024-12-13"
+    },
+    {
+      "id": "tt14855468",
+      "type": "movie",
+      "name": "That Christmas",
+      "description": "It's an unforgettable Christmas for the townsfolk of Wellington-on-Sea when the worst snowstorm in history alters everyone's plans — including Santa's.",
+      "poster": "https://image.tmdb.org/t/p/w500/uR3uhztTAxGGK7Co0yyxVy4Gc7H.jpg",
+      "releaseInfo": "2024-12-04"
+    },
+    {
+      "id": "tt34614991",
+      "type": "movie",
+      "name": "Mickey and the Very Many Christmases",
+      "description": "Mickey makes a magical wish that every day could be Christmas — but winds up having second thoughts when his wish actually comes true!",
+      "poster": "https://image.tmdb.org/t/p/w500/j8HNzRSIsiiCfSzsU1FU8U60VAd.jpg",
+      "releaseInfo": "2024-12-02"
+    },
+    {
+      "id": "tt7215232",
+      "type": "movie",
+      "name": "Spellbound",
+      "description": "When a powerful spell turns her parents into giant monsters, a teenage princess must journey into the wild to reverse the curse before it's too late.",
+      "poster": "https://image.tmdb.org/t/p/w500/4dSrwXJNKtMtlkwJPgZMkjjuHvD.jpg",
+      "releaseInfo": "2024-11-22"
+    },
+    {
+      "id": "tt32919749",
+      "type": "movie",
+      "name": "The Night Before Christmas in Wonderland",
+      "description": "It’s St Nick’s turn for an adventure down the rabbit hole. There he meets the Mad Hatter, recast as a high-fashion, reindeer-loving tea party host; the White Rabbit, an endearingly scatty and forgetful character; the Queen of Hearts, a Scrooge-esque tinsel-hater, her antagonistic sidekick, the Cheshire Cat and Alice herself, whose kindness helps St. Nick save Christmas.",
+      "poster": "https://image.tmdb.org/t/p/w500/spJJCe4rntGxu9YXDEw2r5hz5oq.jpg",
+      "releaseInfo": "2024-11-15"
     },
     {
       "id": "tt33395815",
@@ -497,7 +609,7 @@
       "releaseInfo": "2024-11-15"
     },
     {
-      "id": "tmdb:1385485",
+      "id": "tt34572436",
       "type": "movie",
       "name": "The Boy & the Octopus",
       "description": "A young boy encounters a curious octopus while snorkeling on a seaside vacation. The persistent mollusk attaches itself to the boy’s head and becomes his constant companion.",
@@ -551,6 +663,14 @@
       "description": "A trio of misfit middle schoolers band together to investigate their small town's mythic treasure, only to uncover a Halloween curse.",
       "poster": "https://image.tmdb.org/t/p/w500/5vsU3Rhl2ZB7YF1pnTP5T5Aaw5M.jpg",
       "releaseInfo": "2024-10-01"
+    },
+    {
+      "id": "tt26445481",
+      "type": "movie",
+      "name": "The Magician's Raincoat",
+      "description": "Three kids discover a magical raincoat that transports them into the body of its owner, a cursed magician. With a scorned witch hot on their trail, they must solve the mystery of the raincoat and break its curse before it's too late.",
+      "poster": "https://image.tmdb.org/t/p/w500/2sepxjUsrL265MGxu43CPbMZgxe.jpg",
+      "releaseInfo": "2024-09-03"
     },
     {
       "id": "tt22755734",
