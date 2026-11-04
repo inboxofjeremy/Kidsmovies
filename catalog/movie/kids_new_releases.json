@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tt2321555",
+      "type": "movie",
+      "name": "The Cat in the Hat",
+      "description": "Assigned his toughest mission yet, the Cat must cheer up siblings Gabby and Sebastian as they adjust to life in a new town. Known for pushing boundaries, this agent of chaos must prove himself or risk losing his magical hat forever.",
+      "poster": "https://image.tmdb.org/t/p/w500/tYH4rQZlHtuFSeDS0bsV17khvJC.jpg",
+      "releaseInfo": "2026-11-06"
+    },
+    {
       "id": "tt36583977",
       "type": "movie",
       "name": "Forgotten Island",
@@ -1431,14 +1439,6 @@
       "description": "Follows Ralphie, now adult, who returns to the house on Cleveland Street to give his kids a magical Christmas like the one he had as a child, reconnecting with childhood friends, and reconciling the passing of his Old Man.",
       "poster": "https://image.tmdb.org/t/p/w500/5QeoDiiIFY9VF87Rm79WpCFZbwf.jpg",
       "releaseInfo": "2022-11-17"
-    },
-    {
-      "id": "tt9288748",
-      "type": "movie",
-      "name": "My Father's Dragon",
-      "description": "Struggling to cope after a move to the city with his mother, Elmer runs away in search of Wild Island and a young dragon who waits to be rescued. Elmer’s adventures introduce him to ferocious beasts, a mysterious island and the friendship of a lifetime.",
-      "poster": "https://image.tmdb.org/t/p/w500/6hgEe1w0An5fKi3ZqIUBwOyIN2y.jpg",
-      "releaseInfo": "2022-11-11"
     },
     {
       "id": "tt22774688",
