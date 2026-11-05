@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tt2321555",
+      "type": "movie",
+      "name": "The Cat in the Hat",
+      "description": "Assigned his toughest mission yet, the Cat must cheer up siblings Gabby and Sebastian as they adjust to life in a new town. Known for pushing boundaries, this agent of chaos must prove himself or risk losing his magical hat forever.",
+      "poster": "https://image.tmdb.org/t/p/w500/tYH4rQZlHtuFSeDS0bsV17khvJC.jpg",
+      "releaseInfo": "2026-11-06"
+    },
+    {
       "id": "tt36583977",
       "type": "movie",
       "name": "Forgotten Island",
