@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tt47791876",
+      "type": "movie",
+      "name": "Snoopy Presents: 12 Days of Snoopy",
+      "description": "Eager to get off Santa's naughty list, Snoopy goes all out to be the nicest beagle in town.",
+      "poster": "https://image.tmdb.org/t/p/w500/9wZAvvAZgwp2Lxbhjkp9N6HHJBm.jpg",
+      "releaseInfo": "2026-11-12"
+    },
+    {
       "id": "tt2321555",
       "type": "movie",
       "name": "The Cat in the Hat",
