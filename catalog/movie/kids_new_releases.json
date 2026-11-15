@@ -345,22 +345,6 @@
       "releaseInfo": "2025-10-14"
     },
     {
-      "id": "tt31956415",
-      "type": "movie",
-      "name": "Freakier Friday",
-      "description": "Years after Tess and Anna endured an identity crisis, Anna now has a daughter of her own and a soon-to-be stepdaughter. As they navigate the myriad challenges that come when two families merge, Tess and Anna discover lightning might indeed strike twice.",
-      "poster": "https://image.tmdb.org/t/p/w500/9wV65OmsjLAqBfDnYTkMPutXH8j.jpg",
-      "releaseInfo": "2025-10-07"
-    },
-    {
-      "id": "tt26238710",
-      "type": "movie",
-      "name": "Sketch",
-      "description": "When a young girl’s sketchbook falls into a strange pond, her drawings come to life—chaotic, real, and on the loose. As the town descends into chaos, her family must reunite and stop the monsters they never meant to unleash.",
-      "poster": "https://image.tmdb.org/t/p/w500/sxiDj3dTgZuCPkx30Jvyq8K9QUV.jpg",
-      "releaseInfo": "2025-08-26"
-    },
-    {
       "id": "tt37748279",
       "type": "movie",
       "name": "LEGO Disney Princess: Villains Unite",
@@ -385,15 +369,7 @@
       "releaseInfo": "2025-08-14"
     },
     {
-      "id": "tt18069420",
-      "type": "movie",
-      "name": "Smurfs",
-      "description": "When Papa Smurf is mysteriously taken by evil wizards, Razamel and Gargamel, Smurfette leads the Smurfs on a mission into the real world to save him. With the help of new friends, the Smurfs must discover what defines their destiny to save the universe.",
-      "poster": "https://image.tmdb.org/t/p/w500/8o6lkhL32xQJeB52IIG1us5BVey.jpg",
-      "releaseInfo": "2025-08-12"
-    },
-    {
-      "id": "tt11655566",
+      "id": "tmdb:552524",
       "type": "movie",
       "name": "Lilo & Stitch",
       "description": "The wildly funny and touching story of a lonely Hawaiian girl and the fugitive alien who helps to mend her broken family.",
@@ -401,7 +377,7 @@
       "releaseInfo": "2025-07-22"
     },
     {
-      "id": "tt37045668",
+      "id": "tmdb:1495506",
       "type": "movie",
       "name": "SpongeBob SquarePants: Order Up",
       "description": "During one of his shifts at the Krusty Krab, SpongeBob amuses himself by overusing the restaurant's order up bell, much to the dismay of his grumpy co-worker and neighbor, Squidward.",
@@ -417,31 +393,7 @@
       "releaseInfo": "2025-07-15"
     },
     {
-      "id": "tt32621553",
-      "type": "movie",
-      "name": "Dora and the Search for Sol Dorado",
-      "description": "Dora, Diego, and their new friends trek through the perilous dangers of the Amazonian jungle in search of the ancient and powerful treasure of Sol Dorado to keep it out of enemy hands.",
-      "poster": "https://image.tmdb.org/t/p/w500/r3d6u2n7iPoWNsSWwlJJWrDblOH.jpg",
-      "releaseInfo": "2025-07-02"
-    },
-    {
-      "id": "tt36985837",
-      "type": "movie",
-      "name": "Frozen: The Hit Broadway Musical",
-      "description": "Young princess Anna of Arendelle dreams about finding true love at her sister Elsa’s coronation. Fate takes her on a dangerous journey in an attempt to end the eternal winter that has fallen over the kingdom. She's accompanied by ice delivery man Kristoff, his reindeer Sven, and snowman Olaf. On an adventure where she will find out what friendship, courage, family, and true love really means.",
-      "poster": "https://image.tmdb.org/t/p/w500/qrRlxuVP6vOHYXPnL4u4FA1q9lq.jpg",
-      "releaseInfo": "2025-06-20"
-    },
-    {
-      "id": "tt28322249",
-      "type": "movie",
-      "name": "F+",
-      "description": "A group of young teenagers plan the perfect heist by breaking into their middle school to change their failing test grades.",
-      "poster": "https://image.tmdb.org/t/p/w500/f0qeTgIcGZ6s3jz5xg8PQ7K0MZO.jpg",
-      "releaseInfo": "2025-06-06"
-    },
-    {
-      "id": "tt36789845",
+      "id": "tmdb:1465476",
       "type": "movie",
       "name": "Lulu Is a Rhinoceros",
       "description": "On a quest to spread kindness, fun-loving Lulu embarks on the adventure of a lifetime, powered by new friends, courage, and catchy songs!",
@@ -457,14 +409,6 @@
       "releaseInfo": "2025-05-27"
     },
     {
-      "id": "tt8866456",
-      "type": "movie",
-      "name": "The Legend of Ochi",
-      "description": "In a remote village on the island of Carpathia, a shy farm girl named Yuri is raised to fear an elusive animal species known as ochi. But when Yuri discovers a wounded baby ochi has been left behind, she escapes on a quest to bring him home.",
-      "poster": "https://image.tmdb.org/t/p/w500/qYyEelO4JfOwE0Ui5KsrCE0O8UA.jpg",
-      "releaseInfo": "2025-05-20"
-    },
-    {
       "id": "tt5822536",
       "type": "movie",
       "name": "Paddington in Peru",
@@ -473,7 +417,7 @@
       "releaseInfo": "2025-05-15"
     },
     {
-      "id": "tt3566834",
+      "id": "tmdb:950387",
       "type": "movie",
       "name": "A Minecraft Movie",
       "description": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
@@ -481,7 +425,7 @@
       "releaseInfo": "2025-05-13"
     },
     {
-      "id": "tt6208148",
+      "id": "tmdb:447273",
       "type": "movie",
       "name": "Snow White",
       "description": "Following the benevolent King's disappearance, the Evil Queen dominated the once fair land with a cruel streak. Princess Snow White flees the castle when the Queen, in her jealousy over Snow White's inner beauty, tries to kill her. Deep into the dark woods, she stumbles upon seven magical dwarves and a young bandit named Jonathan. Together, they strive to survive the Queen's relentless pursuit and aspire to take back the kingdom.",
@@ -503,14 +447,6 @@
       "description": "Porky and Daffy, the classic animated odd couple, turn into unlikely heroes when their antics at the local bubble gum factory uncover a secret alien mind control plot. Against all odds, the two are determined to save their town (and the world!)...that is if they don't drive each other crazy in the process.",
       "poster": "https://image.tmdb.org/t/p/w500/s2lB1kaYCdGSnZX5meQCiOR6HfX.jpg",
       "releaseInfo": "2025-04-15"
-    },
-    {
-      "id": "tt13782222",
-      "type": "movie",
-      "name": "Alexander and the Terrible, Horrible, No Good, Very Bad Road Trip",
-      "description": "Eleven-year-old Alexander and his family embark on a dream Spring Break vacation to Mexico City only to have all their plans go terribly wrong when they discover a cursed idol.",
-      "poster": "https://image.tmdb.org/t/p/w500/srOAe7Xe2KN4QZDSoALmE9T8Hh6.jpg",
-      "releaseInfo": "2025-03-28"
     },
     {
       "id": "tt29362046",
@@ -537,28 +473,12 @@
       "releaseInfo": "2025-02-18"
     },
     {
-      "id": "tt35599556",
-      "type": "movie",
-      "name": "Shuffle of Love: A Descendants Short Story",
-      "description": "In this extra scene from \"Descendants: The Rise of Red,\" Bridget follows her dream of spreading love and joy to all through her dance, the \"Shuffle of Love.\" Red and Chloe see how important the dance is to Bridget and offer to help perfect it in time to debut the dance at Merlin Academy’s biggest event, Castlecoming. In the euphoria of perfecting her dance for all to see, Bridget’s imagination runs wild, and her dance explodes beyond her wildest dreams… or so she thinks.",
-      "poster": "https://image.tmdb.org/t/p/w500/qmwlCXNdSww6pkX0JDqGadpypoJ.jpg",
-      "releaseInfo": "2025-02-13"
-    },
-    {
       "id": "tt13622970",
       "type": "movie",
       "name": "Moana 2",
       "description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
       "poster": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
       "releaseInfo": "2025-01-28"
-    },
-    {
-      "id": "tt31909472",
-      "type": "movie",
-      "name": "Kiff: Lore of the Ring Light",
-      "description": "Kiff and her friends go on an adventure to destroy a ring light of immense power.",
-      "poster": "https://image.tmdb.org/t/p/w500/tfdzBx8on6mHdXusi08ZEEPSFqx.jpg",
-      "releaseInfo": "2025-01-21"
     },
     {
       "id": "tt18259086",
