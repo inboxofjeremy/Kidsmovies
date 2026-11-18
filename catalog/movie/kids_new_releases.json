@@ -1385,14 +1385,6 @@
       "releaseInfo": "2022-12-02"
     },
     {
-      "id": "tt20917338",
-      "type": "movie",
-      "name": "Scrooge: A Christmas Carol",
-      "description": "On a cold Christmas Eve, selfish miser Ebenezer Scrooge has one night left to face his past — and change the future — before time runs out.",
-      "poster": "https://image.tmdb.org/t/p/w500/oyGb5JpEYMEqDDjfJKLEvPTVSjK.jpg",
-      "releaseInfo": "2022-12-02"
-    },
-    {
       "id": "tt23144072",
       "type": "movie",
       "name": "The Action Pack Saves Christmas",
@@ -1423,30 +1415,6 @@
       "description": "Ten-year-old Gloria and her recently widowed grandfather Bud befriend a mysterious reindeer when the family gather for Christmas. Bud comes to believe that Prancer may actually be magical, but Gloria fears his theory will send him straight to a retirement home.",
       "poster": "https://image.tmdb.org/t/p/w500/tJgCmwkf2ytEHYHv8vH3QtRGVPW.jpg",
       "releaseInfo": "2022-11-22"
-    },
-    {
-      "id": "tt21272676",
-      "type": "movie",
-      "name": "The Wonderful Autumn of Mickey Mouse",
-      "description": "In a leafy hamlet, Mickey Mouse is determined to undo the failures of his family’s past after inheriting a rundown pumpkin farm from a distant relative, and the epic legend of its futility.",
-      "poster": "https://image.tmdb.org/t/p/w500/zrkEy57ZMm28MinRXoM93SI7CWq.jpg",
-      "releaseInfo": "2022-11-18"
-    },
-    {
-      "id": "tt13320662",
-      "type": "movie",
-      "name": "Slumberland",
-      "description": "A young girl discovers a secret map to the dreamworld of Slumberland, and with the help of an eccentric outlaw, she traverses dreams and flees nightmares, with the hope that she will be able to see her late father again.",
-      "poster": "https://image.tmdb.org/t/p/w500/tfae1vtjzlE73DPJGlHq88sZKX3.jpg",
-      "releaseInfo": "2022-11-18"
-    },
-    {
-      "id": "tt1596342",
-      "type": "movie",
-      "name": "Disenchanted",
-      "description": "Disillusioned with life in the city, feeling out of place in suburbia, and frustrated that her happily ever after hasn’t been so easy to find, Giselle turns to the magic of Andalasia for help. Accidentally transforming the entire town into a real-life fairy tale and placing her family’s future happiness in jeopardy, she must race against time to reverse the spell and determine what happily ever after truly means to her and her family.",
-      "poster": "https://image.tmdb.org/t/p/w500/uyNLq2Dc3s4IOdcYTU8ZtM2lTjb.jpg",
-      "releaseInfo": "2022-11-18"
     },
     {
       "id": "tt17220704",
