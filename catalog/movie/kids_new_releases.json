@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tt38077943",
+      "type": "movie",
+      "name": "Hexed",
+      "description": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+      "poster": "https://image.tmdb.org/t/p/w500/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
+      "releaseInfo": "2026-11-25"
+    },
+    {
       "id": "tt14413964",
       "type": "movie",
       "name": "Steps",
@@ -1337,14 +1345,6 @@
       "releaseInfo": "2023-01-06"
     },
     {
-      "id": "tt3447590",
-      "type": "movie",
-      "name": "Roald Dahl's Matilda the Musical",
-      "description": "An extraordinary young girl discovers her superpower and summons the remarkable courage, against all odds, to help others change their stories, whilst also taking charge of her own destiny. Standing up for what's right, she's met with miraculous results.",
-      "poster": "https://image.tmdb.org/t/p/w500/ga8R3OiOMMgSvZ4cOj8x7prUNYZ.jpg",
-      "releaseInfo": "2022-12-25"
-    },
-    {
       "id": "tt13623880",
       "type": "movie",
       "name": "Night at the Museum: Kahmunrah Rises Again",
@@ -1375,14 +1375,6 @@
       "description": "The Action Pack teams up with Santa Claus to save the day when greedy Teddy Von Taker plots to steal all of the Christmas cheer from Hope Springs.",
       "poster": "https://image.tmdb.org/t/p/w500/a6MUJa8xIBQnx0a5Us5pEe38l9P.jpg",
       "releaseInfo": "2022-11-28"
-    },
-    {
-      "id": "tt15035506",
-      "type": "movie",
-      "name": "Fantasy Football",
-      "description": "When young Callie Coleman discovers she can magically control her father Bobby's football performance, she transforms him from a fumble-prone journeyman into a star running back.",
-      "poster": "https://image.tmdb.org/t/p/w500/lC99lme4UplMUICswlA4mfe5GNx.jpg",
-      "releaseInfo": "2022-11-25"
     },
     {
       "id": "tt17220704",
