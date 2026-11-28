@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tt43621069",
+      "type": "movie",
+      "name": "Lilo & Scratch",
+      "description": "Stitch is tasked with looking after Scratch, a cat Lilo has found, but Scratch has more similarities with Stitch than meets the eye.",
+      "poster": "https://image.tmdb.org/t/p/w500/fiKAxvuHInioQHGJU0fGDxc6hXR.jpg",
+      "releaseInfo": "2026-11-25"
+    },
+    {
       "id": "tt38077943",
       "type": "movie",
       "name": "Hexed",
